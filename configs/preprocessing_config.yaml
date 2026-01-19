@@ -1,0 +1,35 @@
+# 离线预处理配置文件模板
+
+# 基本配置
+input_path: "data/raw/sample.h5ad"           # 输入原始数据路径
+output_path: "data/preprocessed/sample_preprocessed.h5ad"  # 输出预处理数据路径
+
+# 数据分割配置
+valid_split: 0.1      # 验证集比例
+test_split: 0.1       # 测试集比例
+# 注意: 训练集比例 = 1.0 - valid_split - test_split
+
+# 掩码生成配置
+mask_strategy: "none_zero"  # 掩码策略: "none_zero", "random", "gene_program"
+mask_type: "mar"           # 掩码类型: "mar" (missing at random), "mnar" (missing not at random)
+seed: 10                   # 随机种子，确保结果可重现
+
+# 预处理选项
+normalize: true           # 是否执行库大小归一化
+log_transform: true       # 是否执行log1p变换
+
+# 输出选项
+save_report: true         # 是否保存处理报告
+report_path: "processing_report.json"  # 处理报告保存路径
+verbose: true             # 是否显示详细输出
+
+# 质量控制选项
+quality_check: true       # 是否执行质量检查
+detect_anomalies: true    # 是否检测异常值
+
+# 内存优化选项
+memory_efficient: true   # 是否使用内存优化模式（适用于大型数据集）
+
+# 验证选项
+validate_output: true     # 是否验证输出数据
+validation_report_path: "validation_report.json"  # 验证报告保存路径

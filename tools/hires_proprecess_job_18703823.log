@@ -1,0 +1,71 @@
+Changed directory to project home: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master
+将处理指定的染色体: chr1
+============================================
+选择性离线数据预处理
+============================================
+Python: /public/home/hpc254701055/micromamba/envs/scdiff2/bin/python
+项目根目录: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master
+分辨率: 5kb
+
+开始预处理...
+
+----------------------------------------
+处理文件 #1: hires_5kb_chr1.h5ad
+----------------------------------------
+  输入: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/hires_5kb_chr1.h5ad
+  输出: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/preprocessed/hires_5kb_chr1_preprocessed.h5ad
+  报告: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/preprocessing_reports/hires_5kb_chr1_report.json
+
+============================================================
+离线数据预处理开始
+============================================================
+输入文件: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/hires_5kb_chr1.h5ad
+输出文件: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/preprocessed/hires_5kb_chr1_preprocessed.h5ad
+验证集比例: 0.2
+测试集比例: 0.0
+掩码策略: none_zero
+掩码类型: mar
+随机种子: 10
+============================================================
+[OfflinePreprocessor] Loading data from /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/hires_5kb_chr1.h5ad
+[OfflinePreprocessor] Loaded data shape: (7466, 320400)
+[OfflinePreprocessor] Preparing metadata...
+[OfflinePreprocessor] Performing library size normalization...
+[OfflinePreprocessor] Using FIXED target library depth: 20000.0
+[OfflinePreprocessor] Applying log1p transformation...
+[OfflinePreprocessor] Generating train/validation/test masks...
+[OfflinePreprocessor] Split ratios - Train: 0.80, Valid: 0.20, Test: 0.00
+[OfflinePreprocessor] Mask strategy: none_zero, type: mar
+Mask 20% of non-zero elements...
+[OfflinePreprocessor] Train mask elements: 2391808207
+[OfflinePreprocessor] Valid mask elements: 298193
+[OfflinePreprocessor] Test mask elements: 2392106400
+[OfflinePreprocessor] Saving processed data to /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/preprocessed/hires_5kb_chr1_preprocessed.h5ad
+[OfflinePreprocessor] Successfully saved processed data
+[OfflinePreprocessor] Final shape: (7466, 320400)
+[OfflinePreprocessor] Processing completed in 134.57 seconds
+[OfflinePreprocessor] Report saved to /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/preprocessing_reports/hires_5kb_chr1_report.json
+============================================================
+离线数据预处理完成
+============================================================
+
+✓ hires_5kb_chr1.h5ad 处理完成
+
+============================================
+预处理完成
+============================================
+总文件数: 1
+成功处理: 1
+已存在跳过: 0
+处理失败: 0
+
+输出目录: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/h5ad_final_5000/preprocessed
+报告目录: /public/home/hpc254701055/Projects/v5_scdiff_1mbsucess/3_DiffusionModel/scHiC-Diff-master/data/preprocessing_reports
+
+✅ 所有文件处理成功！
+
+下一步：
+1. 验证预处理结果: bash tools/2_validate_preprocessing.sh
+2. 测试 mask 一致性: bash tools/3_test_mask_consistency.sh
+3. 使用预处理数据训练: bash run/local_run_hires_preprocessed.sh
+============================================

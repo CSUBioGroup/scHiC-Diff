@@ -1,0 +1,150 @@
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 512 # 128
+    num_workers: 20 #
+    wrap: false
+    train:
+      target: scdiff.data.denoising.DenoisingTrain
+      params:
+        dataset: ???  # Jurkat | PMBC1K | 293T
+        fname: ???
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+    validation:
+      target: scdiff.data.denoising.DenoisingValidation
+      params:
+        dataset: ???
+        fname: ???
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+    test:
+      target: scdiff.data.denoising.DenoisingTest
+      params:
+        dataset: ???
+        fname: ???
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+
+model:
+  base_learning_rate: 3.0e-05 #1.0e-04   # 原始是 1.0e-08 x scale   现在不scale  Ramani:2e-4
+  weight_decay: 1e-4           # 新增权重衰减（参考之前建议）
+  target: scdiff.model.ScDiff
+  params:
+    mask_strategy: none_zero
+    save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径
+    data_normalize: true
+    return_raw: true
+    # use_scheduler: True  # 在训练过程中学习率会改变吗 不会
+    use_scheduler: True
+    lr_scheduler:
+    type: CosineAnnealingLR  # 余弦退火（适合长期训练）
+    params:
+        T_max: 1000            # 总训练步数
+        eta_min: 1e-6          # 最低学习率
+    # Loss
+    balance_loss: true #false # false   # 默认 false
+    loss_type: l2
+    # 重建（预测）整个矩阵 or 仅仅重建（预测）被mask的元素， 默认 recon_full
+    loss_strategy: recon_masked  # recon_full | recon_masked
+    parameterization: x0   # 默认 x0
+    # Noise scheduler
+    linear_start: 0.0001
+    linear_end: 0.02
+    log_every_t: 200
+    timesteps: 1000  #1000
+    # Inputs
+    input_key: input
+    cond_key: cond
+    cond_to_ignore: null
+    # Others
+    monitor: val/loss_ema  #  val/loss_simple_ema   # 监控保存最好3个性能的ckpt的依据（评价指标）：validation_step里的ema模式下得到的指标
+    monitor_mode: min   # loss最小
+    clip_denoised: true
+    # ----------------------------- Task related ------------------------------
+    # Denoising
+    denoise_flag: true
+    denoise_t_sample: 1000  # 1000
+    # Classification
+    classify_flag: false
+    classifier_config:
+      target: scdiff.modules.classifier.DiffusionClassifier
+      params:
+        query_mode: seen
+        n_samples_list:
+          - 5
+        to_keep_list:
+          - 1  # last to_keep must be 1
+        n_trials: 1
+        loss: l2
+        time_step_sampler: IterativeUniform
+
+    # ------------------------------- DiffusionModel的参数 ------------------------------------------
+    model_config:
+      target: scdiff.model.DiffusionModel
+      params:
+        no_time_embed: false
+        save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径
+        # Global settings
+        activation: gelu  # relu | gelu | sigmoid
+        norm_layer: layernorm  # layernorm | batchnorm | groupnorm
+        depth: 6
+        dropout: 0.   # 不会有任何神经元丢失
+        mask_none_zero:  0.05 #0.8         # 0.8
+        zero_to_none_zero: 0.02 #0.1      #  0.1
+# 分辨率        mask_none_zero  zero_to_none_zero
+# # 1Mb 0.3–0.5 0.1
+# # 100kb       0.15–0.2        0.05
+# # 50kb        0.10–0.15       0.03
+# # 20kb        0.05–0.08       0.02
+# # 10kb        0.03–0.05       0.02
+# # 5kb 0.01–0.03       0.02
+
+        # Encoder
+        # assert embed_dim == decoder_embed_dim
+        embed_dim: 512
+        dim_head: 64
+        num_heads: 8
+        decoder_embed_dim: 512
+        decoder_dim_head: 64
+        decoder_num_heads: 8
+        mlp_time_embed: false   # 是否对TimeEmbed再次进行多层感知机编码
+        # Conditioner
+        cond_type: crossattn  # crossattn | mlp | stackffn
+        cond_emb_type: linear    # none
+        cond_cat_input: false
+        cond_tokens: 1  # number of tokens to expand
+        cond_mask_ratio: 0.1  # masking portion of conditions during training
+        post_cond_layers: 1   # 5个512维的MLP + 1个
+        post_cond_norm: batchnorm  # layernorm | batchnorm | groupnorm  (not used when post_cond_layers=1)
+        post_cond_mask_ratio: 0.1
+        # Mask decoder conditioner (applied to denoising encoder)
+        mask_dec_cond: false
+        mask_dec_cond_se: false  # se and semlp are mutually exclusive options
+        mask_dec_cond_semlp: false  # se and semlp are mutually exclusive options
+        mask_dec_cond_ratio: true  # only valid if se and semlp are turned off
+        mask_dec_cond_concat: false
+        # Decoder
+        decoder_embed_type: embedder
+        decoder_mask: inv_enc
+        encoder_type: mlp  # attn | mlp | stackffn | mlpparallel | ffnparallel
+lightning:
+  trainer:
+    enable_progress_bar: False  # 直接禁用进度条  只写入日志 不打印
+    num_sanity_val_steps: 0 
+    log_every_n_steps: 20  #  默认100  每隔多久在log（csv文件)记录一次 train/loss_MSE_step	train/loss_vlb_step 	train/loss_step
+    max_epochs: 1000   # 1000
+    accelerator: gpu
+    devices: [0]
