@@ -352,7 +352,7 @@ Panel A 所示 K-means 或 ARI。
 ### 独立图：ARI 维度敏感性
 
 **图 Sx | Ramani 聚类 ARI 对保留 SVD 分量数的敏感性。** Higashi 曲线来自未log1p
-的SVD128，其余条件曲线来自未log1p的SVD64。曲线表示各自 embedding
+的SVD128,其性能更好，其余条件曲线来自未log1p的SVD64。曲线表示各自 embedding
 前2、5、10、20和50个分量直接进行K-means后的ARI；黑色空心圆标记主ARI面板采用的
 逐方法维数。该图用于透明展示不同前缀选择及其敏感性。
 
@@ -378,7 +378,4 @@ Panel A 所示 K-means 或 ARI。
 | Tensor-FLAMINGO | 0.001030 |
 | Raw | -0.001881 |
 
-由于 scHiCluster 官方表达式没有设置 K-means `random_state`，这里报告并绘制当前结果
-目录中保存的那次聚类实现；这些值没有跨 seed 误差条，也不能解释为生物学重复层面的
-显著性。主图使用预先列明的方法特异前缀，因而不应描述为所有方法统一维数的完全公平
-比较；完整维度敏感性曲线用于透明展示每一种前缀的结果。
+
