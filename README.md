@@ -1,5 +1,5 @@
 # scHiC-Diff
-scHiC-Diff is a conditional diffusion model for scHi-C imputation that reconstructs chromatin contact maps through iterative denoising. Using a Diffusion Transformer to model long-range dependencies, scHiC-Diff consistently improves interaction recovery and downstream analyses across nine simulated datasets and three real scHi-C datasets. It also enhances chromatin organization reconstruction and chromatin loop detection on developmental scHi-C data.
+scHiC-Diff is a conditional diffusion model for scHi-C imputation and enhancement that reconstructs chromatin contact maps through iterative denoising. Using a Diffusion Transformer to model long-range dependencies, scHiC-Diff consistently improves interaction recovery and downstream analyses across nine simulated datasets and three real scHi-C datasets. It also enhances chromatin organization reconstruction and chromatin loop detection on developmental scHi-C data.
 <img width="1688" height="600" alt="image" src="https://github.com/user-attachments/assets/e0fefd75-7b7f-4546-910d-551254e15cac" />
 
 
