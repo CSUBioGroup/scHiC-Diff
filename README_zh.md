@@ -2,7 +2,7 @@
 
 # scHiC-Diff
 
-scHiC-Diff 是一个用于单细胞 Hi-C 插补与增强的条件扩散模型，通过迭代去噪重建染色质接触图。该模型使用 Diffusion Transformer 建模长程依赖，在九个模拟数据集和三个真实 scHi-C 数据集上改善了相互作用恢复及下游分析，并增强了发育 scHi-C 数据中的染色质结构重建和染色质 loop 检测。
+scHiC-Diff 是一个用于单细胞 Hi-C 插补与增强的条件扩散模型，通过迭代去噪重建染色质接触图。该模型使用 Diffusion Transformer 建模长程依赖，在两个互补的模拟数据集和三个真实 scHi-C 数据集上改善了相互作用恢复及下游分析，并增强了发育 scHi-C 数据中的染色质结构重建和染色质 loop 检测。
 
 <img width="1688" height="600" alt="image" src="https://github.com/user-attachments/assets/e0fefd75-7b7f-4546-910d-551254e15cac" />
 
