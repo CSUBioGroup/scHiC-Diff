@@ -119,9 +119,10 @@ def worker_init_fn(_):
 class DataModuleFromConfig(pl.LightningDataModule):
     def __init__(self, batch_size, train=None, validation=None, test=None, predict=None,
                  wrap=False, num_workers=None, shuffle_test_loader=False, use_worker_init_fn=False,
-                 shuffle_val_dataloader=False, preloaded_adata=None):
+                 shuffle_val_dataloader=False, preloaded_adata=None, test_batch_size=None):
         super().__init__()
         self.batch_size = batch_size
+        self.test_batch_size = test_batch_size if test_batch_size is not None else 9999
         self.dataset_configs = dict()
         self.num_workers = num_workers if num_workers is not None else batch_size * 2
         self.use_worker_init_fn = use_worker_init_fn
@@ -196,7 +197,7 @@ class DataModuleFromConfig(pl.LightningDataModule):
             init_fn = worker_init_fn
         else:
             init_fn = None
-        return DataLoader(self.datasets["test"], batch_size=9999, persistent_workers=True,
+        return DataLoader(self.datasets["test"], batch_size=self.test_batch_size, persistent_workers=True,
                           num_workers=self.num_workers, worker_init_fn=init_fn, shuffle=shuffle, pin_memory=True,
                           collate_fn=CollateDictionary(KEYS_TO_IGNORE))
 
@@ -538,8 +539,8 @@ if __name__ == "__main__":
 
         default_modelckpt_cfg = {
             "target": "main.PatchedModelCheckpoint",
-            "params": {"dirpath": ckptdir, "filename": "{epoch:06}", "verbose": True, "save_last": False,
-                       "save_on_train_epoch_end": False, "every_n_epochs": 2000}}
+            "params": {"dirpath": ckptdir, "filename": "{epoch:06}", "verbose": True, "save_last": True,
+                       "save_on_train_epoch_end": False, "every_n_epochs": 1}}
         if hasattr(model, "monitor"):
             print(f"Monitoring {model.monitor} as checkpoint metric.")
             default_modelckpt_cfg["params"]["monitor"] = model.monitor
@@ -562,7 +563,7 @@ if __name__ == "__main__":
             "gradnorm_callback": {"target": "main.GradNormCallback",
                                   "params": {"gradient_clip_val": opt.custom_clip_gradient}},
             'early_stopping_callback': {'target': 'pytorch_lightning.callbacks.EarlyStopping',
-                                        'params': {'monitor': 'val/loss_MSE_ema', 'min_delta': 0, 'patience': 25,
+                                        'params': {'monitor': 'val/loss_MSE_ema', 'min_delta': 1e-4, 'patience': 3000,
                                                    'verbose': True, 'mode': 'min', 'strict': True}}}
         if version.parse(pl.__version__) >= version.parse('1.4.0'):
             default_callbacks_cfg.update({'checkpoint_callback': modelckpt_cfg})

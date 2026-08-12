@@ -1,9 +1,8 @@
 data:
   target: main.DataModuleFromConfig
   params:
-    batch_size: 128
-    test_batch_size: 9999
-    num_workers: 20 #
+    batch_size: 8
+    num_workers: 6 #
     wrap: false
     train:
       target: scdiff.data.denoising.DenoisingTrain
@@ -70,7 +69,7 @@ model:
     cond_key: cond
     cond_to_ignore: null
     # Others
-    monitor: val/loss_MSE_ema  #  val/loss_simple_ema   # 监控保存最好3个性能的ckpt的依据（评价指标）：validation_step里的ema模式下得到的指标
+    monitor: val/loss_ema  #  val/loss_simple_ema   # 监控保存最好3个性能的ckpt的依据（评价指标）：validation_step里的ema模式下得到的指标
     monitor_mode: min   # loss最小
     clip_denoised: true
     # ----------------------------- Task related ------------------------------

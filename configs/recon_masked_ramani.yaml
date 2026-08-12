@@ -1,7 +1,7 @@
 data:
   target: main.DataModuleFromConfig
   params:
-    batch_size: 128
+    batch_size: 700
     test_batch_size: 9999
     num_workers: 20 #
     wrap: false
@@ -70,7 +70,7 @@ model:
     cond_key: cond
     cond_to_ignore: null
     # Others
-    monitor: val/loss_MSE_ema  #  val/loss_simple_ema   # 监控保存最好3个性能的ckpt的依据（评价指标）：validation_step里的ema模式下得到的指标
+    monitor: val/loss_ema  # val/loss_ema == val/loss_MSE_ema (same value, key matches old v1.2)
     monitor_mode: min   # loss最小
     clip_denoised: true
     # ----------------------------- Task related ------------------------------
@@ -102,7 +102,7 @@ model:
         norm_layer: layernorm  # layernorm | batchnorm | groupnorm
         depth: 6
         dropout: 0.   # 不会有任何神经元丢失
-        mask_none_zero:  0.8    # mask 80% of non-zero elements
+        mask_none_zero:  0.5    # mask 50% of non-zero elements (1Mb recommended: 0.3-0.5)
         zero_to_none_zero: 0.1  # mask 10% as many zero elements as masked non-zero elements
 # 分辨率        mask_none_zero  zero_to_none_zero
 # # 1Mb 0.3–0.5 0.1

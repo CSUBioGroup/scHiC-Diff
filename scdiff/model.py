@@ -1112,20 +1112,6 @@ class ScDiff(pl.LightningModule):
         denoise_target = self.get_input(batch, self.denoise_target_key).cpu()  # "masked_target" = "target" 完整的没有缺失的数据（归一化了）
         denoise_mask = denoise_mask.cpu()
 
-        ###########################################################################
-        path = self.save_path
-        # save_result(x, path, "x(normalized masked input)")  # 有缺失，有归一化
-        save_result(raw_x, path, "raw_x")   # 无缺失，无归一化
-        save_result(denoise_recon, path, "denoise_recon")
-        save_result(denoise_target, path, "denoise_target")  # 无缺失，有归一化
-        # save_result(denoise_mask, path, "denoise_mask")
-        # save_result(latent, path, "latent_embeds")   # 512维度embeddings 提取的细胞特征，用于聚类
-
-        # depth_factor = cal_depth_factor(raw_x)
-        denoise_recon_inv = inverse_scHiC_normalize(denoise_recon)
-        save_result(denoise_recon_inv, path, "denoise_recon_inv")
-
-
         out = {
             'x': x.cpu(),
             'raw_x': raw_x.cpu() if raw_x is not None else None,  # 2. None
@@ -1163,6 +1149,15 @@ class ScDiff(pl.LightningModule):
             ''''  Evaluate  '''
             raw_x = torch.cat([outdict['raw_x'].cpu() for outdict in outputs])
             metrics_dict.update(denoising_eval(denoise_target, denoise_recon, raw_x))  # true pred mask
+
+            path = self.save_path
+            # Save once after all test batches are concatenated. This avoids
+            # overwriting partial npz files when inference uses small batches.
+            save_result(raw_x, path, "raw_x")
+            save_result(denoise_recon, path, "denoise_recon")
+            save_result(denoise_target, path, "denoise_target")
+            denoise_recon_inv = inverse_scHiC_normalize(denoise_recon)
+            save_result(denoise_recon_inv, path, "denoise_recon_inv")
 
         self.log_dict(metrics_dict, prog_bar=True, logger=True, on_step=False, on_epoch=True)
 
@@ -1302,5 +1297,4 @@ class ScDiff(pl.LightningModule):
     def forward(self, x, *args, **kwargs):
         t = torch.randint(0, self.num_timesteps, (x.shape[0],), device=self.device).long()
         return self.p_losses(x, t, *args, **kwargs)
-
 
