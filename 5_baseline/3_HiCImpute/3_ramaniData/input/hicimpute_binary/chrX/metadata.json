@@ -1,0 +1,8 @@
+{
+  "chrom": "chrX",
+  "source_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/3_HiCImpute/3_ramaniData/input/raw_626_chrom_npz/chrX.npz",
+  "n_cells": 626,
+  "n_features": 12090,
+  "n_bins": 156,
+  "layout": "features_by_cells float64 little-endian for R HiCImpute"
+}

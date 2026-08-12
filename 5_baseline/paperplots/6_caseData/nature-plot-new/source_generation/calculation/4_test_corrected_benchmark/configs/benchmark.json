@@ -1,0 +1,42 @@
+{
+  "case_name": "corrected_six_condition_map2",
+  "methods_config": "methods.json",
+  "loci_config": "loci.json",
+  "cell_groups": ["earlyNeurons", "nonEarlyNeurons"],
+  "cell_counts": [3, 5, 10, 100, 200, 476],
+  "seeds": [42, 43, 44],
+  "transform_modes": ["none", "log1p_all"],
+  "background_modes": ["lower_left", "donut"],
+  "map2": {
+    "center_size": 5,
+    "outer_size": 21,
+    "control_exclusion_bins": 2,
+    "control_limit": 100,
+    "epsilon": 1e-12
+  },
+  "loop_calling": {
+    "resolution": 20000,
+    "n_bins": 100,
+    "min_dist": 60000,
+    "max_dist": 2000000,
+    "cap": 5,
+    "pad": 5,
+    "gap": 2,
+    "fdr": 0.05,
+    "dist_thres": 40000,
+    "size_thres": 1
+  },
+  "apa": {
+    "java_bin": "/opt/homebrew/opt/openjdk/bin/java",
+    "java_options": ["-Djava.awt.headless=true", "-Xmx8g"],
+    "juicer_jar": "/Volumes/SumSung500/CSU/13_apa/juicer_tools.2.20.00.jar",
+    "reference_hic": "../../data/hic_references/rawHiC_depth85/earlyNeurons_476cells.hic",
+    "resolution": 20000,
+    "normalization": "NONE",
+    "window_bins": 10,
+    "minimum_distance_bins": [4, 30],
+    "top_n_values": [50, 100]
+  },
+  "legacy_loop_script": "../../1_experiment_loop_compare/scripts/call_loops_from_npz.py",
+  "output_root": "../results"
+}

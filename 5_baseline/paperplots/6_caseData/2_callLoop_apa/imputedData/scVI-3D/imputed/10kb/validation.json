@@ -1,0 +1,9 @@
+{
+  "output": "/home/limin2/2_projects/1_scVI-3D/6_caseStudy/tests/hires_chr1_multires_scvi3d/output/imputed/10kb/chr1.npz",
+  "shape": [
+    7466,
+    19900
+  ],
+  "nnz": 148573400,
+  "name": "10kb"
+}

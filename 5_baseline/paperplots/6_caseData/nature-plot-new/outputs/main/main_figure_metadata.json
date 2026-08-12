@@ -1,0 +1,63 @@
+{
+  "figure_width_mm": 174.0,
+  "figure_height_mm": 230.0,
+  "panel_a_methods": [
+    "raw",
+    "schicluster",
+    "higashi_nbr5",
+    "schicdiff"
+  ],
+  "panel_a_stages": [
+    "E7.0",
+    "E7.5",
+    "E8.0",
+    "E8.5",
+    "E9.5",
+    "E10.5",
+    "E11.5"
+  ],
+  "panel_b_methods": [
+    "raw",
+    "schicluster",
+    "higashi_nbr5",
+    "scvi3d",
+    "schicdiff"
+  ],
+  "panel_b_cell_counts": [
+    10,
+    100,
+    476
+  ],
+  "panel_c_methods": [
+    "schicluster",
+    "higashi_nbr5",
+    "scvi3d",
+    "schicdiff"
+  ],
+  "panel_c_top_n": [
+    10,
+    20,
+    50
+  ],
+  "panel_c_heatmaps": 12,
+  "panel_c_bottom_mm": 163.81428571428572,
+  "panel_d_top_mm": 169.81428571428572,
+  "panel_b_bottom_mm": 225.14761904761906,
+  "panel_b_heatmap_bottom_mm": 220.64761904761906,
+  "panel_d_axis_bottom_mm": 220.64761904761906,
+  "panel_d_visual_bottom_mm": 225.14761904761906,
+  "panel_d_methods": [
+    "schicluster",
+    "higashi_nbr0",
+    "higashi_nbr5",
+    "flamingo",
+    "scvi3d",
+    "schicdiff"
+  ],
+  "metrics_recomputed": false,
+  "created_with_python": "3.8.16",
+  "matplotlib_version": "3.7.5",
+  "source_manifest": "/Users/wuhaoliu/Downloads/02_First_Review/results/7_caseData/nature-plot-new/data/copied_data_manifest.csv",
+  "source_manifest_sha256": "577b01d2405841479a86606cd4f265d6e4526ec3858a3d5b69c7006aa6fa133b",
+  "output_dpi": 600
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_inventory": "results/reproducibility_verification/project_layout_before.json",
+  "deletion_executed": true,
+  "reason": "Only the approved final main-method inputs and outputs are retained.",
+  "total_kib_before_deletion": 5224,
+  "paths": [
+    "evaluate_variants.py",
+    "tests/test_variant_evaluation.py",
+    "derived",
+    "SuperTAD/results",
+    "results/variant_evaluation",
+    "results/audits/pre_scvi_candidate_switch",
+    "results/variant_consistency_and_findings.json",
+    "results/main_trial_equivalence.json",
+    "results/main_supertad_equivalence.json",
+    "results/fig1_equivalence.json",
+    "tools/audit_lee_variants.py",
+    "tools/audit_lee_official_main_trials.py",
+    "tools/audit_lee_official_supertad.py",
+    "tools/audit_lee_official_fig1.py",
+    "tools/audit_reference"
+  ]
+}

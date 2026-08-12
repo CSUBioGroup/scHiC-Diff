@@ -1,0 +1,23 @@
+{
+  "base_seed": 42,
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "expected_counts": {
+    "Astro": 449,
+    "Endo": 202,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "input_key": "scHiC-Diff",
+  "method": "scHiC-Diff",
+  "n_sample": 30,
+  "n_trials": 100,
+  "pcc_trials": "results/PCC_trials_by_method/scHiC-Diff/scHiC-Diff_PCC_trials.csv",
+  "representative_matrix_root": "intermediate_data/representative_matrices/scHiC-Diff",
+  "source_dir": "../imputedData/scHiC-Diff",
+  "target_root": "../input_leeData/target"
+}

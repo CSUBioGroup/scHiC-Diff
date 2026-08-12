@@ -1,0 +1,22 @@
+{
+  "by_cell_type": {
+    "Astro": 449,
+    "Endo": 202,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "chrom": "chr4",
+  "finite": true,
+  "method_dir": "5_lee_SuperTAD_pileline/imputed/Higashi_nbr0_u1000",
+  "n_files": 2098,
+  "neighbor_num": 0,
+  "nnz": 4934496,
+  "shapes": [
+    [
+      49,
+      49
+    ]
+  ],
+  "source_hdf5": "/home/limin2/2_projects/6_Higashi/5_lee_SuperTAD_pileline/input_updates1000/chr4_nbr0/temp/chr4_lee_higashi_chr4_nbr0_u1000_nbr_0_impute.hdf5",
+  "training_updates": 1000
+}

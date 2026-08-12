@@ -1,0 +1,22 @@
+{
+  "method": "FLAMINGO_fixed_contact",
+  "supertad_root": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/supertad",
+  "output_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/supertad/FLAMINGO_fixed_contact/audit",
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "n_trials_per_cell_type": 100,
+  "n_bins": 49,
+  "window": [
+    20,
+    28
+  ],
+  "status_counts": {
+    "valid_drawable": 404
+  },
+  "overall_pass": true,
+  "evaluated_at_utc": "2026-07-10T15:20:57.236404+00:00"
+}

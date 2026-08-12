@@ -1,0 +1,20 @@
+{
+  "method": "FLAMINGO_fixed_contact",
+  "display_name": "T-FLAMINGO",
+  "selection_metric": "pcc_8x8_full",
+  "normalization": "q99",
+  "subregion_bins_zero_based_half_open": [
+    20,
+    28
+  ],
+  "supertad_input_coordinates": "one-based inclusive",
+  "plot_coordinates": "zero-based inclusive after TSV conversion",
+  "outputs": [
+    "nature-style-plots/results_fixed/PanelA_TFLAMINGO_fixed_contact.pdf",
+    "nature-style-plots/results_fixed/PanelA_TFLAMINGO_fixed_contact.png",
+    "nature-style-plots/results_fixed/PanelA_TFLAMINGO_fixed_contact.tif"
+  ],
+  "source_data": "nature-style-plots/results_fixed/PanelA_TFLAMINGO_fixed_contact_source_data.csv",
+  "tad_audit": "nature-style-plots/results_fixed/PanelA_TFLAMINGO_fixed_contact_tad_audit.csv",
+  "created_at_utc": "2026-07-10T15:28:59.500681+00:00"
+}

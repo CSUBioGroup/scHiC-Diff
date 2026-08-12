@@ -1,0 +1,49 @@
+{
+  "expected_shape": [
+    7466,
+    5050
+  ],
+  "files": {
+    "denoise_recon": {
+      "max_stored": 0.4540803134441376,
+      "min_stored": 1.7462298274040222e-10,
+      "nnz": 24871217,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/corrected/eval_v2/smoke/denoise_recon.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_recon_inv": {
+      "max_stored": 0.5747244358062744,
+      "min_stored": 1.7462298274040222e-10,
+      "nnz": 24871217,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/corrected/eval_v2/smoke/denoise_recon_inv.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_target": {
+      "max_stored": 4.0546793937683105,
+      "min_stored": 0.20986902713775635,
+      "nnz": 625517,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/corrected/eval_v2/smoke/denoise_target.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "raw_x": {
+      "max_stored": 9.0,
+      "min_stored": 1.0,
+      "nnz": 625517,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/corrected/eval_v2/smoke/raw_x.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    }
+  },
+  "status": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "chrom": "chr18",
+  "source_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/3_HiCImpute/3_ramaniData/input/raw_626_chrom_npz/chr18.npz",
+  "n_cells": 626,
+  "n_features": 3081,
+  "n_bins": 79,
+  "layout": "features_by_cells float64 little-endian for R HiCImpute"
+}

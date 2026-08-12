@@ -1,0 +1,49 @@
+{
+  "expected_shape": [
+    7466,
+    5050
+  ],
+  "files": {
+    "denoise_recon": {
+      "max_stored": 4.2183356285095215,
+      "min_stored": 4.831235855817795e-09,
+      "nnz": 26941462,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/full/ramani/denoise_t_sweep/epoch2999/seed10/t250/denoise_recon.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_recon_inv": {
+      "max_stored": 66.92034912109375,
+      "min_stored": 4.831235855817795e-09,
+      "nnz": 26941462,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/full/ramani/denoise_t_sweep/epoch2999/seed10/t250/denoise_recon_inv.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_target": {
+      "max_stored": 4.0546793937683105,
+      "min_stored": 0.20986902713775635,
+      "nnz": 625517,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/full/ramani/denoise_t_sweep/epoch2999/seed10/t250/denoise_target.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "raw_x": {
+      "max_stored": 9.0,
+      "min_stored": 1.0,
+      "nnz": 625517,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/results/full/ramani/denoise_t_sweep/epoch2999/seed10/t250/raw_x.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    }
+  },
+  "status": "passed"
+}

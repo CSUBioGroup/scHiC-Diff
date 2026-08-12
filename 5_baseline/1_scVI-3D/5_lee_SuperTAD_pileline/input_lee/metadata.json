@@ -1,0 +1,45 @@
+{
+  "chromosome": "chr4",
+  "resolution": 10000,
+  "n_bins": 49,
+  "region_start": 54890000,
+  "region_end": 55380000,
+  "pdgfra_start": 55090000,
+  "pdgfra_end": 55170000,
+  "pdgfra_sub_bins": [
+    20,
+    28
+  ],
+  "target_source": "per-cell .cool files aggregated",
+  "trial_source": "scHiC-Diff raw_x.npz and denoise_recon_inv.npz",
+  "cell_types": {
+    "Astro": {
+      "n_cells_raw_x": 449,
+      "n_cells_cool": 449,
+      "cool_target_nnz": 1777,
+      "pcc_cool_vs_raw_49x49": 0.9120808134189708,
+      "pcc_cool_vs_raw_8x8": 0.9121076313977039
+    },
+    "Endo": {
+      "n_cells_raw_x": 202,
+      "n_cells_cool": 205,
+      "cool_target_nnz": 1211,
+      "pcc_cool_vs_raw_49x49": 0.8810234370531768,
+      "pcc_cool_vs_raw_8x8": 0.8854986348583153
+    },
+    "ODC": {
+      "n_cells_raw_x": 1244,
+      "n_cells_cool": 1244,
+      "cool_target_nnz": 2173,
+      "pcc_cool_vs_raw_49x49": 0.9222075570056819,
+      "pcc_cool_vs_raw_8x8": 0.930986491826366
+    },
+    "OPC": {
+      "n_cells_raw_x": 203,
+      "n_cells_cool": 203,
+      "cool_target_nnz": 1421,
+      "pcc_cool_vs_raw_49x49": 0.8586471825718892,
+      "pcc_cool_vs_raw_8x8": 0.765928081581766
+    }
+  }
+}

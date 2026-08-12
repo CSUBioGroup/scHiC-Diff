@@ -1,0 +1,76 @@
+# Keep this directory code- and figure-only. Data directories are represented by
+# .gitkeep files so that their layout remains visible in Git.
+*
+
+# Traverse directories, except archived and test trees.
+!*/
+**/*[Oo][Ll][Dd]*/
+**/[Tt][Ee][Ss][Tt]/
+**/[Tt][Ee][Ss][Tt][Ss]/
+**/.git/
+**/__pycache__/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+
+# Source code and executable workflows.
+!*.py
+!*.R
+!*.r
+!*.Rmd
+!*.rmd
+!*.sh
+!*.bash
+!*.sbatch
+!*.slurm
+!*.c
+!*.cc
+!*.cpp
+!*.cxx
+!*.h
+!*.hpp
+!*.cu
+!*.jl
+!*.m
+!*.pl
+!*.ipynb
+
+# Configuration, environments, and build metadata.
+!*.yaml
+!*.yml
+!*.json
+!*.JSON
+!*.jsonl
+!*.toml
+!*.ini
+!*.cfg
+!*.conf
+!*.config
+!*.xml
+!requirements*.txt
+!env.txt
+!environment.txt
+!Makefile
+!makefile
+!Dockerfile
+!dockerfile
+!Snakefile
+!CMakeLists.txt
+!.gitignore
+!.gitattributes
+
+# Documentation and generated result figures.
+!README*
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+!*.pdf
+!*.tif
+!*.tiff
+!*.eps
+!*.gif
+!*.webp
+!*.skill
+
+# Preserve otherwise empty directory structure.
+!.gitkeep

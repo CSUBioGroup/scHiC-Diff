@@ -1,0 +1,15 @@
+{
+  "segment": "160190",
+  "chromosome": "chr1",
+  "resolution_bp": 1000000,
+  "bin_start": 160,
+  "bin_end": 190,
+  "n_bins": 31,
+  "n_cells": 32,
+  "cell_types": {
+    "GM12878": 14,
+    "PBMC": 18
+  },
+  "matrix_format": "symmetric COO sparse, includes diagonal, raw integer counts",
+  "npz_key": "data (scipy.sparse.coo_matrix, load with scipy.sparse.load_npz)"
+}

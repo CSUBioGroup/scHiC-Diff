@@ -1,0 +1,10 @@
+{
+  "dataset_id": "K562_T3_2k",
+  "sim_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/1-HiCImpute_Simulation_Data/2_processed_data_dxy/1_lower_tri_feature/npz/K562_T3_2k_sim.npz",
+  "true_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/1-HiCImpute_Simulation_Data/2_processed_data_dxy/1_lower_tri_feature/npz/K562_T3_2k_true.npz",
+  "n_cells": 100,
+  "n_features": 1830,
+  "n_beads": 61,
+  "alpha": 0.25,
+  "space": "distance_from_if"
+}

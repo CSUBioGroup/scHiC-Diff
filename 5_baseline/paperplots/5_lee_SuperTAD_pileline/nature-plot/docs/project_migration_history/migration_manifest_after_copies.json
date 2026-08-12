@@ -1,0 +1,171 @@
+{
+  "canonical_inventory": {
+    "HiCImpute_candidate_per_cell": {
+      "aggregate_manifest_sha256": "bc26a8ffd1ceaa1aeb5db3b8dcae53c069296618cb402b31b183f9f757a0386c",
+      "file_count": 2098,
+      "path": "../imputedData/HiCImpute_candidate_per_cell",
+      "pattern": "*",
+      "total_bytes": 26948650
+    },
+    "HiCImpute_fig1_current": {
+      "aggregate_manifest_sha256": "bbb8858ae238424ebf8b9270e20c7494a25835def2d977c1c6cdaabcde4de583",
+      "file_count": 2102,
+      "path": "../imputedData/HiCImpute_fig1_current",
+      "pattern": "*",
+      "total_bytes": 3334412
+    },
+    "scVI-3D_candidate_per_cell": {
+      "aggregate_manifest_sha256": "ca0bbb112cb9edf9858cb483c6fe10448ddcf3969e5f3bcceed060a6d9132966",
+      "file_count": 2098,
+      "path": "../imputedData/scVI-3D_candidate_per_cell",
+      "pattern": "*",
+      "total_bytes": 27183209
+    },
+    "scVI-3D_fig1_current": {
+      "aggregate_manifest_sha256": "a90df6a72e3e3254fc30df12c07791e615359cedc357abe5534155ce622c2ac1",
+      "file_count": 2101,
+      "path": "../imputedData/scVI-3D_fig1_current",
+      "pattern": "*",
+      "total_bytes": 27950672
+    },
+    "target": {
+      "aggregate_manifest_sha256": "6b9ebed82505d03b2fdc053f0e93855dd01e1e122ff221cbe3e893f9ebca9c36",
+      "file_count": 4,
+      "path": "../input_leeData/target",
+      "pattern": "*_target.npz",
+      "total_bytes": 13949
+    }
+  },
+  "copy_equivalence": {
+    "HiCImpute_candidate_per_cell": {
+      "aggregate_manifest_sha256": "bc26a8ffd1ceaa1aeb5db3b8dcae53c069296618cb402b31b183f9f757a0386c",
+      "copy": "../imputedData/HiCImpute_candidate_per_cell",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2098,
+      "missing_count": 0,
+      "source": "../imputedData/HiCImpute/per_cell"
+    },
+    "HiCImpute_fig1_current": {
+      "aggregate_manifest_sha256": "bbb8858ae238424ebf8b9270e20c7494a25835def2d977c1c6cdaabcde4de583",
+      "copy": "../imputedData/HiCImpute_fig1_current",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2102,
+      "missing_count": 0,
+      "source": "../imputedData/HiCImpute"
+    },
+    "scVI-3D_candidate_per_cell": {
+      "aggregate_manifest_sha256": "ca0bbb112cb9edf9858cb483c6fe10448ddcf3969e5f3bcceed060a6d9132966",
+      "copy": "../imputedData/scVI-3D_candidate_per_cell",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2098,
+      "missing_count": 0,
+      "source": "../imputedData/scVI-3D/per_cell"
+    },
+    "scVI-3D_fig1_current": {
+      "aggregate_manifest_sha256": "a90df6a72e3e3254fc30df12c07791e615359cedc357abe5534155ce622c2ac1",
+      "copy": "../imputedData/scVI-3D_fig1_current",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2101,
+      "missing_count": 0,
+      "source": "../imputedData/scVI-3D"
+    },
+    "targets": {
+      "aggregate_manifest_sha256": "6b9ebed82505d03b2fdc053f0e93855dd01e1e122ff221cbe3e893f9ebca9c36",
+      "copy": "../input_leeData/target",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 4,
+      "missing_count": 0,
+      "source": "../target"
+    }
+  },
+  "generated_at_utc": "2026-07-15T10:59:10.601522+00:00",
+  "known_duplicate_revalidation": {
+    "FLAMINGO_fixed_contact": {
+      "aggregate_manifest_sha256": "985a48b8d7eacb3b900e5bed8c8c5bd2f4784864ace1e82f77c0e5f3d7177711",
+      "copy": "../imputedData/FLAMINGO_fixed_contact",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2102,
+      "missing_count": 0,
+      "source": "../imputedData/FLAMINGO/FLAMINGO_fixed_contact"
+    },
+    "scHiCluster_per_cell": {
+      "aggregate_manifest_sha256": "6bfb7ec1e5678e2fb8bed346c190be984e69931446014f3442a5420cc95930e9",
+      "copy": "../imputedData/scHiCluster",
+      "different_count": 0,
+      "extra_count": 0,
+      "file_count": 2098,
+      "missing_count": 0,
+      "source": "../imputedData/scHiCluster/per_cell"
+    }
+  },
+  "manifest_base": "nature-plot",
+  "migration_mode": "isolated copies; existing nature-style-plots and legacy paths retained",
+  "schema_version": 1,
+  "supertad_binary": {
+    "mode_octal": "0o755",
+    "path": "SuperTAD/bin/SuperTAD",
+    "sha256": "8f2c35116ef70a3ece6aebe5ebf92ab0322f5452e554508d6a520f2d9d9f5736",
+    "size": 242728,
+    "smoke_test": {
+      "matrix": "../input_leeData/target/Astro_target.npz",
+      "output_bytes": 1703,
+      "output_rows": 33,
+      "returncode": 0
+    },
+    "source": "../bin/SuperTAD"
+  },
+  "variant_distinction": {
+    "HiCImpute": {
+      "candidate_aggregate_sha256": "bc26a8ffd1ceaa1aeb5db3b8dcae53c069296618cb402b31b183f9f757a0386c",
+      "candidate_cell_counts": {
+        "Astro": 449,
+        "Endo": 202,
+        "ODC": 1244,
+        "OPC": 203
+      },
+      "candidate_only_count": 2,
+      "candidate_path": "../imputedData/HiCImpute_candidate_per_cell",
+      "common_filename_count": 2096,
+      "current_aggregate_sha256": "bbb8858ae238424ebf8b9270e20c7494a25835def2d977c1c6cdaabcde4de583",
+      "current_cell_counts": {
+        "Astro": 449,
+        "Endo": 205,
+        "ODC": 1245,
+        "OPC": 203
+      },
+      "current_only_count": 6,
+      "current_path": "../imputedData/HiCImpute_fig1_current",
+      "different_common_count": 2096,
+      "identical_common_count": 0
+    },
+    "scVI-3D": {
+      "candidate_aggregate_sha256": "ca0bbb112cb9edf9858cb483c6fe10448ddcf3969e5f3bcceed060a6d9132966",
+      "candidate_cell_counts": {
+        "Astro": 449,
+        "Endo": 202,
+        "ODC": 1244,
+        "OPC": 203
+      },
+      "candidate_only_count": 4,
+      "candidate_path": "../imputedData/scVI-3D_candidate_per_cell",
+      "common_filename_count": 2094,
+      "current_aggregate_sha256": "496c7beb18c00ce73458bbed2533f71739e4976bcbe232fb3f7f99906fef7e7d",
+      "current_cell_counts": {
+        "Astro": 449,
+        "Endo": 202,
+        "ODC": 1244,
+        "OPC": 203
+      },
+      "current_only_count": 4,
+      "current_path": "../imputedData/scVI-3D_fig1_current",
+      "different_common_count": 2094,
+      "identical_common_count": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cell_type": "Astro",
+  "n_cells": 449,
+  "n_bins": 49,
+  "method": "FLAMINGO_fixed_contact",
+  "space": "contact_count",
+  "observed_contacts_restored": true,
+  "completed_contact_nnz": 988660,
+  "completed_contact_min_positive": 2.0934643544023857e-05,
+  "completed_contact_max": 19.0,
+  "max_observed_contact": 19.0,
+  "source_run_job": "20086668_0",
+  "gate_job": "20086669",
+  "source_completed_retained": false,
+  "output_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/imputed/FLAMINGO_fixed_contact"
+}

@@ -1,0 +1,677 @@
+{
+  "file_count": 134,
+  "files": [
+    {
+      "path": "LeeData_TAD_method_comparison_input_paths.csv",
+      "sha256": "55a5ca19a40cdaefd0c5b49698c42b9e1c8e50427411689776866cc2da3ada25",
+      "size_bytes": 956
+    },
+    {
+      "path": "README.md",
+      "sha256": "e2ece6f2d1c5f86d21fdee1f4ec6102dd527db6e501fcac6844e99207fe793a6",
+      "size_bytes": 5025
+    },
+    {
+      "path": "SuperTAD/bin/SuperTAD",
+      "sha256": "8f2c35116ef70a3ece6aebe5ebf92ab0322f5452e554508d6a520f2d9d9f5736",
+      "size_bytes": 242728
+    },
+    {
+      "path": "SuperTAD/domains/representatives/HiCImpute/Astro_trial055.tsv",
+      "sha256": "41170c0143bd61e0a8a4dec40bc741bc92efacd67ca08a2e15bad48d57bd6a8d",
+      "size_bytes": 2067
+    },
+    {
+      "path": "SuperTAD/domains/representatives/HiCImpute/Endo_trial099.tsv",
+      "sha256": "b7e1fadc0bd60324fd2d99995e0057673ea6bee854f0a36cef81938a0c6dad5b",
+      "size_bytes": 2165
+    },
+    {
+      "path": "SuperTAD/domains/representatives/HiCImpute/ODC_trial001.tsv",
+      "sha256": "fb571eea21c22ddbb598ac8f8b7946e702ed63ee2bdf25e093d29b8af4bf3aeb",
+      "size_bytes": 2272
+    },
+    {
+      "path": "SuperTAD/domains/representatives/HiCImpute/OPC_trial031.tsv",
+      "sha256": "3a404a9695c457db3d1e87a009470a21d60a9f2515be9484eeca34a992b6c55b",
+      "size_bytes": 2167
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr0/Astro_trial071.tsv",
+      "sha256": "1d9c20078f33bd1ad5732d5b6de0d78773a855fb8e31858d379c05416df1f1c6",
+      "size_bytes": 1655
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr0/Endo_trial029.tsv",
+      "sha256": "231b6a6bcf3de73255776e1b5bc2ae075ecb60b1cac2b5d606a9d5f215b22ddc",
+      "size_bytes": 1293
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr0/ODC_trial041.tsv",
+      "sha256": "758355263581d156a0a1aa94edc1f98e7b5ffebe6ac735eba63d63335291194d",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr0/OPC_trial063.tsv",
+      "sha256": "8a97fedfbb4158ba02665e4b5d4d79dda0111f6a9ac8321d1836b39d21b19014",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr5/Astro_trial071.tsv",
+      "sha256": "e9ba1b19542ac96bd6debc2dc2d41c512d35da74892b1c060703f493ee39531f",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr5/Endo_trial077.tsv",
+      "sha256": "082553c2dbac7e4da17dbc08613b3056b4d8d359ffa78d354b19005a0d61aa1b",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr5/ODC_trial001.tsv",
+      "sha256": "f42befd89d1bd4f1d83eac830d787d3e4b1d015ed82c2f5edb73009c636f69e3",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Higashi-nbr5/OPC_trial007.tsv",
+      "sha256": "db12950c27c26bf75e1177b9fa8929b8409267ab7916b3498334f511ccef17b2",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Raw/Astro_trial054.tsv",
+      "sha256": "1da66084683cbf5620bf8f93e5f0d1a0cd40fcdf396bf0d7673f31d1c8289ac9",
+      "size_bytes": 1496
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Raw/Endo_trial010.tsv",
+      "sha256": "c3e44a3e0018f6ded01eef98000606c9bbbdc49a6631ca478c34b7978096112a",
+      "size_bytes": 1595
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Raw/ODC_trial009.tsv",
+      "sha256": "f44864578ecc9bffa989f4fe67ff2536cef4c057d0722752ea43adf7967a1b2b",
+      "size_bytes": 1854
+    },
+    {
+      "path": "SuperTAD/domains/representatives/Raw/OPC_trial022.tsv",
+      "sha256": "48fc4ac31ec645453e9bd4ea42169d7c2b4d10980ed759ecfb59b430de9a0f31",
+      "size_bytes": 1396
+    },
+    {
+      "path": "SuperTAD/domains/representatives/T-FLAMINGO/Astro_trial060.tsv",
+      "sha256": "85ee3b1f26a3a8f23219b59ad62b471e68abb90a6cdbd1fe43fdd6d2e67b9d4b",
+      "size_bytes": 931
+    },
+    {
+      "path": "SuperTAD/domains/representatives/T-FLAMINGO/Endo_trial093.tsv",
+      "sha256": "b02e9354e51494b6c271b7f1e2061912ceb78af6fc56e764ae4670234ece8212",
+      "size_bytes": 929
+    },
+    {
+      "path": "SuperTAD/domains/representatives/T-FLAMINGO/ODC_trial043.tsv",
+      "sha256": "7f86198946d97deaf97e30d1a93b5a11fa5fde3ebac40540ab9d1416663e8338",
+      "size_bytes": 1137
+    },
+    {
+      "path": "SuperTAD/domains/representatives/T-FLAMINGO/OPC_trial014.tsv",
+      "sha256": "2e46a4dc2fe3e34813597c71cc80316bd206b5af54de9e2d64116fb8035d124c",
+      "size_bytes": 929
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiC-Diff/Astro_trial095.tsv",
+      "sha256": "a41938c14ff3cbb52791da4827952774c2eaafc938274b9cc0facb06ecddf390",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiC-Diff/Endo_trial071.tsv",
+      "sha256": "6d06c10757c1747e3c85895131f9756e0a64a669c932a3eb1699d463a1f640a6",
+      "size_bytes": 1341
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiC-Diff/ODC_trial082.tsv",
+      "sha256": "5643928405820dd4fcab6447d9a558aba43cb797aaac78345e1677da6eee8f03",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiC-Diff/OPC_trial041.tsv",
+      "sha256": "fb4599920ef48d9f55da22e5cfe425800a4753f66dae9d5a773b53fe81d40406",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiCluster/Astro_trial093.tsv",
+      "sha256": "9c2b65461f906cf917dd1ee3061ea00a6d9464b6383b2f26c8482fbf0a505bda",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiCluster/Endo_trial041.tsv",
+      "sha256": "2e6cec55cf2f8669de855a4424c7d6cf1c42ea8631b81aff9d4cada5db055465",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiCluster/ODC_trial057.tsv",
+      "sha256": "9110fcde32cb14f58331cf5974d4b5179da307bcf763dda99c8956aea0e5df32",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scHiCluster/OPC_trial022.tsv",
+      "sha256": "dd63fb414e552e646f5108d33f23010079ae07181facdad227c8882a02ea1e7a",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scVI-3D/Astro_trial092.tsv",
+      "sha256": "3605c102ff3b7b113752923e593d0589c6ee2adc7d7cf3499b0f34d9da720c84",
+      "size_bytes": 2168
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scVI-3D/Endo_trial095.tsv",
+      "sha256": "87a6e0cae210296829b31798253725b8300e3d79631000b779998ac29f10de0d",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scVI-3D/ODC_trial099.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/domains/representatives/scVI-3D/OPC_trial058.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/domains/representatives/summary.json",
+      "sha256": "c0e6c9ae26728cbb44609a26dda8b4ff8714a343dd5bca4e906efcd9f30f3b97",
+      "size_bytes": 11725
+    },
+    {
+      "path": "SuperTAD/domains/target/Astro_target.tsv",
+      "sha256": "b643b0ea0f5e42578d54b3117ced542530281aa8b81aedf3e2f3c180b18c3d11",
+      "size_bytes": 1703
+    },
+    {
+      "path": "SuperTAD/domains/target/Endo_target.tsv",
+      "sha256": "3cac32b441fe7d77e3e9e3f55b62f6b0fcb7bb83302a35cf3b70e2ef7f7adc6a",
+      "size_bytes": 1393
+    },
+    {
+      "path": "SuperTAD/domains/target/ODC_target.tsv",
+      "sha256": "8a14a713463127cec5635107faad8eae5e0512d45ab97df47a4d39d672e945d1",
+      "size_bytes": 1707
+    },
+    {
+      "path": "SuperTAD/domains/target/OPC_target.tsv",
+      "sha256": "c5d9616db7e539ce6fc3d41c461670ef9709269a7824680e78bad77f707de20c",
+      "size_bytes": 1657
+    },
+    {
+      "path": "TAD_method_comparison_config.py",
+      "sha256": "c2749621e76ff0d60b5a03b5456b54a061d52f2b7eab9528e6035c040d85998f",
+      "size_bytes": 6178
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "248117b1b0fa7a1dad5d25ce3f1345b431bb9ba4ab2b37694763f051d07caf7d",
+      "size_bytes": 336
+    },
+    {
+      "path": "docs/design/TAD_method_comparison_project_layout_design.md",
+      "sha256": "1f9545bb6046d390386425faddb8a84261e7e87da98db7ab96811bba728d64f7",
+      "size_bytes": 11849
+    },
+    {
+      "path": "docs/plans/TAD_method_comparison_layout_migration_plan.md",
+      "sha256": "916a0e29d6746e0ab8bcd79c1818a286a226b580406a3384c27b5ea2aaecfb41",
+      "size_bytes": 14790
+    },
+    {
+      "path": "docs/project_migration_history/cleanup_execution_log.json",
+      "sha256": "a7069c2bc28012b1d40edc4ced2f9ed572c2f4ba6b843f635b8089873de9958b",
+      "size_bytes": 3927
+    },
+    {
+      "path": "docs/project_migration_history/cleanup_manifest_before_execution.json",
+      "sha256": "be12b86e1c0121314381233894d94ef304393d8a95c5ef61e62da25e9c792d98",
+      "size_bytes": 7425
+    },
+    {
+      "path": "docs/project_migration_history/migration_manifest_after_copies.json",
+      "sha256": "30b7f7f8f4f464c6690ac30534cf19b6633adf9d97a6e7e36f9fb4f10c63f64f",
+      "size_bytes": 6074
+    },
+    {
+      "path": "docs/project_migration_history/migration_manifest_before.json",
+      "sha256": "637125302583ca8540b2546282b21e8457aaf704e7e08362bf7e97f56e23361e",
+      "size_bytes": 6375584
+    },
+    {
+      "path": "docs/project_migration_history/pending_cleanup_manifest.json",
+      "sha256": "aad4ee4569b4e324843fc25cb6dd2701a273177447af7f5853dbf54d43327c29",
+      "size_bytes": 7002
+    },
+    {
+      "path": "docs/project_migration_history/tmp_cleanup_log.json",
+      "sha256": "6b6bebbdb65f7260b87cb8bc1f39b03156bca716624286aacca73e8e8cc833ce",
+      "size_bytes": 1333
+    },
+    {
+      "path": "figures/TAD_method_comparison/TAD_method_comparison.pdf",
+      "sha256": "a2c7df6dccaff3c6658b6f826f131d482779471d55df5b4d32bfa4bbd08236d5",
+      "size_bytes": 216359
+    },
+    {
+      "path": "figures/TAD_method_comparison/TAD_method_comparison.png",
+      "sha256": "290143e2ecb70cd49d22a74413dd51fbee688311380368727c50213f892f7b39",
+      "size_bytes": 982814
+    },
+    {
+      "path": "figures/TAD_method_comparison/TAD_method_comparison.tif",
+      "sha256": "b33107e5cbbb29533cc9bf6c3d9170ade57e934663e5fd28bc46cd283c718c13",
+      "size_bytes": 2414574
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_A_TAD_heatmaps.pdf",
+      "sha256": "28140839d2c7a92e265bc26b52037e6eba74243cb727ccfd48704ec38ac62407",
+      "size_bytes": 91107
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_A_TAD_heatmaps.png",
+      "sha256": "bce7afe1a6cc8b1e9ade83636fc34ae92f8cf13de407aa2972ab593746090e3b",
+      "size_bytes": 561586
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_A_TAD_heatmaps.tif",
+      "sha256": "2b24c3a2e4b5ef1256046f27d5876b075021a67b466042c17ec50f21d086144d",
+      "size_bytes": 1846308
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_B_PCC_violin_plots.pdf",
+      "sha256": "3fbd07e8050a40d077b1cdf0309333a5159961a715140707a661939e4733ebb1",
+      "size_bytes": 158374
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_B_PCC_violin_plots.png",
+      "sha256": "e03c2636520cac03907a5e33294719b9fd0bf05d90bd424d9c534bfbba3425ad",
+      "size_bytes": 420662
+    },
+    {
+      "path": "figures/TAD_method_comparison/panel_B_PCC_violin_plots.tif",
+      "sha256": "bddd2c1830b5c8fc4c52f1a6a50964bc554913a45691aaf286f5085219f14165",
+      "size_bytes": 550248
+    },
+    {
+      "path": "intermediate_data/representative_matrices/HiCImpute/Astro_trial055.npz",
+      "sha256": "747467a2daca72b8fe3c57a57206a0476cedd11a6641bf452598d6ace9fb1883",
+      "size_bytes": 1578
+    },
+    {
+      "path": "intermediate_data/representative_matrices/HiCImpute/Endo_trial099.npz",
+      "sha256": "ba5ca22cbc119fb1a2f601c271a36a9c22512af5256cb94756e27abc7d97efb3",
+      "size_bytes": 1580
+    },
+    {
+      "path": "intermediate_data/representative_matrices/HiCImpute/ODC_trial001.npz",
+      "sha256": "f8464b6342fc5c7ebc2a2635ecbf23b01b5f5e25e9c00d6ffe6f57784c2476bf",
+      "size_bytes": 1575
+    },
+    {
+      "path": "intermediate_data/representative_matrices/HiCImpute/OPC_trial031.npz",
+      "sha256": "d7009ab482a0c02445118225c18f8427600c5f9a532360855f447c91f6435b6a",
+      "size_bytes": 1576
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr0/Astro_trial071.npz",
+      "sha256": "df91a9ae50d0906906a8b087839e2b3914ebdf599b6588762e831a6ec7e744c9",
+      "size_bytes": 12934
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr0/Endo_trial029.npz",
+      "sha256": "79ef962c0241c1e62548ae20b3ac9166c304ac46b7b50b7e8f8d857e488e6aaa",
+      "size_bytes": 12882
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr0/ODC_trial041.npz",
+      "sha256": "12aa545d121a79461b26e9588e66a9734ff81684cfb198fb117cae90abc2de68",
+      "size_bytes": 12776
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr0/OPC_trial063.npz",
+      "sha256": "296b2028247a8667dfe68977642530aaee1a729346c8e1f8312b99a1bd9adc60",
+      "size_bytes": 12870
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr5/Astro_trial071.npz",
+      "sha256": "6716b8fd6d01fea600e43a22cb81c2735edc4d2a1510e2c3ded8aaaa01afbbfd",
+      "size_bytes": 12910
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr5/Endo_trial077.npz",
+      "sha256": "cf388642c5a8bc943df623a998722f6151b8c561f6165f65b9a85db051d7dd0f",
+      "size_bytes": 12887
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr5/ODC_trial001.npz",
+      "sha256": "3f0955c869a8a00eefad5f24d3c32b8367b5a6908bf9d8114b136c83490ea34b",
+      "size_bytes": 12616
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Higashi-nbr5/OPC_trial007.npz",
+      "sha256": "9c553c09414ff9b034af6a86444d3c587d8d496a96e11f5df643ee6b6d0dbe0b",
+      "size_bytes": 12814
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Raw/Astro_trial054.npz",
+      "sha256": "515606cd1b1e830df8b6cdb0dfda88f8b9634a656eb073be933f7abf32a464f8",
+      "size_bytes": 1926
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Raw/Endo_trial010.npz",
+      "sha256": "9cf3a5ca673e13afe38e81beee2251abc286ca246e9d04b8ae879eb10c129f85",
+      "size_bytes": 1916
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Raw/ODC_trial009.npz",
+      "sha256": "a2a565156bcc303914f4913b7331fef5cbff32a5bef2b9ffdf2e3e23b6b912a0",
+      "size_bytes": 2036
+    },
+    {
+      "path": "intermediate_data/representative_matrices/Raw/OPC_trial022.npz",
+      "sha256": "51d69033bacb4a52e47b7a61e383bc67826196b6f8a3d5278447602ce37bd7d0",
+      "size_bytes": 2126
+    },
+    {
+      "path": "intermediate_data/representative_matrices/T-FLAMINGO/Astro_trial060.npz",
+      "sha256": "96f4fc1663e48742b770cc21c6d34037efbfb8938b706860ad9214607aa369c5",
+      "size_bytes": 10635
+    },
+    {
+      "path": "intermediate_data/representative_matrices/T-FLAMINGO/Endo_trial093.npz",
+      "sha256": "6b12618b03162a0c56bb6ef602dc83c2370d8036f4b58722f8105b5d8bfd828f",
+      "size_bytes": 10709
+    },
+    {
+      "path": "intermediate_data/representative_matrices/T-FLAMINGO/ODC_trial043.npz",
+      "sha256": "2266347871d1543544b9693a949f203c0e2cf3e8653aec6d8a7dfcb3952a9aab",
+      "size_bytes": 10709
+    },
+    {
+      "path": "intermediate_data/representative_matrices/T-FLAMINGO/OPC_trial014.npz",
+      "sha256": "bfc3155b6c102f0daad48bb2a64a7af741bf03c6370c59f6bfb91b199750f292",
+      "size_bytes": 10729
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiC-Diff/Astro_trial095.npz",
+      "sha256": "6673b3e3b35df65f9d687c5f22dd559b97569aabd3ffcaa2171ff4ceb6fa2029",
+      "size_bytes": 10863
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiC-Diff/Endo_trial071.npz",
+      "sha256": "d2090272b4ca1048325142660b9930f6461088e1238c30a4af1529d5626e00ed",
+      "size_bytes": 10814
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiC-Diff/ODC_trial082.npz",
+      "sha256": "5e4d9a8e1f5c80677c41cc0b8b38a8c56259a225afb48a6f1ae3d07ec4d525d9",
+      "size_bytes": 10814
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiC-Diff/OPC_trial041.npz",
+      "sha256": "16e3947b6886cf71f50f2762d33832378e279d9391e22b76dfc0af9dfcee43fb",
+      "size_bytes": 10847
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiCluster/Astro_trial093.npz",
+      "sha256": "6a0ba1d321c9cf1da8666cb11dc510266f5e6e242b62c87311b6d91c284d51f3",
+      "size_bytes": 10371
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiCluster/Endo_trial041.npz",
+      "sha256": "2ddc4ab09296a76f1eee9511a2a53acff6c29c57ed997affd502947117dd7c47",
+      "size_bytes": 10607
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiCluster/ODC_trial057.npz",
+      "sha256": "a1910d2c42670185e3d4f65c063dafccbc00b1af629248bd1f01e62d4727ab4f",
+      "size_bytes": 10661
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scHiCluster/OPC_trial022.npz",
+      "sha256": "51a057e5fa5e9814d78d017dc3970fbdfe36fb78c524f278ecc307bff6fa95c0",
+      "size_bytes": 10580
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scVI-3D/Astro_trial092.npz",
+      "sha256": "fed98f75a1c39e8528d466d24c9cc2bd0c17381b5f46e06e7f2bc7da614d5979",
+      "size_bytes": 12984
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scVI-3D/Endo_trial095.npz",
+      "sha256": "e79aa9c9c842cec18b76a35e2b3dc97da98bbc3587a20dcdcbfdaf9ae79cb138",
+      "size_bytes": 12871
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scVI-3D/ODC_trial099.npz",
+      "sha256": "fbacd3d42475f33d989c857b3285cc0e469316002a3988b58e736dbbaeb69ade",
+      "size_bytes": 13018
+    },
+    {
+      "path": "intermediate_data/representative_matrices/scVI-3D/OPC_trial058.npz",
+      "sha256": "454951d99b4c2f0749ebb8bddc7eeaedce2ee9cc4e5ce2cd660b0e7b3a8864cf",
+      "size_bytes": 12972
+    },
+    {
+      "path": "logs/README.md",
+      "sha256": "29b07e756a3536231dc5634995005d5b3cfaffa466b045cf117ee39dcdf0dcbe",
+      "size_bytes": 186
+    },
+    {
+      "path": "logs/TAD_method_comparison_20260715_220555.log",
+      "sha256": "b55386907fe9a901bed912a536faa3aa63fff233177e695e3e70d42ae5660a65",
+      "size_bytes": 64
+    },
+    {
+      "path": "logs/TAD_method_comparison_20260715_221543.log",
+      "sha256": "b55386907fe9a901bed912a536faa3aa63fff233177e695e3e70d42ae5660a65",
+      "size_bytes": 64
+    },
+    {
+      "path": "logs/TAD_method_comparison_20260715_221820.log",
+      "sha256": "b55386907fe9a901bed912a536faa3aa63fff233177e695e3e70d42ae5660a65",
+      "size_bytes": 64
+    },
+    {
+      "path": "logs/TAD_method_comparison_20260715_221943.log",
+      "sha256": "b55386907fe9a901bed912a536faa3aa63fff233177e695e3e70d42ae5660a65",
+      "size_bytes": 64
+    },
+    {
+      "path": "results/PCC_method_comparison_summary.csv",
+      "sha256": "e23d75b5568630c32ce18c53ed923ea6e14e516b38ec291884ec46e81bfd398c",
+      "size_bytes": 4197
+    },
+    {
+      "path": "results/PCC_trials_by_method/HiCImpute/HiCImpute_PCC_calculation_information.json",
+      "sha256": "16976f9b690c88fcc0316f20aa8272d6a2967cb22491187964fa26e4b545ad6f",
+      "size_bytes": 560
+    },
+    {
+      "path": "results/PCC_trials_by_method/HiCImpute/HiCImpute_PCC_trials.csv",
+      "sha256": "689bd12a3ae21cfa1fd2d997bf65a81069505a5eca74a92837f5f15f1c00f348",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/Higashi-nbr0/Higashi-nbr0_PCC_calculation_information.json",
+      "sha256": "b384e284190aecbf9f62038a56c97a700742f943ecb5125a652345408ccebd52",
+      "size_bytes": 552
+    },
+    {
+      "path": "results/PCC_trials_by_method/Higashi-nbr0/Higashi-nbr0_PCC_trials.csv",
+      "sha256": "bd68925190c19a53db5b285e9aaef9f6e36cbcc9d7a183ae2cb369b162e2c392",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/Higashi-nbr5/Higashi-nbr5_PCC_calculation_information.json",
+      "sha256": "b0a77333b0a4d6e5d73be7c9ff1346487392bac44a9233cb35de74ef3879255c",
+      "size_bytes": 552
+    },
+    {
+      "path": "results/PCC_trials_by_method/Higashi-nbr5/Higashi-nbr5_PCC_trials.csv",
+      "sha256": "70dc389c2cf8f7a90c184565fb93bd5093310c9edffd49671968d3ca4017c809",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/Raw/Raw_PCC_calculation_information.json",
+      "sha256": "3a7dd3ac9c2c6b5448eebc42c6c3bc5f1fa72761b4e7bf64971474f5c32d884e",
+      "size_bytes": 498
+    },
+    {
+      "path": "results/PCC_trials_by_method/Raw/Raw_PCC_trials.csv",
+      "sha256": "187fead196b20ff3ac28fce585e9275715f8d920227d976c40637718bdc43f10",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/T-FLAMINGO/T-FLAMINGO_PCC_calculation_information.json",
+      "sha256": "6e7548a1d72a8910f3831bb03f94068804c23f89da2ef6fb85758355ee199423",
+      "size_bytes": 564
+    },
+    {
+      "path": "results/PCC_trials_by_method/T-FLAMINGO/T-FLAMINGO_PCC_trials.csv",
+      "sha256": "a6f18b7e2956417914e9e7d1c368ed3bc5450b496539592d358831048f46a025",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/scHiC-Diff/scHiC-Diff_PCC_calculation_information.json",
+      "sha256": "ea5306db9434ced012489748b0474bdafd4a688ddd65675294cc6c1414cd3609",
+      "size_bytes": 540
+    },
+    {
+      "path": "results/PCC_trials_by_method/scHiC-Diff/scHiC-Diff_PCC_trials.csv",
+      "sha256": "3473311491a3921c4516bdac49c3ea93981d3a253da398be95da02f13fbcb63b",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/scHiCluster/scHiCluster_PCC_calculation_information.json",
+      "sha256": "66a105dd096e553c7ac3d0d6e66d22cb542c0f8631e77ec1b7875e585da7799a",
+      "size_bytes": 546
+    },
+    {
+      "path": "results/PCC_trials_by_method/scHiCluster/scHiCluster_PCC_trials.csv",
+      "sha256": "c59bcd3391cfbf313af57806f72f05c645fc327ab1170f791aff86dca4efa51a",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/PCC_trials_by_method/scVI-3D/scVI-3D_PCC_calculation_information.json",
+      "sha256": "53dae0b7ca58b0f584f830d61ac35b739b2aa4ab9860ffc01cf78e93bb830c37",
+      "size_bytes": 560
+    },
+    {
+      "path": "results/PCC_trials_by_method/scVI-3D/scVI-3D_PCC_trials.csv",
+      "sha256": "401cc1e49c780a124f1f0cd3c63a890a67fe011a168ea13f55e0953bf9bb0bde",
+      "size_bytes": 18613
+    },
+    {
+      "path": "results/TAD_boundary_plot_check.csv",
+      "sha256": "3549b965d6d5678637fae95aa7cf22d3dc3e5367f67ea3df7b19f11cb374f60b",
+      "size_bytes": 6999
+    },
+    {
+      "path": "results/TAD_method_comparison_run_information.json",
+      "sha256": "ec42c56081134b2c152b3aee98e5a67f507727f1534ed6b2e10418b9fd72d54f",
+      "size_bytes": 1126
+    },
+    {
+      "path": "results/final_experiment_summary.md",
+      "sha256": "7f6cfef1f41486933a62e14e948f03753751686e9b24a16a06b57c711ae90573",
+      "size_bytes": 497
+    },
+    {
+      "path": "results/reproducibility_verification/migration_hash_check.json",
+      "sha256": "66b398a9c4de7d5d58e474b1388ff4445ece777ec96a421ae94ba7efcc17db12",
+      "size_bytes": 1287
+    },
+    {
+      "path": "results/reproducibility_verification/obsolete_variant_deletion_record.json",
+      "sha256": "fb9646bc800c3e0d0a6c49fca2a14433955b28a0ad6710ff639fc379fc4f7f1f",
+      "size_bytes": 824
+    },
+    {
+      "path": "results/reproducibility_verification/pipeline_output_check.json",
+      "sha256": "a64c2f973e6214490d2546156cf430d2a90722583ba9f4dda677dd9cf641cae5",
+      "size_bytes": 242
+    },
+    {
+      "path": "results/reproducibility_verification/project_layout_before.json",
+      "sha256": "7dc8d84cfbd4e2bd6fa666a3eb7e4a6085d112e4d7d3cd78c791dc8cbb79f0c4",
+      "size_bytes": 59333
+    },
+    {
+      "path": "results/selected_representative_trials.csv",
+      "sha256": "010ec4b77135e592cdc2f0ce6e1d3982fe09c63dc4aa2c1f24a256a9002dcf25",
+      "size_bytes": 59870
+    },
+    {
+      "path": "run_all_TAD_method_comparison_steps.py",
+      "sha256": "0491039326ea51427ce1e0e6faca451c612d95aad1336be87946a3a160d992c3",
+      "size_bytes": 9785
+    },
+    {
+      "path": "step01_calculate_PCC_trials.py",
+      "sha256": "0f2a332005b46f5de952bc6fc47fed77b3dfbc89a0b0e86db04b1230130635b0",
+      "size_bytes": 16121
+    },
+    {
+      "path": "step02_call_SuperTAD_domains.py",
+      "sha256": "3ce82164e77f1360ab0b35d3a30cebc4ca615332f00eebcdbc0332be00b4b350",
+      "size_bytes": 14644
+    },
+    {
+      "path": "step03_plot_TAD_method_comparison.py",
+      "sha256": "68cd1757466f7c11dcd28ee903782f26330fda1124dc7dae59c8f3ba5c311b91",
+      "size_bytes": 45679
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "80777a1e0f0d7748ff8a70eebdc15c33280ec783ec9b22a2ed0aa7a399db2125",
+      "size_bytes": 56
+    },
+    {
+      "path": "tests/test_TAD_method_comparison_config.py",
+      "sha256": "a5386c7a718e9857260cba8c1fc6868ed7419471fa1a1e8256f8b8f43ebf6366",
+      "size_bytes": 3555
+    },
+    {
+      "path": "tests/test_all_steps_pipeline.py",
+      "sha256": "ccbcb6cd37a387a8882dcc8d5ac9e77d2ffb7c57e346589069eac45b1a5c4bff",
+      "size_bytes": 3066
+    },
+    {
+      "path": "tests/test_project_layout.py",
+      "sha256": "7265b263bbf3ea1ed39a5098b5f47239a154b34d11eaeeff5565710ac6d76975",
+      "size_bytes": 1091
+    },
+    {
+      "path": "tests/test_step01_PCC_trials.py",
+      "sha256": "c1891050f22eb04750a6f3b2a0a4e2e042167cec5153e9e48afdf6a083c7aa38",
+      "size_bytes": 6037
+    },
+    {
+      "path": "tests/test_step02_SuperTAD_domains.py",
+      "sha256": "1be6d55af7f5b9b3d125d7bab5babd2f75c6e088f19b8d8d0715bdccfc2749d6",
+      "size_bytes": 6039
+    },
+    {
+      "path": "tests/test_step03_TAD_method_comparison.py",
+      "sha256": "26e74d1ebbea250658f6f347302b3c988fe2f46b6dee297dae11ad706ace3f4a",
+      "size_bytes": 6704
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "7cd0c7c0ccde4d51a965a1d8c42afc7784d3bcb7560b5e4d7b5fe4e7dc1d4a7a",
+      "size_bytes": 259
+    },
+    {
+      "path": "tools/record_project_layout.py",
+      "sha256": "dc4a6ef0a8623f7a80f16ffe2ada1d8126580af766988c86ad9749c28e5c3663",
+      "size_bytes": 2049
+    }
+  ],
+  "project_root": ".",
+  "schema_version": 1
+}

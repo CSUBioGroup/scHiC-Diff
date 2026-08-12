@@ -1,0 +1,1467 @@
+{
+  "file_count": 292,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "865cf621f2c65c82716c238399b606347e8a6e666f59dd8c3c2581854ecc2ef7",
+      "size_bytes": 2613
+    },
+    {
+      "path": "SuperTAD/bin/SuperTAD",
+      "sha256": "8f2c35116ef70a3ece6aebe5ebf92ab0322f5452e554508d6a520f2d9d9f5736",
+      "size_bytes": 242728
+    },
+    {
+      "path": "SuperTAD/results/representatives/HiCImpute/Astro_trial055.tsv",
+      "sha256": "41170c0143bd61e0a8a4dec40bc741bc92efacd67ca08a2e15bad48d57bd6a8d",
+      "size_bytes": 2067
+    },
+    {
+      "path": "SuperTAD/results/representatives/HiCImpute/Endo_trial099.tsv",
+      "sha256": "b7e1fadc0bd60324fd2d99995e0057673ea6bee854f0a36cef81938a0c6dad5b",
+      "size_bytes": 2165
+    },
+    {
+      "path": "SuperTAD/results/representatives/HiCImpute/ODC_trial001.tsv",
+      "sha256": "fb571eea21c22ddbb598ac8f8b7946e702ed63ee2bdf25e093d29b8af4bf3aeb",
+      "size_bytes": 2272
+    },
+    {
+      "path": "SuperTAD/results/representatives/HiCImpute/OPC_trial031.tsv",
+      "sha256": "3a404a9695c457db3d1e87a009470a21d60a9f2515be9484eeca34a992b6c55b",
+      "size_bytes": 2167
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr0/Astro_trial071.tsv",
+      "sha256": "1d9c20078f33bd1ad5732d5b6de0d78773a855fb8e31858d379c05416df1f1c6",
+      "size_bytes": 1655
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr0/Endo_trial029.tsv",
+      "sha256": "231b6a6bcf3de73255776e1b5bc2ae075ecb60b1cac2b5d606a9d5f215b22ddc",
+      "size_bytes": 1293
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr0/ODC_trial041.tsv",
+      "sha256": "758355263581d156a0a1aa94edc1f98e7b5ffebe6ac735eba63d63335291194d",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr0/OPC_trial063.tsv",
+      "sha256": "8a97fedfbb4158ba02665e4b5d4d79dda0111f6a9ac8321d1836b39d21b19014",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr5/Astro_trial071.tsv",
+      "sha256": "e9ba1b19542ac96bd6debc2dc2d41c512d35da74892b1c060703f493ee39531f",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr5/Endo_trial077.tsv",
+      "sha256": "082553c2dbac7e4da17dbc08613b3056b4d8d359ffa78d354b19005a0d61aa1b",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr5/ODC_trial001.tsv",
+      "sha256": "f42befd89d1bd4f1d83eac830d787d3e4b1d015ed82c2f5edb73009c636f69e3",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/results/representatives/Higashi-nbr5/OPC_trial007.tsv",
+      "sha256": "db12950c27c26bf75e1177b9fa8929b8409267ab7916b3498334f511ccef17b2",
+      "size_bytes": 1603
+    },
+    {
+      "path": "SuperTAD/results/representatives/Raw/Astro_trial054.tsv",
+      "sha256": "1da66084683cbf5620bf8f93e5f0d1a0cd40fcdf396bf0d7673f31d1c8289ac9",
+      "size_bytes": 1496
+    },
+    {
+      "path": "SuperTAD/results/representatives/Raw/Endo_trial010.tsv",
+      "sha256": "c3e44a3e0018f6ded01eef98000606c9bbbdc49a6631ca478c34b7978096112a",
+      "size_bytes": 1595
+    },
+    {
+      "path": "SuperTAD/results/representatives/Raw/ODC_trial009.tsv",
+      "sha256": "f44864578ecc9bffa989f4fe67ff2536cef4c057d0722752ea43adf7967a1b2b",
+      "size_bytes": 1854
+    },
+    {
+      "path": "SuperTAD/results/representatives/Raw/OPC_trial022.tsv",
+      "sha256": "48fc4ac31ec645453e9bd4ea42169d7c2b4d10980ed759ecfb59b430de9a0f31",
+      "size_bytes": 1396
+    },
+    {
+      "path": "SuperTAD/results/representatives/T-FLAMINGO/Astro_trial060.tsv",
+      "sha256": "85ee3b1f26a3a8f23219b59ad62b471e68abb90a6cdbd1fe43fdd6d2e67b9d4b",
+      "size_bytes": 931
+    },
+    {
+      "path": "SuperTAD/results/representatives/T-FLAMINGO/Endo_trial093.tsv",
+      "sha256": "b02e9354e51494b6c271b7f1e2061912ceb78af6fc56e764ae4670234ece8212",
+      "size_bytes": 929
+    },
+    {
+      "path": "SuperTAD/results/representatives/T-FLAMINGO/ODC_trial043.tsv",
+      "sha256": "7f86198946d97deaf97e30d1a93b5a11fa5fde3ebac40540ab9d1416663e8338",
+      "size_bytes": 1137
+    },
+    {
+      "path": "SuperTAD/results/representatives/T-FLAMINGO/OPC_trial014.tsv",
+      "sha256": "2e46a4dc2fe3e34813597c71cc80316bd206b5af54de9e2d64116fb8035d124c",
+      "size_bytes": 929
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiC-Diff/Astro_trial095.tsv",
+      "sha256": "a41938c14ff3cbb52791da4827952774c2eaafc938274b9cc0facb06ecddf390",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiC-Diff/Endo_trial071.tsv",
+      "sha256": "6d06c10757c1747e3c85895131f9756e0a64a669c932a3eb1699d463a1f640a6",
+      "size_bytes": 1341
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiC-Diff/ODC_trial082.tsv",
+      "sha256": "5643928405820dd4fcab6447d9a558aba43cb797aaac78345e1677da6eee8f03",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiC-Diff/OPC_trial041.tsv",
+      "sha256": "fb4599920ef48d9f55da22e5cfe425800a4753f66dae9d5a773b53fe81d40406",
+      "size_bytes": 1291
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiCluster/Astro_trial093.tsv",
+      "sha256": "9c2b65461f906cf917dd1ee3061ea00a6d9464b6383b2f26c8482fbf0a505bda",
+      "size_bytes": 1602
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiCluster/Endo_trial041.tsv",
+      "sha256": "2e6cec55cf2f8669de855a4424c7d6cf1c42ea8631b81aff9d4cada5db055465",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiCluster/ODC_trial057.tsv",
+      "sha256": "9110fcde32cb14f58331cf5974d4b5179da307bcf763dda99c8956aea0e5df32",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/results/representatives/scHiCluster/OPC_trial022.tsv",
+      "sha256": "dd63fb414e552e646f5108d33f23010079ae07181facdad227c8882a02ea1e7a",
+      "size_bytes": 1601
+    },
+    {
+      "path": "SuperTAD/results/representatives/scVI-3D/Astro_trial092.tsv",
+      "sha256": "3605c102ff3b7b113752923e593d0589c6ee2adc7d7cf3499b0f34d9da720c84",
+      "size_bytes": 2168
+    },
+    {
+      "path": "SuperTAD/results/representatives/scVI-3D/Endo_trial095.tsv",
+      "sha256": "87a6e0cae210296829b31798253725b8300e3d79631000b779998ac29f10de0d",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/representatives/scVI-3D/ODC_trial099.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/representatives/scVI-3D/OPC_trial058.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/representatives/summary.json",
+      "sha256": "5f0ef32ca9517ab8ee7bf0287d78349b7e91ddee959ad98f9f49245625ad0869",
+      "size_bytes": 11444
+    },
+    {
+      "path": "SuperTAD/results/target/Astro_target.tsv",
+      "sha256": "b643b0ea0f5e42578d54b3117ced542530281aa8b81aedf3e2f3c180b18c3d11",
+      "size_bytes": 1703
+    },
+    {
+      "path": "SuperTAD/results/target/Endo_target.tsv",
+      "sha256": "3cac32b441fe7d77e3e9e3f55b62f6b0fcb7bb83302a35cf3b70e2ef7f7adc6a",
+      "size_bytes": 1393
+    },
+    {
+      "path": "SuperTAD/results/target/ODC_target.tsv",
+      "sha256": "8a14a713463127cec5635107faad8eae5e0512d45ab97df47a4d39d672e945d1",
+      "size_bytes": 1707
+    },
+    {
+      "path": "SuperTAD/results/target/OPC_target.tsv",
+      "sha256": "c5d9616db7e539ce6fc3d41c461670ef9709269a7824680e78bad77f707de20c",
+      "size_bytes": 1657
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_candidate_per_cell/Astro_trial035.tsv",
+      "sha256": "320186f5fd899ee47de74e26a540695f824f2477df92f2a81bfd292412fbdc9b",
+      "size_bytes": 879
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_candidate_per_cell/Endo_trial006.tsv",
+      "sha256": "ed4230a71a8ea7abfff2c818c7f659c318703b46bb0797fa9fe00ca499a8e280",
+      "size_bytes": 879
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_candidate_per_cell/ODC_trial060.tsv",
+      "sha256": "acdaf15ebedea13ebc6e26aea8a7ecca16e06b69138947b74a3eb5f780cb7c2b",
+      "size_bytes": 723
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_candidate_per_cell/OPC_trial074.tsv",
+      "sha256": "920c9dc5fcba21b3a62ccaefe16906668132e76f9777caac0bf6babdf0f0b9e0",
+      "size_bytes": 931
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_fig1_current/Astro_trial055.tsv",
+      "sha256": "41170c0143bd61e0a8a4dec40bc741bc92efacd67ca08a2e15bad48d57bd6a8d",
+      "size_bytes": 2067
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_fig1_current/Endo_trial099.tsv",
+      "sha256": "b7e1fadc0bd60324fd2d99995e0057673ea6bee854f0a36cef81938a0c6dad5b",
+      "size_bytes": 2165
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_fig1_current/ODC_trial001.tsv",
+      "sha256": "fb571eea21c22ddbb598ac8f8b7946e702ed63ee2bdf25e093d29b8af4bf3aeb",
+      "size_bytes": 2272
+    },
+    {
+      "path": "SuperTAD/results/variants/HiCImpute_fig1_current/OPC_trial031.tsv",
+      "sha256": "3a404a9695c457db3d1e87a009470a21d60a9f2515be9484eeca34a992b6c55b",
+      "size_bytes": 2167
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_candidate_per_cell/Astro_trial092.tsv",
+      "sha256": "3605c102ff3b7b113752923e593d0589c6ee2adc7d7cf3499b0f34d9da720c84",
+      "size_bytes": 2168
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_candidate_per_cell/Endo_trial095.tsv",
+      "sha256": "87a6e0cae210296829b31798253725b8300e3d79631000b779998ac29f10de0d",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_candidate_per_cell/ODC_trial099.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_candidate_per_cell/OPC_trial058.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_fig1_current/Astro_trial025.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_fig1_current/Endo_trial028.tsv",
+      "sha256": "3605c102ff3b7b113752923e593d0589c6ee2adc7d7cf3499b0f34d9da720c84",
+      "size_bytes": 2168
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_fig1_current/ODC_trial007.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/scVI-3D_fig1_current/OPC_trial073.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "SuperTAD/results/variants/summary.json",
+      "sha256": "5ca2a73cc09c53889b2166a5dbe0a15797ff21d18651dc47f85e9f287fd04232",
+      "size_bytes": 7328
+    },
+    {
+      "path": "compute_trials.py",
+      "sha256": "7efccf7513aed0fc38a8cdd2687bea773aa9ac117060f1325f023ca4fc82694b",
+      "size_bytes": 16389
+    },
+    {
+      "path": "config.py",
+      "sha256": "ae8e132b4a39f54bfcb96fd5ee143df3149c4cf248ada5b432a1e4385fa0b64a",
+      "size_bytes": 4093
+    },
+    {
+      "path": "derived/pcc/HiCImpute/metadata.json",
+      "sha256": "a14f9efd1568f5bc49aaaa0a14d0c501d3f546fc0ab6cc46dcbced7164546d29",
+      "size_bytes": 538
+    },
+    {
+      "path": "derived/pcc/HiCImpute/pcc_results.csv",
+      "sha256": "689bd12a3ae21cfa1fd2d997bf65a81069505a5eca74a92837f5f15f1c00f348",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/Higashi-nbr0/metadata.json",
+      "sha256": "272eba7733ffa41d14f3a4dc9dc16e261bd39e3e314e539297a49876e10eb683",
+      "size_bytes": 527
+    },
+    {
+      "path": "derived/pcc/Higashi-nbr0/pcc_results.csv",
+      "sha256": "bd68925190c19a53db5b285e9aaef9f6e36cbcc9d7a183ae2cb369b162e2c392",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/Higashi-nbr5/metadata.json",
+      "sha256": "fac7522176f11dd3c07c4c5e25188916c276ed42185ef8d477f316182b9b2e56",
+      "size_bytes": 527
+    },
+    {
+      "path": "derived/pcc/Higashi-nbr5/pcc_results.csv",
+      "sha256": "70dc389c2cf8f7a90c184565fb93bd5093310c9edffd49671968d3ca4017c809",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/Raw/metadata.json",
+      "sha256": "b2dcfd49eecde9460c894fe7f4a21408df55f1716d84c04b5b7bf75899706299",
+      "size_bytes": 482
+    },
+    {
+      "path": "derived/pcc/Raw/pcc_results.csv",
+      "sha256": "187fead196b20ff3ac28fce585e9275715f8d920227d976c40637718bdc43f10",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/T-FLAMINGO/metadata.json",
+      "sha256": "37bc3234f8c7642b7a00091c90e6feab37c1cc3cd5a8a1898b3e590ffb75f882",
+      "size_bytes": 541
+    },
+    {
+      "path": "derived/pcc/T-FLAMINGO/pcc_results.csv",
+      "sha256": "a6f18b7e2956417914e9e7d1c368ed3bc5450b496539592d358831048f46a025",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/scHiC-Diff/metadata.json",
+      "sha256": "1443915edf536dfa0630a9b7024fad06ee74c3f78b48ae0fea8ef2792435af8f",
+      "size_bytes": 517
+    },
+    {
+      "path": "derived/pcc/scHiC-Diff/pcc_results.csv",
+      "sha256": "3473311491a3921c4516bdac49c3ea93981d3a253da398be95da02f13fbcb63b",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/scHiCluster/metadata.json",
+      "sha256": "2efc649a5b98576ba2d5e553ea75691f0ba077b99745ecdbea358fb4c03fbca0",
+      "size_bytes": 522
+    },
+    {
+      "path": "derived/pcc/scHiCluster/pcc_results.csv",
+      "sha256": "c59bcd3391cfbf313af57806f72f05c645fc327ab1170f791aff86dca4efa51a",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/pcc/scVI-3D/metadata.json",
+      "sha256": "18d88134c7b24b29f8b52e64a4337e6f534c4b660e87cc11f111fd521287424e",
+      "size_bytes": 540
+    },
+    {
+      "path": "derived/pcc/scVI-3D/pcc_results.csv",
+      "sha256": "401cc1e49c780a124f1f0cd3c63a890a67fe011a168ea13f55e0953bf9bb0bde",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/representatives/HiCImpute/matrices/Astro_trial055.npz",
+      "sha256": "747467a2daca72b8fe3c57a57206a0476cedd11a6641bf452598d6ace9fb1883",
+      "size_bytes": 1578
+    },
+    {
+      "path": "derived/representatives/HiCImpute/matrices/Endo_trial099.npz",
+      "sha256": "ba5ca22cbc119fb1a2f601c271a36a9c22512af5256cb94756e27abc7d97efb3",
+      "size_bytes": 1580
+    },
+    {
+      "path": "derived/representatives/HiCImpute/matrices/ODC_trial001.npz",
+      "sha256": "f8464b6342fc5c7ebc2a2635ecbf23b01b5f5e25e9c00d6ffe6f57784c2476bf",
+      "size_bytes": 1575
+    },
+    {
+      "path": "derived/representatives/HiCImpute/matrices/OPC_trial031.npz",
+      "sha256": "d7009ab482a0c02445118225c18f8427600c5f9a532360855f447c91f6435b6a",
+      "size_bytes": 1576
+    },
+    {
+      "path": "derived/representatives/HiCImpute/representative_trials.csv",
+      "sha256": "ea325ae3a7e5bb2b6bf2a74ecdbf857b15d6591ad7e3bc66db7cbbe394fa0190",
+      "size_bytes": 8463
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr0/matrices/Astro_trial071.npz",
+      "sha256": "df91a9ae50d0906906a8b087839e2b3914ebdf599b6588762e831a6ec7e744c9",
+      "size_bytes": 12934
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr0/matrices/Endo_trial029.npz",
+      "sha256": "79ef962c0241c1e62548ae20b3ac9166c304ac46b7b50b7e8f8d857e488e6aaa",
+      "size_bytes": 12882
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr0/matrices/ODC_trial041.npz",
+      "sha256": "12aa545d121a79461b26e9588e66a9734ff81684cfb198fb117cae90abc2de68",
+      "size_bytes": 12776
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr0/matrices/OPC_trial063.npz",
+      "sha256": "296b2028247a8667dfe68977642530aaee1a729346c8e1f8312b99a1bd9adc60",
+      "size_bytes": 12870
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr0/representative_trials.csv",
+      "sha256": "882c39812e34b7762852c14110b18793fbfa17d0d70fa287c2062257842414ad",
+      "size_bytes": 7257
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr5/matrices/Astro_trial071.npz",
+      "sha256": "6716b8fd6d01fea600e43a22cb81c2735edc4d2a1510e2c3ded8aaaa01afbbfd",
+      "size_bytes": 12910
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr5/matrices/Endo_trial077.npz",
+      "sha256": "cf388642c5a8bc943df623a998722f6151b8c561f6165f65b9a85db051d7dd0f",
+      "size_bytes": 12887
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr5/matrices/ODC_trial001.npz",
+      "sha256": "3f0955c869a8a00eefad5f24d3c32b8367b5a6908bf9d8114b136c83490ea34b",
+      "size_bytes": 12616
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr5/matrices/OPC_trial007.npz",
+      "sha256": "9c553c09414ff9b034af6a86444d3c587d8d496a96e11f5df643ee6b6d0dbe0b",
+      "size_bytes": 12814
+    },
+    {
+      "path": "derived/representatives/Higashi-nbr5/representative_trials.csv",
+      "sha256": "658228da65affa2304927964e1819d04fb6c6f6aefa09cfa1c060800ec615cb3",
+      "size_bytes": 7250
+    },
+    {
+      "path": "derived/representatives/Raw/matrices/Astro_trial054.npz",
+      "sha256": "515606cd1b1e830df8b6cdb0dfda88f8b9634a656eb073be933f7abf32a464f8",
+      "size_bytes": 1926
+    },
+    {
+      "path": "derived/representatives/Raw/matrices/Endo_trial010.npz",
+      "sha256": "9cf3a5ca673e13afe38e81beee2251abc286ca246e9d04b8ae879eb10c129f85",
+      "size_bytes": 1916
+    },
+    {
+      "path": "derived/representatives/Raw/matrices/ODC_trial009.npz",
+      "sha256": "a2a565156bcc303914f4913b7331fef5cbff32a5bef2b9ffdf2e3e23b6b912a0",
+      "size_bytes": 2036
+    },
+    {
+      "path": "derived/representatives/Raw/matrices/OPC_trial022.npz",
+      "sha256": "51d69033bacb4a52e47b7a61e383bc67826196b6f8a3d5278447602ce37bd7d0",
+      "size_bytes": 2126
+    },
+    {
+      "path": "derived/representatives/Raw/representative_trials.csv",
+      "sha256": "29c32904e4cd2ec3e0d0f509e8f26dde69087d2410c033d0d73396b24d472b92",
+      "size_bytes": 6063
+    },
+    {
+      "path": "derived/representatives/T-FLAMINGO/matrices/Astro_trial060.npz",
+      "sha256": "96f4fc1663e48742b770cc21c6d34037efbfb8938b706860ad9214607aa369c5",
+      "size_bytes": 10635
+    },
+    {
+      "path": "derived/representatives/T-FLAMINGO/matrices/Endo_trial093.npz",
+      "sha256": "6b12618b03162a0c56bb6ef602dc83c2370d8036f4b58722f8105b5d8bfd828f",
+      "size_bytes": 10709
+    },
+    {
+      "path": "derived/representatives/T-FLAMINGO/matrices/ODC_trial043.npz",
+      "sha256": "2266347871d1543544b9693a949f203c0e2cf3e8653aec6d8a7dfcb3952a9aab",
+      "size_bytes": 10709
+    },
+    {
+      "path": "derived/representatives/T-FLAMINGO/matrices/OPC_trial014.npz",
+      "sha256": "bfc3155b6c102f0daad48bb2a64a7af741bf03c6370c59f6bfb91b199750f292",
+      "size_bytes": 10729
+    },
+    {
+      "path": "derived/representatives/T-FLAMINGO/representative_trials.csv",
+      "sha256": "48bd2581c55574d4beb3abd9a06c77c31d8ab1ff139512175b453f58a288255a",
+      "size_bytes": 8481
+    },
+    {
+      "path": "derived/representatives/representative_trials.csv",
+      "sha256": "8fa4477c7f07855ec06841bf6f37c9994b03d22e0f92de447c33fbdc952ebe45",
+      "size_bytes": 59582
+    },
+    {
+      "path": "derived/representatives/scHiC-Diff/matrices/Astro_trial095.npz",
+      "sha256": "6673b3e3b35df65f9d687c5f22dd559b97569aabd3ffcaa2171ff4ceb6fa2029",
+      "size_bytes": 10863
+    },
+    {
+      "path": "derived/representatives/scHiC-Diff/matrices/Endo_trial071.npz",
+      "sha256": "d2090272b4ca1048325142660b9930f6461088e1238c30a4af1529d5626e00ed",
+      "size_bytes": 10814
+    },
+    {
+      "path": "derived/representatives/scHiC-Diff/matrices/ODC_trial082.npz",
+      "sha256": "5e4d9a8e1f5c80677c41cc0b8b38a8c56259a225afb48a6f1ae3d07ec4d525d9",
+      "size_bytes": 10814
+    },
+    {
+      "path": "derived/representatives/scHiC-Diff/matrices/OPC_trial041.npz",
+      "sha256": "16e3947b6886cf71f50f2762d33832378e279d9391e22b76dfc0af9dfcee43fb",
+      "size_bytes": 10847
+    },
+    {
+      "path": "derived/representatives/scHiC-Diff/representative_trials.csv",
+      "sha256": "e8414ca854d619af4c608d5560a76b2e5e206a4716c23a70fcf8c3dac563dc2e",
+      "size_bytes": 6992
+    },
+    {
+      "path": "derived/representatives/scHiCluster/matrices/Astro_trial093.npz",
+      "sha256": "6a0ba1d321c9cf1da8666cb11dc510266f5e6e242b62c87311b6d91c284d51f3",
+      "size_bytes": 10371
+    },
+    {
+      "path": "derived/representatives/scHiCluster/matrices/Endo_trial041.npz",
+      "sha256": "2ddc4ab09296a76f1eee9511a2a53acff6c29c57ed997affd502947117dd7c47",
+      "size_bytes": 10607
+    },
+    {
+      "path": "derived/representatives/scHiCluster/matrices/ODC_trial057.npz",
+      "sha256": "a1910d2c42670185e3d4f65c063dafccbc00b1af629248bd1f01e62d4727ab4f",
+      "size_bytes": 10661
+    },
+    {
+      "path": "derived/representatives/scHiCluster/matrices/OPC_trial022.npz",
+      "sha256": "51a057e5fa5e9814d78d017dc3970fbdfe36fb78c524f278ecc307bff6fa95c0",
+      "size_bytes": 10580
+    },
+    {
+      "path": "derived/representatives/scHiCluster/representative_trials.csv",
+      "sha256": "ad7657df2b3abe3f62275a5c912d12c8a6d7ab902b2c7b17a4a9855dcccfe166",
+      "size_bytes": 7130
+    },
+    {
+      "path": "derived/representatives/scVI-3D/matrices/Astro_trial092.npz",
+      "sha256": "fed98f75a1c39e8528d466d24c9cc2bd0c17381b5f46e06e7f2bc7da614d5979",
+      "size_bytes": 12984
+    },
+    {
+      "path": "derived/representatives/scVI-3D/matrices/Endo_trial095.npz",
+      "sha256": "e79aa9c9c842cec18b76a35e2b3dc97da98bbc3587a20dcdcbfdaf9ae79cb138",
+      "size_bytes": 12871
+    },
+    {
+      "path": "derived/representatives/scVI-3D/matrices/ODC_trial099.npz",
+      "sha256": "fbacd3d42475f33d989c857b3285cc0e469316002a3988b58e736dbbaeb69ade",
+      "size_bytes": 13018
+    },
+    {
+      "path": "derived/representatives/scVI-3D/matrices/OPC_trial058.npz",
+      "sha256": "454951d99b4c2f0749ebb8bddc7eeaedce2ee9cc4e5ce2cd660b0e7b3a8864cf",
+      "size_bytes": 12972
+    },
+    {
+      "path": "derived/representatives/scVI-3D/representative_trials.csv",
+      "sha256": "3d492b7b799866fbb9566568fb400ad97812c8ea0f810f9d046de8816d216474",
+      "size_bytes": 8954
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/HiCImpute_candidate_per_cell/metadata.json",
+      "sha256": "205c1e5d6a8e7b0f02868f0436f21caf9ba2fd33a07f2be378aa8749bf0cc145",
+      "size_bytes": 645
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/HiCImpute_candidate_per_cell/pcc_results.csv",
+      "sha256": "6bce0afa03c634e9ec34e27d42ba3144d08d08c2a0b431cffc0ffc81ca13bcf6",
+      "size_bytes": 18615
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/HiCImpute_fig1_current/metadata.json",
+      "sha256": "69e8704dc7444c1cf5593bdc4b94e24d62f6c23ef05c9ac88f8a0f190d261228",
+      "size_bytes": 615
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/HiCImpute_fig1_current/pcc_results.csv",
+      "sha256": "689bd12a3ae21cfa1fd2d997bf65a81069505a5eca74a92837f5f15f1c00f348",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/scVI-3D_candidate_per_cell/metadata.json",
+      "sha256": "1cea69bc171f098246554cad622e8da15137089fedb2d16167b1843f4acb386b",
+      "size_bytes": 635
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/scVI-3D_candidate_per_cell/pcc_results.csv",
+      "sha256": "401cc1e49c780a124f1f0cd3c63a890a67fe011a168ea13f55e0953bf9bb0bde",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/scVI-3D_fig1_current/metadata.json",
+      "sha256": "4d806ed8bf34b4e59242cb50533695c2ddd03ebe3efdba523fe6da6261c303f1",
+      "size_bytes": 605
+    },
+    {
+      "path": "derived/variant_evaluation/pcc/scVI-3D_fig1_current/pcc_results.csv",
+      "sha256": "143d3b8f9a72ea6626f48a797ec761780b8fdc8d0de4f2f6b3542eff40a69451",
+      "size_bytes": 18613
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_candidate_per_cell/matrices/Astro_trial035.npz",
+      "sha256": "26cc4d8df17efd8c47a281c95e82c35bb65401d737b9fa73f29cadf7ea708b55",
+      "size_bytes": 12873
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_candidate_per_cell/matrices/Endo_trial006.npz",
+      "sha256": "da46b20e954fbe0c12aeefa52e13c0ba7b5df63c4c28d9be35ab788de8124a40",
+      "size_bytes": 12876
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_candidate_per_cell/matrices/ODC_trial060.npz",
+      "sha256": "92b1053c9e39947c6ac6f5e2a838adeb681de34d60c742c6df0cd20ad247daaf",
+      "size_bytes": 12664
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_candidate_per_cell/matrices/OPC_trial074.npz",
+      "sha256": "32cd72699306eb894731d8b3210663a49b20bcf49cf18425b76c661e9f63d699",
+      "size_bytes": 12927
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_candidate_per_cell/representative_trials.csv",
+      "sha256": "6ddbd2e0813cfd11fe7a51f7beff6539324d4ee49484bdec7943f8e477345e95",
+      "size_bytes": 9436
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_fig1_current/matrices/Astro_trial055.npz",
+      "sha256": "747467a2daca72b8fe3c57a57206a0476cedd11a6641bf452598d6ace9fb1883",
+      "size_bytes": 1578
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_fig1_current/matrices/Endo_trial099.npz",
+      "sha256": "ba5ca22cbc119fb1a2f601c271a36a9c22512af5256cb94756e27abc7d97efb3",
+      "size_bytes": 1580
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_fig1_current/matrices/ODC_trial001.npz",
+      "sha256": "f8464b6342fc5c7ebc2a2635ecbf23b01b5f5e25e9c00d6ffe6f57784c2476bf",
+      "size_bytes": 1575
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_fig1_current/matrices/OPC_trial031.npz",
+      "sha256": "d7009ab482a0c02445118225c18f8427600c5f9a532360855f447c91f6435b6a",
+      "size_bytes": 1576
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/HiCImpute_fig1_current/representative_trials.csv",
+      "sha256": "17aa19327794a04dad3a28818647dc6a5a25609face7b0cbb9fa502fbf8a4494",
+      "size_bytes": 8643
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/representative_trials.csv",
+      "sha256": "2af6ab2daa3efb88663dd84b3119ad080953042645111de21f905ce1c8c567f1",
+      "size_bytes": 35206
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_candidate_per_cell/matrices/Astro_trial092.npz",
+      "sha256": "fed98f75a1c39e8528d466d24c9cc2bd0c17381b5f46e06e7f2bc7da614d5979",
+      "size_bytes": 12984
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_candidate_per_cell/matrices/Endo_trial095.npz",
+      "sha256": "e79aa9c9c842cec18b76a35e2b3dc97da98bbc3587a20dcdcbfdaf9ae79cb138",
+      "size_bytes": 12871
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_candidate_per_cell/matrices/ODC_trial099.npz",
+      "sha256": "fbacd3d42475f33d989c857b3285cc0e469316002a3988b58e736dbbaeb69ade",
+      "size_bytes": 13018
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_candidate_per_cell/matrices/OPC_trial058.npz",
+      "sha256": "454951d99b4c2f0749ebb8bddc7eeaedce2ee9cc4e5ce2cd660b0e7b3a8864cf",
+      "size_bytes": 12972
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_candidate_per_cell/representative_trials.csv",
+      "sha256": "09c5ddeedf3a19f07aa863f309d125e2ef731920d601e16348ca8ba2dfabf80e",
+      "size_bytes": 9182
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_fig1_current/matrices/Astro_trial025.npz",
+      "sha256": "3b8c0fbbb99cb05c15118fb4cba41df2a5e2f6e2ef319f8644c744bdc761e730",
+      "size_bytes": 13017
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_fig1_current/matrices/Endo_trial028.npz",
+      "sha256": "af2948afaae9d0980c07bc8ee215427a00d1381e62084c04ee95f4a25a27e4ca",
+      "size_bytes": 13006
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_fig1_current/matrices/ODC_trial007.npz",
+      "sha256": "45e6f8071f8f83fea3e05b522687a2b607a150accb62bf21827b8054d69eab72",
+      "size_bytes": 13007
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_fig1_current/matrices/OPC_trial073.npz",
+      "sha256": "013ffcd165d23a01e98ab627ffbf5fb9e81a8737a5ab643cc1f8dcd3b32ccbac",
+      "size_bytes": 13025
+    },
+    {
+      "path": "derived/variant_evaluation/representatives/scVI-3D_fig1_current/representative_trials.csv",
+      "sha256": "24f5ead059a5556167e79e8d37484faf3bc97d2a004ec070f4b5787313102025",
+      "size_bytes": 8377
+    },
+    {
+      "path": "docs/cleanup_execution_log.json",
+      "sha256": "a7069c2bc28012b1d40edc4ced2f9ed572c2f4ba6b843f635b8089873de9958b",
+      "size_bytes": 3927
+    },
+    {
+      "path": "docs/cleanup_manifest_before_execution.json",
+      "sha256": "be12b86e1c0121314381233894d94ef304393d8a95c5ef61e62da25e9c792d98",
+      "size_bytes": 7425
+    },
+    {
+      "path": "docs/migration_manifest_after_copies.json",
+      "sha256": "30b7f7f8f4f464c6690ac30534cf19b6633adf9d97a6e7e36f9fb4f10c63f64f",
+      "size_bytes": 6074
+    },
+    {
+      "path": "docs/migration_manifest_before.json",
+      "sha256": "637125302583ca8540b2546282b21e8457aaf704e7e08362bf7e97f56e23361e",
+      "size_bytes": 6375584
+    },
+    {
+      "path": "docs/pending_cleanup_manifest.json",
+      "sha256": "aad4ee4569b4e324843fc25cb6dd2701a273177447af7f5853dbf54d43327c29",
+      "size_bytes": 7002
+    },
+    {
+      "path": "docs/plans/2026-07-15-tad-method-comparison-layout-migration.md",
+      "sha256": "f4cbd2a4fce633cf4090ab9fc64d31e5633f512c6bbead290c407aed596a7390",
+      "size_bytes": 14928
+    },
+    {
+      "path": "docs/superpowers/specs/2026-07-15-tad-method-comparison-project-layout-design.md",
+      "sha256": "88cba38f6f66d92f16689657f00b81dbf79bb842c8ee7180660bb0f9e82a522e",
+      "size_bytes": 11931
+    },
+    {
+      "path": "docs/tmp_cleanup_log.json",
+      "sha256": "6b6bebbdb65f7260b87cb8bc1f39b03156bca716624286aacca73e8e8cc833ce",
+      "size_bytes": 1333
+    },
+    {
+      "path": "evaluate_variants.py",
+      "sha256": "d7a7e8f72a4e3e0444a1327fb7192364a887a487d18aa3e8731d1cb86c3eb735",
+      "size_bytes": 15795
+    },
+    {
+      "path": "plot_fig1.py",
+      "sha256": "2de302225d6463f8dd5c9ae9950bbb2819942cd2760cf966d3fd0b8274b11f2b",
+      "size_bytes": 43648
+    },
+    {
+      "path": "results/FINAL_SUMMARY.md",
+      "sha256": "9bd8cd78641ba4348c761611de7fe480a9f6af085a0b01e2e73aed4e4974249b",
+      "size_bytes": 3434
+    },
+    {
+      "path": "results/Fig1/Fig1_method_comparison.pdf",
+      "sha256": "a93b0cc2c55385b7bc913ef176530258d50acc4fe8863546ae07e4aa6a9085f3",
+      "size_bytes": 216359
+    },
+    {
+      "path": "results/Fig1/Fig1_method_comparison.png",
+      "sha256": "290143e2ecb70cd49d22a74413dd51fbee688311380368727c50213f892f7b39",
+      "size_bytes": 982814
+    },
+    {
+      "path": "results/Fig1/Fig1_method_comparison.tif",
+      "sha256": "b33107e5cbbb29533cc9bf6c3d9170ade57e934663e5fd28bc46cd283c718c13",
+      "size_bytes": 2414574
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_A.pdf",
+      "sha256": "05c7056d800d8ee9a258708a151349a209262003056c6277124de5fa848f459e",
+      "size_bytes": 91107
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_A.png",
+      "sha256": "bce7afe1a6cc8b1e9ade83636fc34ae92f8cf13de407aa2972ab593746090e3b",
+      "size_bytes": 561586
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_A.tif",
+      "sha256": "2b24c3a2e4b5ef1256046f27d5876b075021a67b466042c17ec50f21d086144d",
+      "size_bytes": 1846308
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_B.pdf",
+      "sha256": "f5722ef11dddd93285c1522dc4d12724b33d97e5ade6b02be6bcc95591bea3d4",
+      "size_bytes": 158374
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_B.png",
+      "sha256": "e03c2636520cac03907a5e33294719b9fd0bf05d90bd424d9c534bfbba3425ad",
+      "size_bytes": 420662
+    },
+    {
+      "path": "results/Fig1/Fig1_panel_B.tif",
+      "sha256": "bddd2c1830b5c8fc4c52f1a6a50964bc554913a45691aaf286f5085219f14165",
+      "size_bytes": 550248
+    },
+    {
+      "path": "results/Fig1/Fig1_provenance.json",
+      "sha256": "c57f1d960d810bee2306ef7d5740b5cd517c2f75f6b07163518269ecc23b2cb2",
+      "size_bytes": 1021
+    },
+    {
+      "path": "results/Fig1/Fig1_representative_trials.csv",
+      "sha256": "236d9ae4d1d444d58030bcf78242f457d101298e58e32e39b8915a62c002c783",
+      "size_bytes": 6116
+    },
+    {
+      "path": "results/Fig1/Fig1_source_data.csv",
+      "sha256": "e23d75b5568630c32ce18c53ed923ea6e14e516b38ec291884ec46e81bfd398c",
+      "size_bytes": 4197
+    },
+    {
+      "path": "results/Fig1/Fig1_tad_audit.csv",
+      "sha256": "eabc3655899b73a67d65bbc31c0fe77790ed43543d486722d413789c7c87aac9",
+      "size_bytes": 3771
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/README.md",
+      "sha256": "dc06af4a391ef91b2e7d3ff1e81b22e90bc651c7cbc99e78e3b3742b28086b56",
+      "size_bytes": 425
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/fig1_equivalence.json",
+      "sha256": "2ea6e9023b405a5de88c69e97a107be53a2aadfced4457d4d4952e9786b8c09a",
+      "size_bytes": 3519
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/main_supertad_equivalence.json",
+      "sha256": "d57cb158ed67b812cef608e0aa06735db533b3ea7eb3022da853d1e6182e559e",
+      "size_bytes": 17333
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/main_trial_equivalence.json",
+      "sha256": "30b15325659f552685df6ceb034d68720c4159c14033277d76f11f37b470c37d",
+      "size_bytes": 19440
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/variant_consistency_and_findings.json",
+      "sha256": "27387dce2b07c493e0242f56571e6baa555ba098611f5cedac9576251e863f81",
+      "size_bytes": 8267
+    },
+    {
+      "path": "results/audits/pre_scvi_candidate_switch/verification_report.json",
+      "sha256": "6616789f8d1211a7fdddec574042cde113e43b185f3e69b00769b6565c7947d4",
+      "size_bytes": 334
+    },
+    {
+      "path": "results/fig1_equivalence.json",
+      "sha256": "2532f388637c65cacdd71698badc36bb961e16565a480d6ed88aaf3b30d86613",
+      "size_bytes": 4098
+    },
+    {
+      "path": "results/final_verification_report.json",
+      "sha256": "d19308a0af6776e4f7fce6f7e64663c1e61563aa538798867f431e57175c6cd3",
+      "size_bytes": 3510
+    },
+    {
+      "path": "results/main_supertad_equivalence.json",
+      "sha256": "ca04e5ead412137bc9cace1711776a83499038608a8018939f2b7b0b622468ed",
+      "size_bytes": 17626
+    },
+    {
+      "path": "results/main_trial_equivalence.json",
+      "sha256": "cb49fafff301a15b6a478ca5b5ae601be89e43393719cc48c5df5fbb6d3cf735",
+      "size_bytes": 24393
+    },
+    {
+      "path": "results/variant_consistency_and_findings.json",
+      "sha256": "fc240e0194e7051c5463cb524bf5453e7b8b24d82be9fd64bc89fb5bc15aeba1",
+      "size_bytes": 8407
+    },
+    {
+      "path": "results/variant_evaluation/variant_distance_audit.csv",
+      "sha256": "f8fb14356ae1ed106cf5a6e8f677684242d81dc1e9a79620d73501538ee80223",
+      "size_bytes": 73125
+    },
+    {
+      "path": "results/variant_evaluation/variant_provenance.json",
+      "sha256": "f064488da1d096ee29274b1ee0ab5df292a13942dcbf47afe86fafe1f2e666b4",
+      "size_bytes": 931
+    },
+    {
+      "path": "results/variant_evaluation/variant_representative_heatmaps.pdf",
+      "sha256": "3b8e556cf2391dfd5644ae0967988fbe3248fc42660d79be95ae9467c872f54d",
+      "size_bytes": 112915
+    },
+    {
+      "path": "results/variant_evaluation/variant_representative_heatmaps.png",
+      "sha256": "e281e77493aee708b0e1ab95f6f477593f206eeeb99fcddd91cb2d446cb1edeb",
+      "size_bytes": 643557
+    },
+    {
+      "path": "results/variant_evaluation/variant_representative_heatmaps.tif",
+      "sha256": "170a318ce044e07a52b835f743f587e772614b5a125bb3aac68f44221e5b15c9",
+      "size_bytes": 2966998
+    },
+    {
+      "path": "results/variant_evaluation/variant_representative_trials.csv",
+      "sha256": "d3bcb59f9dc777aa1b5b4b9940b8fe6194bfcbecaf334d61ccb8dde7b09d5b43",
+      "size_bytes": 4388
+    },
+    {
+      "path": "results/variant_evaluation/variant_summary.csv",
+      "sha256": "ad80259d11b86f0fbd969c8e6ab6daea78c3883ec0d2204ae5a3ac0a4335577f",
+      "size_bytes": 2136
+    },
+    {
+      "path": "results/variant_evaluation/variant_trial_pcc.csv",
+      "sha256": "af81cc445b61cc6d3c27a267dbff4b460655ba461f8c62d369dd5802dd0b966f",
+      "size_bytes": 112083
+    },
+    {
+      "path": "results/verification_report.json",
+      "sha256": "6616789f8d1211a7fdddec574042cde113e43b185f3e69b00769b6565c7947d4",
+      "size_bytes": 334
+    },
+    {
+      "path": "run_pipeline.py",
+      "sha256": "ff2ae36ced3f478368c34cc43a4bc4524c10025fc4f22bcf4b7264918b9addd2",
+      "size_bytes": 10946
+    },
+    {
+      "path": "run_supertad.py",
+      "sha256": "68833581413fada550b96338bcc08eeff144e150b06ab4169f45c5fde4e4bd67",
+      "size_bytes": 15126
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "80777a1e0f0d7748ff8a70eebdc15c33280ec783ec9b22a2ed0aa7a399db2125",
+      "size_bytes": 56
+    },
+    {
+      "path": "tests/test_compute_trials.py",
+      "sha256": "6bc4a6166b36b5dfadc9f0970bf06e2968b7e163196db91741ddf4d8d6d42065",
+      "size_bytes": 6089
+    },
+    {
+      "path": "tests/test_fig1.py",
+      "sha256": "a940fb32ca49758a0b4e5a441fcdb78e95a9c1f4577dd314ec85c24f7ea29f54",
+      "size_bytes": 5711
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "3e29fd9f204764b93536f7b57e2679cd9e2379560cc0fe93bbb9eb5db68ccbe0",
+      "size_bytes": 2945
+    },
+    {
+      "path": "tests/test_project_config.py",
+      "sha256": "9581aeec1a62bf662c6b59b3cb7bbcbb73ec4edfc1ac99113b1a8daeb63aa385",
+      "size_bytes": 3294
+    },
+    {
+      "path": "tests/test_project_layout.py",
+      "sha256": "7265b263bbf3ea1ed39a5098b5f47239a154b34d11eaeeff5565710ac6d76975",
+      "size_bytes": 1091
+    },
+    {
+      "path": "tests/test_supertad_runner.py",
+      "sha256": "609b9bc69ce40d92e78b023c1ba2db73df0dc82ff7341f354abc49dcae1c0b68",
+      "size_bytes": 5724
+    },
+    {
+      "path": "tests/test_variant_evaluation.py",
+      "sha256": "bb2592f569f32a6bef1ceae76bdbad0ecf5159fb244025ee035447247651bbeb",
+      "size_bytes": 6774
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "bf319d5e77923c69bcc9b5d091cdc66545a61f976b35aebd387ca8e263c354d8",
+      "size_bytes": 928
+    },
+    {
+      "path": "tools/audit_lee_official_fig1.py",
+      "sha256": "9f01fe6f4c95e33b5a4258c97f0025a3024981d6ba55e276274c30124409375e",
+      "size_bytes": 5441
+    },
+    {
+      "path": "tools/audit_lee_official_main_trials.py",
+      "sha256": "326539ce1c627fc54650f6fe74e8bfdf50cc18279b0675c75e9acf78c3af03a8",
+      "size_bytes": 6195
+    },
+    {
+      "path": "tools/audit_lee_official_supertad.py",
+      "sha256": "550b37bee168db20ae4ba73865958e37c845213bcbad98091447ea2fadf40c9c",
+      "size_bytes": 4377
+    },
+    {
+      "path": "tools/audit_lee_variants.py",
+      "sha256": "5b4f89f975b219207465324a852ffefcb75f0f28f54b44672b862e71805a2299",
+      "size_bytes": 5791
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/Fig1_representative_trials.csv",
+      "sha256": "4c66a4e8c5733956fbe29ffc9c16a920ed4ecc4a3067c321cad2f3b93c73e6d0",
+      "size_bytes": 8993
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/Fig1_source_data.csv",
+      "sha256": "01cb8d862dee8468f1e1f3ca0052c34d10668936cde6989f987e39c7d9c0ddb8",
+      "size_bytes": 4220
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/Fig1_tad_audit.csv",
+      "sha256": "ac9225ef0f863f1856105f53e8400e4719c28a96cc9c70674942c0cd9b37ad55",
+      "size_bytes": 4850
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/HiCImpute/pcc_results.csv",
+      "sha256": "689bd12a3ae21cfa1fd2d997bf65a81069505a5eca74a92837f5f15f1c00f348",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/Higashi-nbr0/pcc_results.csv",
+      "sha256": "bd68925190c19a53db5b285e9aaef9f6e36cbcc9d7a183ae2cb369b162e2c392",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/Higashi-nbr5/pcc_results.csv",
+      "sha256": "70dc389c2cf8f7a90c184565fb93bd5093310c9edffd49671968d3ca4017c809",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/Raw/pcc_results.csv",
+      "sha256": "187fead196b20ff3ac28fce585e9275715f8d920227d976c40637718bdc43f10",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/T-FLAMINGO/pcc_results.csv",
+      "sha256": "a6f18b7e2956417914e9e7d1c368ed3bc5450b496539592d358831048f46a025",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/scHiC-Diff/pcc_results.csv",
+      "sha256": "3473311491a3921c4516bdac49c3ea93981d3a253da398be95da02f13fbcb63b",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/scHiCluster/pcc_results.csv",
+      "sha256": "c59bcd3391cfbf313af57806f72f05c645fc327ab1170f791aff86dca4efa51a",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/pcc/scVI-3D/pcc_results.csv",
+      "sha256": "143d3b8f9a72ea6626f48a797ec761780b8fdc8d0de4f2f6b3542eff40a69451",
+      "size_bytes": 18613
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/reference_manifest.json",
+      "sha256": "d1f3552fc7e3dc01c93f73c40b4c27952b306cd66c014d12bb27ea4b5000c8a0",
+      "size_bytes": 25035
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/HiCImpute/matrices/Astro_trial055.npz",
+      "sha256": "747467a2daca72b8fe3c57a57206a0476cedd11a6641bf452598d6ace9fb1883",
+      "size_bytes": 1578
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/HiCImpute/matrices/Endo_trial099.npz",
+      "sha256": "ba5ca22cbc119fb1a2f601c271a36a9c22512af5256cb94756e27abc7d97efb3",
+      "size_bytes": 1580
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/HiCImpute/matrices/ODC_trial001.npz",
+      "sha256": "f8464b6342fc5c7ebc2a2635ecbf23b01b5f5e25e9c00d6ffe6f57784c2476bf",
+      "size_bytes": 1575
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/HiCImpute/matrices/OPC_trial031.npz",
+      "sha256": "d7009ab482a0c02445118225c18f8427600c5f9a532360855f447c91f6435b6a",
+      "size_bytes": 1576
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr0/matrices/Astro_trial071.npz",
+      "sha256": "df91a9ae50d0906906a8b087839e2b3914ebdf599b6588762e831a6ec7e744c9",
+      "size_bytes": 12934
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr0/matrices/Endo_trial029.npz",
+      "sha256": "79ef962c0241c1e62548ae20b3ac9166c304ac46b7b50b7e8f8d857e488e6aaa",
+      "size_bytes": 12882
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr0/matrices/ODC_trial041.npz",
+      "sha256": "12aa545d121a79461b26e9588e66a9734ff81684cfb198fb117cae90abc2de68",
+      "size_bytes": 12776
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr0/matrices/OPC_trial063.npz",
+      "sha256": "296b2028247a8667dfe68977642530aaee1a729346c8e1f8312b99a1bd9adc60",
+      "size_bytes": 12870
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr5/matrices/Astro_trial071.npz",
+      "sha256": "6716b8fd6d01fea600e43a22cb81c2735edc4d2a1510e2c3ded8aaaa01afbbfd",
+      "size_bytes": 12910
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr5/matrices/Endo_trial077.npz",
+      "sha256": "cf388642c5a8bc943df623a998722f6151b8c561f6165f65b9a85db051d7dd0f",
+      "size_bytes": 12887
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr5/matrices/ODC_trial001.npz",
+      "sha256": "3f0955c869a8a00eefad5f24d3c32b8367b5a6908bf9d8114b136c83490ea34b",
+      "size_bytes": 12616
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Higashi-nbr5/matrices/OPC_trial007.npz",
+      "sha256": "9c553c09414ff9b034af6a86444d3c587d8d496a96e11f5df643ee6b6d0dbe0b",
+      "size_bytes": 12814
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Raw/matrices/Astro_trial054.npz",
+      "sha256": "515606cd1b1e830df8b6cdb0dfda88f8b9634a656eb073be933f7abf32a464f8",
+      "size_bytes": 1926
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Raw/matrices/Endo_trial010.npz",
+      "sha256": "9cf3a5ca673e13afe38e81beee2251abc286ca246e9d04b8ae879eb10c129f85",
+      "size_bytes": 1916
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Raw/matrices/ODC_trial009.npz",
+      "sha256": "a2a565156bcc303914f4913b7331fef5cbff32a5bef2b9ffdf2e3e23b6b912a0",
+      "size_bytes": 2036
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/Raw/matrices/OPC_trial022.npz",
+      "sha256": "51d69033bacb4a52e47b7a61e383bc67826196b6f8a3d5278447602ce37bd7d0",
+      "size_bytes": 2126
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/T-FLAMINGO/matrices/Astro_trial060.npz",
+      "sha256": "96f4fc1663e48742b770cc21c6d34037efbfb8938b706860ad9214607aa369c5",
+      "size_bytes": 10635
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/T-FLAMINGO/matrices/Endo_trial093.npz",
+      "sha256": "6b12618b03162a0c56bb6ef602dc83c2370d8036f4b58722f8105b5d8bfd828f",
+      "size_bytes": 10709
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/T-FLAMINGO/matrices/ODC_trial043.npz",
+      "sha256": "2266347871d1543544b9693a949f203c0e2cf3e8653aec6d8a7dfcb3952a9aab",
+      "size_bytes": 10709
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/T-FLAMINGO/matrices/OPC_trial014.npz",
+      "sha256": "bfc3155b6c102f0daad48bb2a64a7af741bf03c6370c59f6bfb91b199750f292",
+      "size_bytes": 10729
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiC-Diff/matrices/Astro_trial095.npz",
+      "sha256": "6673b3e3b35df65f9d687c5f22dd559b97569aabd3ffcaa2171ff4ceb6fa2029",
+      "size_bytes": 10863
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiC-Diff/matrices/Endo_trial071.npz",
+      "sha256": "d2090272b4ca1048325142660b9930f6461088e1238c30a4af1529d5626e00ed",
+      "size_bytes": 10814
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiC-Diff/matrices/ODC_trial082.npz",
+      "sha256": "5e4d9a8e1f5c80677c41cc0b8b38a8c56259a225afb48a6f1ae3d07ec4d525d9",
+      "size_bytes": 10814
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiC-Diff/matrices/OPC_trial041.npz",
+      "sha256": "16e3947b6886cf71f50f2762d33832378e279d9391e22b76dfc0af9dfcee43fb",
+      "size_bytes": 10847
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiCluster/matrices/Astro_trial093.npz",
+      "sha256": "6a0ba1d321c9cf1da8666cb11dc510266f5e6e242b62c87311b6d91c284d51f3",
+      "size_bytes": 10371
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiCluster/matrices/Endo_trial041.npz",
+      "sha256": "2ddc4ab09296a76f1eee9511a2a53acff6c29c57ed997affd502947117dd7c47",
+      "size_bytes": 10607
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiCluster/matrices/ODC_trial057.npz",
+      "sha256": "a1910d2c42670185e3d4f65c063dafccbc00b1af629248bd1f01e62d4727ab4f",
+      "size_bytes": 10661
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scHiCluster/matrices/OPC_trial022.npz",
+      "sha256": "51a057e5fa5e9814d78d017dc3970fbdfe36fb78c524f278ecc307bff6fa95c0",
+      "size_bytes": 10580
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scVI-3D/matrices/Astro_trial025.npz",
+      "sha256": "3b8c0fbbb99cb05c15118fb4cba41df2a5e2f6e2ef319f8644c744bdc761e730",
+      "size_bytes": 13017
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scVI-3D/matrices/Endo_trial028.npz",
+      "sha256": "af2948afaae9d0980c07bc8ee215427a00d1381e62084c04ee95f4a25a27e4ca",
+      "size_bytes": 13006
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scVI-3D/matrices/ODC_trial007.npz",
+      "sha256": "45e6f8071f8f83fea3e05b522687a2b607a150accb62bf21827b8054d69eab72",
+      "size_bytes": 13007
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/representatives/scVI-3D/matrices/OPC_trial073.npz",
+      "sha256": "013ffcd165d23a01e98ab627ffbf5fb9e81a8737a5ab643cc1f8dcd3b32ccbac",
+      "size_bytes": 13025
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/HiCImpute/Astro_trial055.tsv",
+      "sha256": "2e784d66ae2d0b4e44fa5c2a860ddff05866fb0b161762cc2f3eeb8e7e8d7007",
+      "size_bytes": 1707
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/HiCImpute/Endo_trial099.tsv",
+      "sha256": "9030241df94c6cb7f74d0bcd3cd70f9e8bae090565ddb172b020be32d131eee3",
+      "size_bytes": 1777
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/HiCImpute/ODC_trial001.tsv",
+      "sha256": "714685d3aeeb45b2d4c9ecf4f4ee6f6c2525031239e91664b8be762e4253929f",
+      "size_bytes": 1875
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/HiCImpute/OPC_trial031.tsv",
+      "sha256": "4d4c7a1ed8ebf16f695c4419b865bd6ab76b7bde5ce6b4fe84fca5e87a48a514",
+      "size_bytes": 1782
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr0/Astro_trial071.tsv",
+      "sha256": "b7dc4f1bb1bafc29596ac38091d52054cb9462cb85358730152c57821feac090",
+      "size_bytes": 1367
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr0/Endo_trial029.tsv",
+      "sha256": "a9b041047001868f62c16e6cf22fbd5f69b739f1193cd0eb94ae5db367d5f52d",
+      "size_bytes": 1065
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr0/ODC_trial041.tsv",
+      "sha256": "45c1e40c420dd7722b6ad963836de1934bf3ffb8ead20cdb8950151edc8be3cb",
+      "size_bytes": 1324
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr0/OPC_trial063.tsv",
+      "sha256": "e5c029219c8014fa3d1a31ef2f8b2fe97905c1b4e8169e19f60df86351b20b95",
+      "size_bytes": 1324
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr5/Astro_trial071.tsv",
+      "sha256": "130f0205913ace8787ca36856b105bb3f49cd83ff706403495b5331f9ca9b280",
+      "size_bytes": 1321
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr5/Endo_trial077.tsv",
+      "sha256": "a75b1312da1ec2ebce95269be8bfb88723b331c2d2c36896679403b4bd1574b1",
+      "size_bytes": 1321
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr5/ODC_trial001.tsv",
+      "sha256": "644a78eb6df8a79fdca68452222b9630d2ecb610ff19f647ca70a6359d7c4cf3",
+      "size_bytes": 1321
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Higashi-nbr5/OPC_trial007.tsv",
+      "sha256": "d9bc34ccb2c7bc40a31ced075ad853fd5645b246f36a8d40187a904503df16fa",
+      "size_bytes": 1324
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Raw/Astro_trial054.tsv",
+      "sha256": "3ef70bfbecd9033a7722710ec1cb743fc36913cbec950cbb7e82516e4b8bb999",
+      "size_bytes": 1227
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Raw/Endo_trial010.tsv",
+      "sha256": "29e22b06502d5b20906559268570d8eff89a176686a768e9d28911ae26b8003b",
+      "size_bytes": 1300
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Raw/ODC_trial009.tsv",
+      "sha256": "d841f088624013b29614d9732a4c8e437c823240ec40032bce03c62b481ee6b8",
+      "size_bytes": 1515
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/Raw/OPC_trial022.tsv",
+      "sha256": "a59133e1c090e2d08cbdd4d799a3b43c4a253c323af1f10714207256d28cd6fd",
+      "size_bytes": 1151
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/T-FLAMINGO/Astro_trial060.tsv",
+      "sha256": "85ee3b1f26a3a8f23219b59ad62b471e68abb90a6cdbd1fe43fdd6d2e67b9d4b",
+      "size_bytes": 931
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/T-FLAMINGO/Endo_trial093.tsv",
+      "sha256": "b02e9354e51494b6c271b7f1e2061912ceb78af6fc56e764ae4670234ece8212",
+      "size_bytes": 929
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/T-FLAMINGO/ODC_trial043.tsv",
+      "sha256": "7f86198946d97deaf97e30d1a93b5a11fa5fde3ebac40540ab9d1416663e8338",
+      "size_bytes": 1137
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/T-FLAMINGO/OPC_trial014.tsv",
+      "sha256": "2e46a4dc2fe3e34813597c71cc80316bd206b5af54de9e2d64116fb8035d124c",
+      "size_bytes": 929
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiC-Diff/Astro_trial095.tsv",
+      "sha256": "8b76c5ed1ab8434285477a9abc7953487d52cdc409ea8ce40fc265c0751a18ff",
+      "size_bytes": 1061
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiC-Diff/Endo_trial071.tsv",
+      "sha256": "5758fc22d115200e8fa3b467b96b6891587c418f925fcc16898f414215d71890",
+      "size_bytes": 1099
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiC-Diff/ODC_trial082.tsv",
+      "sha256": "a360d9585657273985af61847c8158550c5a081cc7ab5335d378c862b42eb091",
+      "size_bytes": 1059
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiC-Diff/OPC_trial041.tsv",
+      "sha256": "4865e621b2440e296022151ae75f6df0829b40c121930dbba6fe6b76405adeac",
+      "size_bytes": 1059
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiCluster/Astro_trial093.tsv",
+      "sha256": "9c2b65461f906cf917dd1ee3061ea00a6d9464b6383b2f26c8482fbf0a505bda",
+      "size_bytes": 1602
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiCluster/Endo_trial041.tsv",
+      "sha256": "2e6cec55cf2f8669de855a4424c7d6cf1c42ea8631b81aff9d4cada5db055465",
+      "size_bytes": 1601
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiCluster/ODC_trial057.tsv",
+      "sha256": "9110fcde32cb14f58331cf5974d4b5179da307bcf763dda99c8956aea0e5df32",
+      "size_bytes": 1601
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scHiCluster/OPC_trial022.tsv",
+      "sha256": "dd63fb414e552e646f5108d33f23010079ae07181facdad227c8882a02ea1e7a",
+      "size_bytes": 1601
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scVI-3D/Astro_trial025.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scVI-3D/Endo_trial028.tsv",
+      "sha256": "3605c102ff3b7b113752923e593d0589c6ee2adc7d7cf3499b0f34d9da720c84",
+      "size_bytes": 2168
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scVI-3D/ODC_trial007.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/representatives/scVI-3D/OPC_trial073.tsv",
+      "sha256": "6f442454171f3b17e76afa6768363fb01a7b271a6146101a7b05909a87fed41e",
+      "size_bytes": 2116
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/target/Astro_target.tsv",
+      "sha256": "b643b0ea0f5e42578d54b3117ced542530281aa8b81aedf3e2f3c180b18c3d11",
+      "size_bytes": 1703
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/target/Endo_target.tsv",
+      "sha256": "3cac32b441fe7d77e3e9e3f55b62f6b0fcb7bb83302a35cf3b70e2ef7f7adc6a",
+      "size_bytes": 1393
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/target/ODC_target.tsv",
+      "sha256": "8a14a713463127cec5635107faad8eae5e0512d45ab97df47a4d39d672e945d1",
+      "size_bytes": 1707
+    },
+    {
+      "path": "tools/audit_reference/pre_scvi_switch/supertad/target/OPC_target.tsv",
+      "sha256": "c5d9616db7e539ce6fc3d41c461670ef9709269a7824680e78bad77f707de20c",
+      "size_bytes": 1657
+    },
+    {
+      "path": "tools/build_lee_cleanup_manifest.py",
+      "sha256": "449e556a9a68b07455392493f392831467b792fb5f22e9d05721bffe82445656",
+      "size_bytes": 5358
+    },
+    {
+      "path": "tools/build_lee_final_verification.py",
+      "sha256": "3988ccdc6b84b36a4baf2619446a2c127894963b9e3dc549e466a70223bfe614",
+      "size_bytes": 6414
+    },
+    {
+      "path": "tools/historical/audit_lee_fig1.py",
+      "sha256": "90a8bee711203223bd9aaf6bb1752aaf265cc8be77b1ee351923f49d53bdd66b",
+      "size_bytes": 4857
+    },
+    {
+      "path": "tools/historical/audit_lee_main_trials.py",
+      "sha256": "e1e1d4ac71c3c8603370eee56b9a1039f883152db43774fc4cc5ecfcb8c05a33",
+      "size_bytes": 5671
+    },
+    {
+      "path": "tools/historical/audit_lee_supertad.py",
+      "sha256": "46e617f94364487a49b43d3b17201880193a796d69baedc38e6c05d515709e66",
+      "size_bytes": 4384
+    },
+    {
+      "path": "tools/historical/build_lee_after_copy_manifest.py",
+      "sha256": "2e68e362f686f075d7fe269cf9f507e45e976397a8eb36fc33464248d19ff958",
+      "size_bytes": 6429
+    },
+    {
+      "path": "tools/historical/build_lee_migration_manifest.py",
+      "sha256": "10db13cba34025562603b66f502972c6f6659026ce105492db06280cc652f230",
+      "size_bytes": 5193
+    },
+    {
+      "path": "tools/historical/validate_lee_duplicates.py",
+      "sha256": "1a8c88866c18721902963fb798a8bb39c772053626d8c2ce0709c92f31d088ea",
+      "size_bytes": 1923
+    },
+    {
+      "path": "tools/record_project_layout.py",
+      "sha256": "dc4a6ef0a8623f7a80f16ffe2ada1d8126580af766988c86ad9749c28e5c3663",
+      "size_bytes": 2049
+    }
+  ],
+  "project_root": ".",
+  "schema_version": 1
+}

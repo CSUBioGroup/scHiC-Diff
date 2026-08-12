@@ -1,0 +1,6 @@
+{
+  "dataset_id": "tiny",
+  "n_beads": 5,
+  "n_cells": 3,
+  "n_features": 10
+}

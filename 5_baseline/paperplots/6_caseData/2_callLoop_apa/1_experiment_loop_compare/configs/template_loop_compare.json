@@ -1,0 +1,38 @@
+{
+  "case_name": "my_case",
+  "cell_type": "earlyNeurons",
+  "cell_counts": [3, 5, 10, 100, 200, 476],
+  "seed": 42,
+  "resolution": 20000,
+  "n_bins": 100,
+  "min_dist": 60000,
+  "max_dist": 2000000,
+  "cap": 5,
+  "pad": 5,
+  "gap": 2,
+  "fdr": 0.05,
+  "dist_thres": 40000,
+  "size_thres": 1,
+  "reference_method_slug": "raw",
+  "shared_subset_dir": "../results/shared_subsets",
+  "methods": [
+    {
+      "name": "Raw",
+      "slug": "raw",
+      "input_npz": "../../data/inputs/raw/earlyNeurons_raw_x.npz",
+      "output_dir": "../results/output_raw",
+      "triu_k": 0
+    },
+    {
+      "name": "MyMethod",
+      "slug": "mymethod",
+      "input_npz": "../../data/inputs/mymethod/earlyNeurons_mymethod.npz",
+      "output_dir": "../results/output_mymethod",
+      "triu_k": 0
+    }
+  ],
+  "plots": {
+    "no_loop": "../results/final/noLoop_Comparison_Custom.png",
+    "with_loop": "../results/final/Comparison_Custom.png"
+  }
+}

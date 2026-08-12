@@ -1,0 +1,14 @@
+{
+  "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=000499.ckpt",
+  "denoise_t_sample": 750,
+  "density": 0.8779453257407177,
+  "global_pearson": 0.2593743699667229,
+  "median_inverse_depth": 1690.9099731445312,
+  "median_row_pearson": 0.2826159487558082,
+  "observed_mass_fraction": 0.044755748856972886,
+  "seed": 10,
+  "shape": [
+    7466,
+    5050
+  ]
+}

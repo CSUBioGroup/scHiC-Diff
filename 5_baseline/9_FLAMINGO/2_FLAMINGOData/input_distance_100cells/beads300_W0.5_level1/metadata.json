@@ -1,0 +1,11 @@
+{
+  "dataset": "beads300_W0.5_level1",
+  "dataset_id": "beads300_W0.5_level1",
+  "beads": 300,
+  "w": "0.5",
+  "level": 1,
+  "raw_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/5-Tensor-FLAMINGO_Simulation_Data/1_RawData/simulation_multicondition_100cells/beads_300/W_0.5/level_1",
+  "metadata_csv": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/5-Tensor-FLAMINGO_Simulation_Data/1_RawData/simulation_multicondition_100cells/beads_300/W_0.5/level_1/metadata.csv",
+  "raw_parent": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/5-Tensor-FLAMINGO_Simulation_Data/1_RawData",
+  "n_cells": 300
+}

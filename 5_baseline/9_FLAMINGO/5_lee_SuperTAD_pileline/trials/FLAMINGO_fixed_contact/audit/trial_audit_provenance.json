@@ -1,0 +1,22 @@
+{
+  "method": "FLAMINGO_fixed_contact",
+  "trials_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/trials/FLAMINGO_fixed_contact",
+  "matrices_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/trials/FLAMINGO_fixed_contact/matrices",
+  "pcc_results": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/trials/FLAMINGO_fixed_contact/pcc_results.csv",
+  "target_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/target",
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "n_trials_per_cell_type": 100,
+  "subregion": [
+    20,
+    28
+  ],
+  "unexpected_pcc_rows": [],
+  "overall_pass": true,
+  "gate": "rho_distance < 0 and PCC49 > 0 and PCC8 > 0 and finite and symmetric and nonnegative and PCC CSV match",
+  "evaluated_at_utc": "2026-07-10T15:01:44.835828+00:00"
+}

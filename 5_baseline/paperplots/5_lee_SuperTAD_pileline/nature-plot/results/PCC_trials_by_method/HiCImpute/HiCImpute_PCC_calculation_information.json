@@ -1,0 +1,23 @@
+{
+  "base_seed": 42,
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "expected_counts": {
+    "Astro": 449,
+    "Endo": 205,
+    "ODC": 1245,
+    "OPC": 203
+  },
+  "input_key": "HiCImpute_fig1_current",
+  "method": "HiCImpute",
+  "n_sample": 30,
+  "n_trials": 100,
+  "pcc_trials": "results/PCC_trials_by_method/HiCImpute/HiCImpute_PCC_trials.csv",
+  "representative_matrix_root": "intermediate_data/representative_matrices/HiCImpute",
+  "source_dir": "../imputedData/HiCImpute_fig1_current",
+  "target_root": "../input_leeData/target"
+}

@@ -1,0 +1,109 @@
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 128
+    num_workers: 20
+    wrap: false
+    train:
+      target: scdiff.data.denoising.DenoisingTrain
+      params:
+        dataset: K562
+        fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T3_2k_sim.h5ad
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+    validation:
+      target: scdiff.data.denoising.DenoisingValidation
+      params:
+        dataset: K562
+        fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T3_2k_sim.h5ad
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+    test:
+      target: scdiff.data.denoising.DenoisingTest
+      params:
+        dataset: K562
+        fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T3_2k_sim.h5ad
+        post_cond_flag: true
+        normalize: true
+        return_raw: true
+        splits:
+          train: 0.8
+          valid: 0.2
+model:
+  base_learning_rate: 0.0002
+  target: scdiff.model.ScDiff
+  params:
+    mask_strategy: none_zero
+    save_path: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/results/1_New_Simu_Data/10_hpc_v5run_1schic_like_bs128_lr2e4_train_results/K562_T3_2k_sim
+    data_normalize: true
+    return_raw: true
+    balance_loss: false
+    loss_type: l2
+    loss_strategy: recon_masked
+    parameterization: x0
+    linear_start: 0.0001
+    linear_end: 0.02
+    log_every_t: 200
+    timesteps: 1000
+    input_key: input
+    cond_key: cond
+    cond_to_ignore: null
+    monitor: val/loss_ema
+    monitor_mode: min
+    clip_denoised: true
+    denoise_flag: true
+    denoise_t_sample: 1000
+    classify_flag: false
+    classifier_config:
+      target: scdiff.modules.classifier.DiffusionClassifier
+      params:
+        query_mode: seen
+        n_samples_list:
+        - 5
+        to_keep_list:
+        - 1
+        n_trials: 1
+        loss: l2
+        time_step_sampler: IterativeUniform
+    model_config:
+      target: scdiff.model.DiffusionModel
+      params:
+        no_time_embed: false
+        save_path: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/results/1_New_Simu_Data/10_hpc_v5run_1schic_like_bs128_lr2e4_train_results/K562_T3_2k_sim
+        activation: gelu
+        norm_layer: layernorm
+        depth: 6
+        dropout: 0.0
+        mask_none_zero: 0.8
+        zero_to_none_zero: 0.1
+        embed_dim: 512
+        dim_head: 64
+        num_heads: 8
+        decoder_embed_dim: 512
+        decoder_dim_head: 64
+        decoder_num_heads: 8
+        mlp_time_embed: false
+        cond_type: crossattn
+        cond_emb_type: linear
+        cond_cat_input: false
+        cond_tokens: 1
+        cond_mask_ratio: 0.1
+        post_cond_layers: 1
+        post_cond_norm: batchnorm
+        post_cond_mask_ratio: 0.1
+        mask_dec_cond: false
+        mask_dec_cond_se: false
+        mask_dec_cond_semlp: false
+        mask_dec_cond_ratio: true
+        mask_dec_cond_concat: false
+        decoder_embed_type: embedder
+        decoder_mask: inv_enc
+        encoder_type: mlp

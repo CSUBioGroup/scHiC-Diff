@@ -1,0 +1,5 @@
+# 运行日志
+
+run_all_TAD_method_comparison_steps.py 在此目录写入
+TAD_method_comparison_YYYYMMDD_HHMMSS.log。日志记录阶段状态且不保存项目
+的机器绝对路径。

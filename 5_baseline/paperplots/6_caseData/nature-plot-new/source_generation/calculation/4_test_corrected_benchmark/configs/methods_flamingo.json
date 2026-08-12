@@ -1,0 +1,16 @@
+{
+  "canonical_h5ad": "../../inputData/6_hires_chr1/hires_20kb_chr1.h5ad",
+  "canonical_named_npz": "../../imputedData/scHiC-Diff/chr1/denoise_recon_inv_with_cellnames.npz",
+  "early_neurons_npz": "../../data/inputs/schicdiff/earlyNeurons_denoise_recon_inv.npz",
+  "expected_cells": 7466,
+  "n_bins": 100,
+  "methods": [
+    {
+      "name": "FLAMINGO",
+      "slug": "flamingo",
+      "role": "imputation",
+      "input_npz": "../../imputedData/FLAMINGO/chrom_npz/chr1.npz",
+      "include_diagonal": false
+    }
+  ]
+}

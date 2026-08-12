@@ -1,0 +1,51 @@
+{
+  "canonical_h5ad": "../../inputData/6_hires_chr1/hires_20kb_chr1.h5ad",
+  "canonical_named_npz": "../../imputedData/scHiC-Diff/chr1/denoise_recon_inv_with_cellnames.npz",
+  "early_neurons_npz": "../../data/inputs/schicdiff/earlyNeurons_denoise_recon_inv.npz",
+  "expected_cells": 7466,
+  "n_bins": 100,
+  "methods": [
+    {
+      "name": "Raw",
+      "slug": "raw",
+      "role": "baseline",
+      "input_npz": "../../imputedData/scHiC-Diff/chr1/raw_x.npz",
+      "include_diagonal": true
+    },
+    {
+      "name": "scHiC-Diff",
+      "slug": "schicdiff",
+      "role": "imputation",
+      "input_npz": "../../imputedData/scHiC-Diff/chr1/denoise_recon_inv.npz",
+      "include_diagonal": true
+    },
+    {
+      "name": "scHiCluster",
+      "slug": "schicluster",
+      "role": "imputation",
+      "input_npz": "../../imputedData/scHiCluster/chr1.npz",
+      "include_diagonal": true
+    },
+    {
+      "name": "scVI-3D",
+      "slug": "scvi3d",
+      "role": "imputation",
+      "input_npz": "../../imputedData/scVI-3D/20kb/chr1.npz",
+      "include_diagonal": false
+    },
+    {
+      "name": "Higashi nbr0",
+      "slug": "higashi_nbr0",
+      "role": "imputation",
+      "input_npz": "../../imputedData/Higashi/Higashi_nbr0_u200/chrom_npz/chr1.npz",
+      "include_diagonal": true
+    },
+    {
+      "name": "Higashi nbr5",
+      "slug": "higashi_nbr5",
+      "role": "imputation",
+      "input_npz": "../../imputedData/Higashi/Higashi_nbr5_u200/chrom_npz/chr1.npz",
+      "include_diagonal": true
+    }
+  ]
+}

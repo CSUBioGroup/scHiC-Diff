@@ -1,0 +1,166 @@
+{
+  "cell_count": 626,
+  "chromosomes": [
+    {
+      "chrom": "chr1",
+      "cols": 31125,
+      "nnz": 19484250,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr1.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr2",
+      "cols": 29646,
+      "nnz": 18558396,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr2.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr3",
+      "cols": 19701,
+      "nnz": 12332826,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr3.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr4",
+      "cols": 18336,
+      "nnz": 11478336,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr4.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr5",
+      "cols": 16290,
+      "nnz": 10197540,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr5.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr6",
+      "cols": 14706,
+      "nnz": 9205956,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr6.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr7",
+      "cols": 12720,
+      "nnz": 7962720,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr7.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr8",
+      "cols": 10731,
+      "nnz": 6717606,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr8.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr9",
+      "cols": 10011,
+      "nnz": 6266886,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr9.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr10",
+      "cols": 9180,
+      "nnz": 5746680,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr10.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr11",
+      "cols": 9180,
+      "nnz": 5746680,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr11.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr12",
+      "cols": 8911,
+      "nnz": 5578286,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr12.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr13",
+      "cols": 6670,
+      "nnz": 4175420,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr13.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr14",
+      "cols": 5778,
+      "nnz": 3617028,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr14.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr15",
+      "cols": 5253,
+      "nnz": 3288378,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr15.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr16",
+      "cols": 4095,
+      "nnz": 2563470,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr16.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr17",
+      "cols": 3321,
+      "nnz": 2078946,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr17.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr18",
+      "cols": 3081,
+      "nnz": 1928706,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr18.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr19",
+      "cols": 1770,
+      "nnz": 1108020,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr19.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr20",
+      "cols": 2016,
+      "nnz": 1262016,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr20.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr21",
+      "cols": 1176,
+      "nnz": 736174,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr21.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr22",
+      "cols": 1326,
+      "nnz": 830076,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chr22.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chrX",
+      "cols": 12090,
+      "nnz": 7568340,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/output/higashi_nbr5/chrom_npz/chrX.npz",
+      "rows": 626
+    }
+  ]
+}

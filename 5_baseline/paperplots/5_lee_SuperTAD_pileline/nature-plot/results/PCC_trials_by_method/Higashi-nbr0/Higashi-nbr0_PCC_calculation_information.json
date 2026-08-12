@@ -1,0 +1,23 @@
+{
+  "base_seed": 42,
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "expected_counts": {
+    "Astro": 449,
+    "Endo": 202,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "input_key": "Higashi_nbr0",
+  "method": "Higashi-nbr0",
+  "n_sample": 30,
+  "n_trials": 100,
+  "pcc_trials": "results/PCC_trials_by_method/Higashi-nbr0/Higashi-nbr0_PCC_trials.csv",
+  "representative_matrix_root": "intermediate_data/representative_matrices/Higashi-nbr0",
+  "source_dir": "../imputedData/Higashi_nbr0",
+  "target_root": "../input_leeData/target"
+}

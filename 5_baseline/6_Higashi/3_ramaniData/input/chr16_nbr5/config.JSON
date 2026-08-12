@@ -1,0 +1,43 @@
+{
+  "chrom_list": [
+    "chr16"
+  ],
+  "contact_header": [
+    "cell_id",
+    "chrom1",
+    "chrom2",
+    "pos1",
+    "pos2",
+    "count"
+  ],
+  "correct_be_impute": false,
+  "cpu_num": 2,
+  "cpu_num_torch": 2,
+  "data_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/input/chr16_nbr5/data",
+  "dimensions": 64,
+  "embedding_epoch": 60,
+  "embedding_name": "ramani_higashi_chr16_nbr5",
+  "genome_reference_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/input/chr16_nbr5/data/ramani.chrom.sizes",
+  "gpu_num": 1,
+  "header_included": true,
+  "impute_list": [
+    "chr16"
+  ],
+  "impute_no_nbr": true,
+  "impute_with_nbr": true,
+  "input_format": "higashi_v1",
+  "local_transfer_range": 1,
+  "loss_mode": "zinb",
+  "maximum_distance": -1,
+  "maximum_impute_distance": -1,
+  "minimum_distance": 0,
+  "minimum_impute_distance": 0,
+  "neighbor_num": 5,
+  "no_nbr_epoch": 45,
+  "precompute_weighted_nbr": true,
+  "resolution": 1000000,
+  "resolution_cell": 1000000,
+  "structured": false,
+  "temp_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/6_Higashi/3_ramaniData/input/chr16_nbr5/temp",
+  "with_nbr_epoch": 30
+}

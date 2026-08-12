@@ -1,0 +1,15 @@
+{
+  "dataset": "160190",
+  "segment": "160190",
+  "n_cells": 32,
+  "n_bins": 31,
+  "n_features": 465,
+  "universal_input_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/4_tanClusterAndARI_pipeline/prepareData/universal_input/160190",
+  "cell_metadata": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/4_tanClusterAndARI_pipeline/prepareData/universal_input/160190/cell_metadata.csv",
+  "segment_info": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/4_tanClusterAndARI_pipeline/prepareData/universal_input/160190/segment_info.json",
+  "prepared_at_epoch": 1783259645.9862442,
+  "prepare_seconds": 0.9248566627502441,
+  "observed_contact_nnz": 14064,
+  "input_subdir": "contact_matrices",
+  "method": "FLAMINGO"
+}

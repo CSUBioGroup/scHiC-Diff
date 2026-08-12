@@ -1,0 +1,166 @@
+{
+  "cell_count": 626,
+  "chromosomes": [
+    {
+      "chrom": "chr1",
+      "cols": 31125,
+      "nnz": 3994450,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr1.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr2",
+      "cols": 29646,
+      "nnz": 3891529,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr2.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr3",
+      "cols": 19701,
+      "nnz": 3392692,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr3.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr4",
+      "cols": 18336,
+      "nnz": 2974284,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr4.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr5",
+      "cols": 16290,
+      "nnz": 3201700,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr5.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr6",
+      "cols": 14706,
+      "nnz": 2775328,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr6.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr7",
+      "cols": 12720,
+      "nnz": 2560631,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr7.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr8",
+      "cols": 10731,
+      "nnz": 2804128,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr8.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr9",
+      "cols": 10011,
+      "nnz": 1362040,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr9.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr10",
+      "cols": 9180,
+      "nnz": 2223812,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr10.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr11",
+      "cols": 9180,
+      "nnz": 2552386,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr11.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr12",
+      "cols": 8911,
+      "nnz": 2302150,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr12.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr13",
+      "cols": 6670,
+      "nnz": 1573050,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr13.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr14",
+      "cols": 5778,
+      "nnz": 1573296,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr14.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr15",
+      "cols": 5253,
+      "nnz": 1296100,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr15.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr16",
+      "cols": 4095,
+      "nnz": 931461,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr16.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr17",
+      "cols": 3321,
+      "nnz": 1026106,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr17.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr18",
+      "cols": 3081,
+      "nnz": 1153769,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr18.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr19",
+      "cols": 1770,
+      "nnz": 521568,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr19.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr20",
+      "cols": 2016,
+      "nnz": 730024,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr20.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr21",
+      "cols": 1176,
+      "nnz": 241789,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr21.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chr22",
+      "cols": 1326,
+      "nnz": 235874,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chr22.npz",
+      "rows": 626
+    },
+    {
+      "chrom": "chrX",
+      "cols": 12090,
+      "nnz": 2325664,
+      "path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/output/chrom_npz_thresh2.0/chrX.npz",
+      "rows": 626
+    }
+  ]
+}

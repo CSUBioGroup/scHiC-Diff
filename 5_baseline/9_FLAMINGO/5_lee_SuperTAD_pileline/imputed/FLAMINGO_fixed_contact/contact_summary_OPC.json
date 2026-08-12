@@ -1,0 +1,16 @@
+{
+  "cell_type": "OPC",
+  "n_cells": 203,
+  "n_bins": 49,
+  "method": "FLAMINGO_fixed_contact",
+  "space": "contact_count",
+  "observed_contacts_restored": true,
+  "completed_contact_nnz": 436848,
+  "completed_contact_min_positive": 1.8357633280174923e-06,
+  "completed_contact_max": 52.0,
+  "max_observed_contact": 52.0,
+  "source_run_job": "20086668_3",
+  "gate_job": "20086669",
+  "source_completed_retained": false,
+  "output_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/5_lee_SuperTAD_pileline/imputed/FLAMINGO_fixed_contact"
+}

@@ -1,0 +1,216 @@
+{
+  "chrom_dir": "output/u500/higashi_nbr5/chrom_npz",
+  "chromosomes": [
+    {
+      "chrom": "chr1",
+      "finite": true,
+      "nnz": 19484250,
+      "shape": [
+        626,
+        31125
+      ]
+    },
+    {
+      "chrom": "chr2",
+      "finite": true,
+      "nnz": 18558396,
+      "shape": [
+        626,
+        29646
+      ]
+    },
+    {
+      "chrom": "chr3",
+      "finite": true,
+      "nnz": 12332826,
+      "shape": [
+        626,
+        19701
+      ]
+    },
+    {
+      "chrom": "chr4",
+      "finite": true,
+      "nnz": 11478336,
+      "shape": [
+        626,
+        18336
+      ]
+    },
+    {
+      "chrom": "chr5",
+      "finite": true,
+      "nnz": 10197540,
+      "shape": [
+        626,
+        16290
+      ]
+    },
+    {
+      "chrom": "chr6",
+      "finite": true,
+      "nnz": 9205956,
+      "shape": [
+        626,
+        14706
+      ]
+    },
+    {
+      "chrom": "chr7",
+      "finite": true,
+      "nnz": 7962720,
+      "shape": [
+        626,
+        12720
+      ]
+    },
+    {
+      "chrom": "chr8",
+      "finite": true,
+      "nnz": 6717606,
+      "shape": [
+        626,
+        10731
+      ]
+    },
+    {
+      "chrom": "chr9",
+      "finite": true,
+      "nnz": 6266886,
+      "shape": [
+        626,
+        10011
+      ]
+    },
+    {
+      "chrom": "chr10",
+      "finite": true,
+      "nnz": 5746680,
+      "shape": [
+        626,
+        9180
+      ]
+    },
+    {
+      "chrom": "chr11",
+      "finite": true,
+      "nnz": 5746680,
+      "shape": [
+        626,
+        9180
+      ]
+    },
+    {
+      "chrom": "chr12",
+      "finite": true,
+      "nnz": 5578286,
+      "shape": [
+        626,
+        8911
+      ]
+    },
+    {
+      "chrom": "chr13",
+      "finite": true,
+      "nnz": 4175420,
+      "shape": [
+        626,
+        6670
+      ]
+    },
+    {
+      "chrom": "chr14",
+      "finite": true,
+      "nnz": 3617028,
+      "shape": [
+        626,
+        5778
+      ]
+    },
+    {
+      "chrom": "chr15",
+      "finite": true,
+      "nnz": 3288378,
+      "shape": [
+        626,
+        5253
+      ]
+    },
+    {
+      "chrom": "chr16",
+      "finite": true,
+      "nnz": 2563470,
+      "shape": [
+        626,
+        4095
+      ]
+    },
+    {
+      "chrom": "chr17",
+      "finite": true,
+      "nnz": 2078946,
+      "shape": [
+        626,
+        3321
+      ]
+    },
+    {
+      "chrom": "chr18",
+      "finite": true,
+      "nnz": 1928706,
+      "shape": [
+        626,
+        3081
+      ]
+    },
+    {
+      "chrom": "chr19",
+      "finite": true,
+      "nnz": 1108020,
+      "shape": [
+        626,
+        1770
+      ]
+    },
+    {
+      "chrom": "chr20",
+      "finite": true,
+      "nnz": 1262016,
+      "shape": [
+        626,
+        2016
+      ]
+    },
+    {
+      "chrom": "chr21",
+      "finite": true,
+      "nnz": 736176,
+      "shape": [
+        626,
+        1176
+      ]
+    },
+    {
+      "chrom": "chr22",
+      "finite": true,
+      "nnz": 830076,
+      "shape": [
+        626,
+        1326
+      ]
+    },
+    {
+      "chrom": "chrX",
+      "finite": true,
+      "nnz": 7568340,
+      "shape": [
+        626,
+        12090
+      ]
+    }
+  ],
+  "n_cells": [
+    626
+  ],
+  "n_chroms": 23
+}

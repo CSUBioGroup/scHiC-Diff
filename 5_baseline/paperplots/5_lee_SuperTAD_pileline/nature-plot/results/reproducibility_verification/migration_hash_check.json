@@ -1,0 +1,45 @@
+{
+  "baseline_inventory": "results/reproducibility_verification/project_layout_before.json",
+  "status": "verified",
+  "byte_identical_after_move": {
+    "PCC_trial_tables": {
+      "matched": 8,
+      "expected": 8
+    },
+    "representative_matrices": {
+      "matched": 32,
+      "expected": 32
+    },
+    "Target_SuperTAD_TSV": {
+      "matched": 4,
+      "expected": 4
+    },
+    "representative_SuperTAD_TSV": {
+      "matched": 32,
+      "expected": 32
+    }
+  },
+  "figures_after_clean_regeneration": {
+    "PNG_pixel_exports_byte_identical": {
+      "matched": 3,
+      "expected": 3
+    },
+    "TIFF_exports_byte_identical": {
+      "matched": 3,
+      "expected": 3
+    },
+    "PDF_exports_byte_identical": {
+      "matched": 0,
+      "expected": 3,
+      "reason": "PDF files were regenerated and contain new document metadata; raster exports are byte-identical."
+    }
+  },
+  "intentionally_regenerated_path_metadata": [
+    "results/selected_representative_trials.csv",
+    "results/PCC_trials_by_method/*/*_PCC_calculation_information.json",
+    "SuperTAD/domains/representatives/summary.json",
+    "results/TAD_boundary_plot_check.csv",
+    "results/TAD_method_comparison_run_information.json",
+    "results/reproducibility_verification/pipeline_output_check.json"
+  ]
+}

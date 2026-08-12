@@ -1,0 +1,339 @@
+{
+  "command_contract": {
+    "chrom": "chr4",
+    "chrom_start": 54890000,
+    "height": 3,
+    "mode": "multi",
+    "resolution": 10000
+  },
+  "records": [
+    {
+      "cell_type": "Astro",
+      "kind": "target",
+      "matrix_path": "../input_leeData/target/Astro_target.npz",
+      "method": "Target",
+      "output_path": "SuperTAD/domains/target/Astro_target.tsv",
+      "row_count": 33,
+      "trial_id": null
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "target",
+      "matrix_path": "../input_leeData/target/Endo_target.npz",
+      "method": "Target",
+      "output_path": "SuperTAD/domains/target/Endo_target.tsv",
+      "row_count": 27,
+      "trial_id": null
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "target",
+      "matrix_path": "../input_leeData/target/ODC_target.npz",
+      "method": "Target",
+      "output_path": "SuperTAD/domains/target/ODC_target.tsv",
+      "row_count": 33,
+      "trial_id": null
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "target",
+      "matrix_path": "../input_leeData/target/OPC_target.npz",
+      "method": "Target",
+      "output_path": "SuperTAD/domains/target/OPC_target.tsv",
+      "row_count": 32,
+      "trial_id": null
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/HiCImpute/Astro_trial055.npz",
+      "method": "HiCImpute",
+      "output_path": "SuperTAD/domains/representatives/HiCImpute/Astro_trial055.tsv",
+      "row_count": 40,
+      "trial_id": 55
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/HiCImpute/Endo_trial099.npz",
+      "method": "HiCImpute",
+      "output_path": "SuperTAD/domains/representatives/HiCImpute/Endo_trial099.tsv",
+      "row_count": 42,
+      "trial_id": 99
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/HiCImpute/ODC_trial001.npz",
+      "method": "HiCImpute",
+      "output_path": "SuperTAD/domains/representatives/HiCImpute/ODC_trial001.tsv",
+      "row_count": 44,
+      "trial_id": 1
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/HiCImpute/OPC_trial031.npz",
+      "method": "HiCImpute",
+      "output_path": "SuperTAD/domains/representatives/HiCImpute/OPC_trial031.tsv",
+      "row_count": 42,
+      "trial_id": 31
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr0/Astro_trial071.npz",
+      "method": "Higashi-nbr0",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr0/Astro_trial071.tsv",
+      "row_count": 32,
+      "trial_id": 71
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr0/Endo_trial029.npz",
+      "method": "Higashi-nbr0",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr0/Endo_trial029.tsv",
+      "row_count": 25,
+      "trial_id": 29
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr0/ODC_trial041.npz",
+      "method": "Higashi-nbr0",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr0/ODC_trial041.tsv",
+      "row_count": 31,
+      "trial_id": 41
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr0/OPC_trial063.npz",
+      "method": "Higashi-nbr0",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr0/OPC_trial063.tsv",
+      "row_count": 31,
+      "trial_id": 63
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr5/Astro_trial071.npz",
+      "method": "Higashi-nbr5",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr5/Astro_trial071.tsv",
+      "row_count": 31,
+      "trial_id": 71
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr5/Endo_trial077.npz",
+      "method": "Higashi-nbr5",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr5/Endo_trial077.tsv",
+      "row_count": 31,
+      "trial_id": 77
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr5/ODC_trial001.npz",
+      "method": "Higashi-nbr5",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr5/ODC_trial001.tsv",
+      "row_count": 31,
+      "trial_id": 1
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Higashi-nbr5/OPC_trial007.npz",
+      "method": "Higashi-nbr5",
+      "output_path": "SuperTAD/domains/representatives/Higashi-nbr5/OPC_trial007.tsv",
+      "row_count": 31,
+      "trial_id": 7
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Raw/Astro_trial054.npz",
+      "method": "Raw",
+      "output_path": "SuperTAD/domains/representatives/Raw/Astro_trial054.tsv",
+      "row_count": 29,
+      "trial_id": 54
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Raw/Endo_trial010.npz",
+      "method": "Raw",
+      "output_path": "SuperTAD/domains/representatives/Raw/Endo_trial010.tsv",
+      "row_count": 31,
+      "trial_id": 10
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Raw/ODC_trial009.npz",
+      "method": "Raw",
+      "output_path": "SuperTAD/domains/representatives/Raw/ODC_trial009.tsv",
+      "row_count": 36,
+      "trial_id": 9
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/Raw/OPC_trial022.npz",
+      "method": "Raw",
+      "output_path": "SuperTAD/domains/representatives/Raw/OPC_trial022.tsv",
+      "row_count": 27,
+      "trial_id": 22
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/T-FLAMINGO/Astro_trial060.npz",
+      "method": "T-FLAMINGO",
+      "output_path": "SuperTAD/domains/representatives/T-FLAMINGO/Astro_trial060.tsv",
+      "row_count": 18,
+      "trial_id": 60
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/T-FLAMINGO/Endo_trial093.npz",
+      "method": "T-FLAMINGO",
+      "output_path": "SuperTAD/domains/representatives/T-FLAMINGO/Endo_trial093.tsv",
+      "row_count": 18,
+      "trial_id": 93
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/T-FLAMINGO/ODC_trial043.npz",
+      "method": "T-FLAMINGO",
+      "output_path": "SuperTAD/domains/representatives/T-FLAMINGO/ODC_trial043.tsv",
+      "row_count": 22,
+      "trial_id": 43
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/T-FLAMINGO/OPC_trial014.npz",
+      "method": "T-FLAMINGO",
+      "output_path": "SuperTAD/domains/representatives/T-FLAMINGO/OPC_trial014.tsv",
+      "row_count": 18,
+      "trial_id": 14
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiC-Diff/Astro_trial095.npz",
+      "method": "scHiC-Diff",
+      "output_path": "SuperTAD/domains/representatives/scHiC-Diff/Astro_trial095.tsv",
+      "row_count": 25,
+      "trial_id": 95
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiC-Diff/Endo_trial071.npz",
+      "method": "scHiC-Diff",
+      "output_path": "SuperTAD/domains/representatives/scHiC-Diff/Endo_trial071.tsv",
+      "row_count": 26,
+      "trial_id": 71
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiC-Diff/ODC_trial082.npz",
+      "method": "scHiC-Diff",
+      "output_path": "SuperTAD/domains/representatives/scHiC-Diff/ODC_trial082.tsv",
+      "row_count": 25,
+      "trial_id": 82
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiC-Diff/OPC_trial041.npz",
+      "method": "scHiC-Diff",
+      "output_path": "SuperTAD/domains/representatives/scHiC-Diff/OPC_trial041.tsv",
+      "row_count": 25,
+      "trial_id": 41
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiCluster/Astro_trial093.npz",
+      "method": "scHiCluster",
+      "output_path": "SuperTAD/domains/representatives/scHiCluster/Astro_trial093.tsv",
+      "row_count": 31,
+      "trial_id": 93
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiCluster/Endo_trial041.npz",
+      "method": "scHiCluster",
+      "output_path": "SuperTAD/domains/representatives/scHiCluster/Endo_trial041.tsv",
+      "row_count": 31,
+      "trial_id": 41
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiCluster/ODC_trial057.npz",
+      "method": "scHiCluster",
+      "output_path": "SuperTAD/domains/representatives/scHiCluster/ODC_trial057.tsv",
+      "row_count": 31,
+      "trial_id": 57
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scHiCluster/OPC_trial022.npz",
+      "method": "scHiCluster",
+      "output_path": "SuperTAD/domains/representatives/scHiCluster/OPC_trial022.tsv",
+      "row_count": 31,
+      "trial_id": 22
+    },
+    {
+      "cell_type": "Astro",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scVI-3D/Astro_trial092.npz",
+      "method": "scVI-3D",
+      "output_path": "SuperTAD/domains/representatives/scVI-3D/Astro_trial092.tsv",
+      "row_count": 42,
+      "trial_id": 92
+    },
+    {
+      "cell_type": "Endo",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scVI-3D/Endo_trial095.npz",
+      "method": "scVI-3D",
+      "output_path": "SuperTAD/domains/representatives/scVI-3D/Endo_trial095.tsv",
+      "row_count": 41,
+      "trial_id": 95
+    },
+    {
+      "cell_type": "ODC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scVI-3D/ODC_trial099.npz",
+      "method": "scVI-3D",
+      "output_path": "SuperTAD/domains/representatives/scVI-3D/ODC_trial099.tsv",
+      "row_count": 41,
+      "trial_id": 99
+    },
+    {
+      "cell_type": "OPC",
+      "kind": "representative",
+      "matrix_path": "intermediate_data/representative_matrices/scVI-3D/OPC_trial058.npz",
+      "method": "scVI-3D",
+      "output_path": "SuperTAD/domains/representatives/scVI-3D/OPC_trial058.tsv",
+      "row_count": 41,
+      "trial_id": 58
+    }
+  ],
+  "representative_count": 32,
+  "representative_manifest": "results/selected_representative_trials.csv",
+  "scope": "main",
+  "target_count": 4
+}

@@ -1,0 +1,936 @@
+{
+  "method": "Higashi_nbr5",
+  "method_spec": {
+    "method": "Higashi_nbr5",
+    "input_format": "scipy_npz",
+    "layout": "triu_k0",
+    "input_pattern": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/{chrom}.npz",
+    "cell_order_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/config/cell_order.tsv",
+    "source_normalization": "method_output"
+  },
+  "labels_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/config/cell_metadata.csv",
+  "n_cells": 7469,
+  "chromosomes": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chrX"
+  ],
+  "resolution_bp": 1000000,
+  "maximum_distance_bp": 1000000,
+  "selected_bin_offsets": [
+    1
+  ],
+  "per_chromosome_svd_components": 20,
+  "per_chromosome_norm_sig": true,
+  "concatenated_shape": [
+    7469,
+    400
+  ],
+  "final_svd_components": 20,
+  "final_norm_sig": true,
+  "final_shape": [
+    7469,
+    20
+  ],
+  "silhouette_dimensions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "silhouette_metric": "euclidean",
+  "random_state": null,
+  "source_normalization": "method_output",
+  "package_versions": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "scikit-learn": "1.3.2",
+    "anndata": "0.9.2",
+    "schicluster": "1.3.5.dev22+gd56604607"
+  },
+  "outputs": {
+    "total_chrom_decomp_concat": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/total_chrom_decomp_concat.npz",
+    "total_decomp": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/total_decomp.npz",
+    "total_decomp_table": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/total_decomp.tsv.gz",
+    "red_blue_silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/metrics/red_blue_silhouette_by_stage.tsv",
+    "red_blue_silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/metrics/red_blue_silhouette_per_cell.tsv"
+  },
+  "chromosome_details": [
+    {
+      "chromosome": "chr1",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr1.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        19306
+      ],
+      "layout": "triu_k0",
+      "n_bins": 196,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 195,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        17812.29296875,
+        200.285766601562,
+        103.108055114746,
+        69.0826187133789,
+        55.4492492675781,
+        47.7843017578125,
+        44.9786491394043,
+        44.2220916748047,
+        39.9190864562988,
+        38.4037399291992,
+        37.2597770690918,
+        34.8239135742188,
+        34.1351165771484,
+        33.2738189697266,
+        32.7955703735352,
+        31.9458694458008,
+        31.2728099822998,
+        30.6258106231689,
+        29.4433422088623,
+        28.8311939239502
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr1_decomp.npz"
+    },
+    {
+      "chromosome": "chr2",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr2.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        16836
+      ],
+      "layout": "triu_k0",
+      "n_bins": 183,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 182,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        535.079406738281,
+        85.3327865600586,
+        38.1174011230469,
+        33.0773315429688,
+        24.0921936035156,
+        21.4892673492432,
+        19.9985694885254,
+        19.6297397613525,
+        18.677360534668,
+        18.0959148406982,
+        17.314094543457,
+        17.1620769500732,
+        16.8116092681885,
+        15.8638229370117,
+        15.3346347808838,
+        15.0126714706421,
+        14.4000024795532,
+        13.7480516433716,
+        13.4901103973389,
+        13.2610654830933
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr2_decomp.npz"
+    },
+    {
+      "chromosome": "chr3",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr3.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        13041
+      ],
+      "layout": "triu_k0",
+      "n_bins": 161,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 160,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        4897.14990234375,
+        193.847686767578,
+        73.9721069335938,
+        63.3732795715332,
+        57.6385498046875,
+        52.4823036193848,
+        49.718822479248,
+        48.9408187866211,
+        46.4817008972168,
+        43.9464530944824,
+        42.9780807495117,
+        40.9289321899414,
+        38.4665069580078,
+        37.8434371948242,
+        36.9233207702637,
+        34.8029136657715,
+        33.0373611450195,
+        32.5405235290527,
+        31.759428024292,
+        31.2984504699707
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr3_decomp.npz"
+    },
+    {
+      "chromosome": "chr4",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr4.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        12403
+      ],
+      "layout": "triu_k0",
+      "n_bins": 157,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 156,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        1231.08276367188,
+        208.141479492188,
+        78.6694030761719,
+        46.5290946960449,
+        43.8385314941406,
+        41.0609664916992,
+        35.876953125,
+        35.0016403198242,
+        33.8215827941895,
+        32.2736778259277,
+        30.737060546875,
+        29.8330078125,
+        29.6113739013672,
+        27.9313125610352,
+        26.6118659973145,
+        25.4216918945312,
+        25.3595027923584,
+        24.7262115478516,
+        23.9280567169189,
+        23.1575298309326
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr4_decomp.npz"
+    },
+    {
+      "chromosome": "chr5",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr5.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        11628
+      ],
+      "layout": "triu_k0",
+      "n_bins": 152,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 151,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        2210.08544921875,
+        172.488815307617,
+        85.8375473022461,
+        61.2792892456055,
+        55.0761070251465,
+        49.7675399780273,
+        45.5781097412109,
+        43.2038841247559,
+        41.9180145263672,
+        37.5137939453125,
+        36.1790046691895,
+        35.3805961608887,
+        34.5423278808594,
+        34.0350227355957,
+        31.6664752960205,
+        30.0016613006592,
+        29.6593170166016,
+        29.0039806365967,
+        28.8122997283936,
+        27.1793594360352
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr5_decomp.npz"
+    },
+    {
+      "chromosome": "chr6",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr6.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        11325
+      ],
+      "layout": "triu_k0",
+      "n_bins": 150,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 149,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        1479.65661621094,
+        125.430419921875,
+        63.3312835693359,
+        53.6775093078613,
+        48.7832870483398,
+        42.8213348388672,
+        37.2831649780273,
+        36.5000228881836,
+        35.9516983032227,
+        33.1075401306152,
+        32.3024978637695,
+        30.7856502532959,
+        29.3949775695801,
+        28.4683609008789,
+        27.8182563781738,
+        27.1946983337402,
+        26.5035552978516,
+        26.0365447998047,
+        25.4554252624512,
+        25.0669364929199
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr6_decomp.npz"
+    },
+    {
+      "chromosome": "chr7",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr7.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        10731
+      ],
+      "layout": "triu_k0",
+      "n_bins": 146,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 145,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        40.2553215026855,
+        10.335657119751,
+        6.24196243286133,
+        4.21556901931763,
+        2.85713696479797,
+        2.23938202857971,
+        2.0922703742981,
+        1.94426012039185,
+        1.64572215080261,
+        1.56554007530212,
+        1.4697517156601,
+        1.40865778923035,
+        1.36917793750763,
+        1.26440668106079,
+        1.20892286300659,
+        1.09783220291138,
+        1.06785035133362,
+        1.00287044048309,
+        0.956545889377594,
+        0.948075532913208
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr7_decomp.npz"
+    },
+    {
+      "chromosome": "chr8",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr8.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        8515
+      ],
+      "layout": "triu_k0",
+      "n_bins": 130,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 129,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        3512.53295898438,
+        236.532043457031,
+        71.6517333984375,
+        53.0453338623047,
+        50.237247467041,
+        48.593376159668,
+        39.9107093811035,
+        38.6093521118164,
+        37.4449996948242,
+        36.3689918518066,
+        35.0552597045898,
+        33.7405395507812,
+        32.0888442993164,
+        30.9196262359619,
+        30.2545852661133,
+        29.5658283233643,
+        28.5004844665527,
+        27.4211502075195,
+        26.4491157531738,
+        25.3296241760254
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr8_decomp.npz"
+    },
+    {
+      "chromosome": "chr9",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr9.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        7875
+      ],
+      "layout": "triu_k0",
+      "n_bins": 125,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 124,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        103.257118225098,
+        19.1908798217773,
+        13.2441854476929,
+        8.98199081420898,
+        8.31258296966553,
+        6.85353803634644,
+        6.02479028701782,
+        5.72127103805542,
+        5.38135242462158,
+        4.96439170837402,
+        4.7531566619873,
+        4.58638954162598,
+        4.25497770309448,
+        4.1434531211853,
+        4.12212657928467,
+        3.93001341819763,
+        3.84406161308289,
+        3.5498628616333,
+        3.49533343315125,
+        3.33116316795349
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr9_decomp.npz"
+    },
+    {
+      "chromosome": "chr10",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr10.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        8646
+      ],
+      "layout": "triu_k0",
+      "n_bins": 131,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 130,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        4030.90747070312,
+        178.74641418457,
+        89.9690551757812,
+        73.6405792236328,
+        62.8751182556152,
+        59.2027740478516,
+        55.3312149047852,
+        51.0365333557129,
+        47.8768653869629,
+        45.702880859375,
+        44.960506439209,
+        42.1198692321777,
+        40.6749000549316,
+        40.1531677246094,
+        39.163646697998,
+        35.5636444091797,
+        34.6374740600586,
+        34.0969352722168,
+        33.4233856201172,
+        32.6519546508789
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr10_decomp.npz"
+    },
+    {
+      "chromosome": "chr11",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr11.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        7626
+      ],
+      "layout": "triu_k0",
+      "n_bins": 123,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 122,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        3626.69946289062,
+        156.41259765625,
+        90.7079925537109,
+        71.6026763916016,
+        66.2565002441406,
+        61.5044479370117,
+        59.7331504821777,
+        57.6338424682617,
+        50.5616340637207,
+        46.6968193054199,
+        46.1553573608398,
+        44.7564277648926,
+        42.8241577148438,
+        41.5977363586426,
+        39.7922592163086,
+        38.4354705810547,
+        37.5822257995605,
+        36.4863052368164,
+        34.4747581481934,
+        33.8053092956543
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr11_decomp.npz"
+    },
+    {
+      "chromosome": "chr12",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr12.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        7381
+      ],
+      "layout": "triu_k0",
+      "n_bins": 121,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 120,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        1264.65002441406,
+        129.990661621094,
+        57.3758811950684,
+        53.7381134033203,
+        50.1505966186523,
+        48.8043441772461,
+        45.1553077697754,
+        38.9316864013672,
+        35.6379890441895,
+        32.5416984558105,
+        30.8014125823975,
+        29.2321853637695,
+        28.5037326812744,
+        28.2890148162842,
+        26.3952598571777,
+        25.5685005187988,
+        24.2623882293701,
+        22.891040802002,
+        22.6928405761719,
+        22.1548690795898
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr12_decomp.npz"
+    },
+    {
+      "chromosome": "chr13",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr13.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        7381
+      ],
+      "layout": "triu_k0",
+      "n_bins": 121,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 120,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        131.422592163086,
+        23.4063682556152,
+        12.6007299423218,
+        10.0963363647461,
+        8.09014415740967,
+        7.65893030166626,
+        6.58253145217896,
+        6.13753890991211,
+        5.49913263320923,
+        5.14551305770874,
+        4.64625072479248,
+        4.45154285430908,
+        4.07548666000366,
+        3.98304176330566,
+        3.96423101425171,
+        3.76570630073547,
+        3.67447209358215,
+        3.44209599494934,
+        3.31930232048035,
+        3.20544385910034
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr13_decomp.npz"
+    },
+    {
+      "chromosome": "chr14",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr14.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        7875
+      ],
+      "layout": "triu_k0",
+      "n_bins": 125,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 124,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        9824.4609375,
+        223.745132446289,
+        112.490447998047,
+        83.3132705688477,
+        82.9051895141602,
+        77.631462097168,
+        64.4322280883789,
+        59.9682235717773,
+        56.2788391113281,
+        54.8449401855469,
+        50.7492713928223,
+        48.7949562072754,
+        46.3618698120117,
+        44.9814605712891,
+        42.9497718811035,
+        42.4662933349609,
+        40.6797332763672,
+        39.3099937438965,
+        38.2320976257324,
+        36.9923515319824
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr14_decomp.npz"
+    },
+    {
+      "chromosome": "chr15",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr15.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        5565
+      ],
+      "layout": "triu_k0",
+      "n_bins": 105,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 104,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        1797.04553222656,
+        139.414428710938,
+        75.979362487793,
+        59.1772041320801,
+        53.3120613098145,
+        44.0899124145508,
+        42.924934387207,
+        37.877758026123,
+        36.9160423278809,
+        34.2861061096191,
+        32.567440032959,
+        31.0728969573975,
+        29.2148876190186,
+        27.7316818237305,
+        27.1945819854736,
+        25.5217819213867,
+        25.3498153686523,
+        24.0773525238037,
+        22.8450126647949,
+        22.4443740844727
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr15_decomp.npz"
+    },
+    {
+      "chromosome": "chr16",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr16.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        4950
+      ],
+      "layout": "triu_k0",
+      "n_bins": 99,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 98,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        204.494415283203,
+        43.6140060424805,
+        21.1839389801025,
+        17.5746803283691,
+        17.2609272003174,
+        14.6770992279053,
+        13.0106563568115,
+        11.7109050750732,
+        11.2770051956177,
+        10.0870141983032,
+        9.95762062072754,
+        9.30739116668701,
+        8.55705738067627,
+        8.38222503662109,
+        7.50016117095947,
+        7.07050657272339,
+        6.94764852523804,
+        6.47823715209961,
+        6.30996990203857,
+        6.04322099685669
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr16_decomp.npz"
+    },
+    {
+      "chromosome": "chr17",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr17.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        4560
+      ],
+      "layout": "triu_k0",
+      "n_bins": 95,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 94,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        989.772216796875,
+        123.094696044922,
+        80.2638931274414,
+        56.3497619628906,
+        46.5746650695801,
+        43.5412559509277,
+        39.8990707397461,
+        33.334789276123,
+        29.4106464385986,
+        29.0330448150635,
+        26.9312343597412,
+        26.3769359588623,
+        23.971263885498,
+        23.1083545684814,
+        22.3458290100098,
+        21.7508239746094,
+        21.0104160308838,
+        19.7236442565918,
+        19.1495323181152,
+        18.4604244232178
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr17_decomp.npz"
+    },
+    {
+      "chromosome": "chr18",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr18.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        4186
+      ],
+      "layout": "triu_k0",
+      "n_bins": 91,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 90,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        2508.32861328125,
+        173.188735961914,
+        70.5044860839844,
+        65.9784774780273,
+        57.5600357055664,
+        51.0700569152832,
+        46.7877998352051,
+        44.6669425964355,
+        39.8905258178711,
+        37.3443794250488,
+        35.9850807189941,
+        34.1897583007812,
+        32.0435905456543,
+        31.0625324249268,
+        28.8966503143311,
+        27.2227687835693,
+        26.5859298706055,
+        25.1878337860107,
+        24.7982654571533,
+        23.8796005249023
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr18_decomp.npz"
+    },
+    {
+      "chromosome": "chr19",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chr19.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        1953
+      ],
+      "layout": "triu_k0",
+      "n_bins": 62,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 61,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        462.241485595703,
+        83.4356307983398,
+        48.438304901123,
+        38.4312362670898,
+        37.3581008911133,
+        32.6919174194336,
+        30.2518005371094,
+        27.2573127746582,
+        26.7513790130615,
+        24.7043895721436,
+        23.8950843811035,
+        22.1514015197754,
+        21.0557060241699,
+        19.9667320251465,
+        18.3138942718506,
+        17.937837600708,
+        17.502025604248,
+        16.0057792663574,
+        15.34778881073,
+        14.4780654907227
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chr19_decomp.npz"
+    },
+    {
+      "chromosome": "chrX",
+      "input_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/imputedData/Higashi/Higashi_nbr5_u1000/chrom_npz/chrX.npz",
+      "input_kind": "scipy_sparse_npz",
+      "input_shape": [
+        7469,
+        14878
+      ],
+      "layout": "triu_k0",
+      "n_bins": 172,
+      "selected_distance_bins": [
+        1
+      ],
+      "selected_feature_count": 171,
+      "embedding_shape": [
+        7469,
+        20
+      ],
+      "singular_values": [
+        7146.337890625,
+        142.445373535156,
+        130.026000976562,
+        123.730171203613,
+        94.3405380249023,
+        90.2799682617188,
+        77.4656600952148,
+        73.4711151123047,
+        69.468879699707,
+        69.3057403564453,
+        65.3852310180664,
+        62.9173355102539,
+        62.1467170715332,
+        60.2554779052734,
+        59.1469345092773,
+        57.4917449951172,
+        54.6326866149902,
+        53.6632385253906,
+        52.1408195495605,
+        51.0346603393555
+      ],
+      "output_path": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/decomp/chrX_decomp.npz"
+    }
+  ],
+  "excluded_steps": [
+    "top_20_percent_filter",
+    "additional_sqrtvc",
+    "kmeans",
+    "ari_nmi",
+    "normalization_parameter_sweep"
+  ]
+}

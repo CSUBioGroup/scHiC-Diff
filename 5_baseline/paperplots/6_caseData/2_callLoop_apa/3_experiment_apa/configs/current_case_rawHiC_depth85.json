@@ -1,0 +1,38 @@
+{
+  "case_name": "rawHiC_depth85",
+  "java_bin": "/usr/bin/java",
+  "java_options": ["-Djava.awt.headless=true", "-Xmx8g"],
+  "juicer_jar": "/public/home/hpc254701055/Projects/SnapHiC/utils/juicer_tools_1.22.01.jar",
+  "reference_hic": "../../data/hic_references/rawHiC_depth85/earlyNeurons_476cells.hic",
+  "chrom": "chr1",
+  "resolution": 20000,
+  "norm": "NONE",
+  "window_bins": 10,
+  "cmap": "afmhot_r",
+  "top_n_values": [50, 100],
+  "output_root": "../results/rawHiC_depth85",
+  "methods": [
+    {
+      "name": "scHiC-Diff",
+      "slug": "schicdiff",
+      "sample_name": "earlyNeurons_476cells",
+      "loop_result_dir": "../../1_experiment_loop_compare/results/output_schicdiff",
+      "plot_titles": {
+        "all": "scHiCDiff_All_Loops",
+        "top50": "scHiCDiff_Top50_Loops",
+        "top100": "scHiCDiff_Top100_Loops"
+      }
+    },
+    {
+      "name": "scHiCluster",
+      "slug": "schicluster",
+      "sample_name": "earlyNeurons_476cells",
+      "loop_result_dir": "../../1_experiment_loop_compare/results/output_schicluster",
+      "plot_titles": {
+        "all": "scHiCluster_All_Loops",
+        "top50": "scHiCluster_Top50_Loops",
+        "top100": "scHiCluster_Top100_Loops"
+      }
+    }
+  ]
+}

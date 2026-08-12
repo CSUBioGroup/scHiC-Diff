@@ -1,0 +1,50 @@
+{
+  "manifest": "TanData_confusion_input_paths.csv",
+  "method_order": [
+    "Raw",
+    "scHiCluster",
+    "HiCImpute",
+    "Higashi-nbr0",
+    "Higashi-nbr5",
+    "scVI-3D",
+    "Tensor-FLAMINGO",
+    "scHiC-Diff"
+  ],
+  "segment_order": [
+    "2050",
+    "160190"
+  ],
+  "cell_type_order": [
+    "GM12878",
+    "PBMC"
+  ],
+  "true_cell_counts": {
+    "GM12878": 14,
+    "PBMC": 18
+  },
+  "transform": "log1p",
+  "pca_components": 2,
+  "kmeans_components_used": 1,
+  "kmeans_n_clusters": 2,
+  "kmeans_n_init": 100,
+  "kmeans_random_state": 0,
+  "cluster_alignment": "Hungarian maximum-count assignment",
+  "input_paths": {
+    "Raw:2050": "../inputTanData/2050.npz",
+    "scHiCluster:2050": "../imputedTanData/scHiCluster_2050.npz",
+    "HiCImpute:2050": "../imputedTanData/HiCImpute_2050.npz",
+    "Higashi-nbr0:2050": "../imputedTanData/Higashi_nbr0_2050.npz",
+    "Higashi-nbr5:2050": "../imputedTanData/Higashi_nbr5_2050.npz",
+    "scVI-3D:2050": "../imputedTanData/scVI-3D_2050.npz",
+    "Tensor-FLAMINGO:2050": "../imputedTanData/FLAMINGO_2050.npz",
+    "scHiC-Diff:2050": "../imputedTanData/scHiC-Diff_2050.npz",
+    "Raw:160190": "../inputTanData/160190.npz",
+    "scHiCluster:160190": "../imputedTanData/scHiCluster_160190.npz",
+    "HiCImpute:160190": "../imputedTanData/HiCImpute_160190.npz",
+    "Higashi-nbr0:160190": "../imputedTanData/Higashi_nbr0_160190.npz",
+    "Higashi-nbr5:160190": "../imputedTanData/Higashi_nbr5_160190.npz",
+    "scVI-3D:160190": "../imputedTanData/scVI-3D_160190.npz",
+    "Tensor-FLAMINGO:160190": "../imputedTanData/FLAMINGO_160190.npz",
+    "scHiC-Diff:160190": "../imputedTanData/scHiC-Diff_160190.npz"
+  }
+}

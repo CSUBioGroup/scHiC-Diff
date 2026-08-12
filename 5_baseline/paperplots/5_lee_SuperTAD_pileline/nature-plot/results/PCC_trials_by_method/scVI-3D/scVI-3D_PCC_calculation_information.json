@@ -1,0 +1,23 @@
+{
+  "base_seed": 42,
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "expected_counts": {
+    "Astro": 449,
+    "Endo": 202,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "input_key": "scVI-3D_candidate_per_cell",
+  "method": "scVI-3D",
+  "n_sample": 30,
+  "n_trials": 100,
+  "pcc_trials": "results/PCC_trials_by_method/scVI-3D/scVI-3D_PCC_trials.csv",
+  "representative_matrix_root": "intermediate_data/representative_matrices/scVI-3D",
+  "source_dir": "../imputedData/scVI-3D_candidate_per_cell",
+  "target_root": "../input_leeData/target"
+}

@@ -1,0 +1,171 @@
+{
+  "best_global_pearson": {
+    "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+    "delta_global_vs_original": 0.0023396906846849252,
+    "delta_global_vs_t1000": 0.0010019207678210185,
+    "delta_median_row_vs_original": 0.001226779582055304,
+    "delta_median_row_vs_t1000": 0.0008171850087496102,
+    "denoise_t_sample": 750,
+    "density": 0.7138290282282983,
+    "global_pearson": 0.46112342996651867,
+    "median_inverse_depth": 666.9450378417969,
+    "median_row_pearson": 0.4997347585490549,
+    "observed_mass_fraction": 0.10122945251450975,
+    "seed": 10,
+    "shape": [
+      7466,
+      5050
+    ]
+  },
+  "best_median_row_pearson": {
+    "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+    "delta_global_vs_original": 0.0009415181921847982,
+    "delta_global_vs_t1000": -0.00039625172467910863,
+    "delta_median_row_vs_original": 0.0018219027555662626,
+    "delta_median_row_vs_t1000": 0.0014123081822605688,
+    "denoise_t_sample": 500,
+    "density": 0.7131952375521506,
+    "global_pearson": 0.45972525747401854,
+    "median_inverse_depth": 665.7720031738281,
+    "median_row_pearson": 0.5003298817225659,
+    "observed_mass_fraction": 0.10137403998999536,
+    "seed": 10,
+    "shape": [
+      7466,
+      5050
+    ]
+  },
+  "candidate_count": 6,
+  "original_ramani": {
+    "global_pearson": 0.45878373928183375,
+    "median_row_pearson": 0.4985079789669996
+  },
+  "records": [
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": 0.0011979762925166115,
+      "delta_global_vs_t1000": -0.00013979362434729525,
+      "delta_median_row_vs_original": 0.00023301292065314172,
+      "delta_median_row_vs_t1000": -0.0001765816526525521,
+      "denoise_t_sample": 100,
+      "density": 0.714396644325563,
+      "global_pearson": 0.45998171557435036,
+      "median_inverse_depth": 667.1918029785156,
+      "median_row_pearson": 0.49874099188765275,
+      "observed_mass_fraction": 0.1010558773226261,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": -0.0005535870290868106,
+      "delta_global_vs_t1000": -0.0018913569459507173,
+      "delta_median_row_vs_original": -0.0008660471208653542,
+      "delta_median_row_vs_t1000": -0.001275641694171048,
+      "denoise_t_sample": 250,
+      "density": 0.714565091119345,
+      "global_pearson": 0.45823015225274694,
+      "median_inverse_depth": 667.8075561523438,
+      "median_row_pearson": 0.49764193184613426,
+      "observed_mass_fraction": 0.10095806779129168,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": 0.0009415181921847982,
+      "delta_global_vs_t1000": -0.00039625172467910863,
+      "delta_median_row_vs_original": 0.0018219027555662626,
+      "delta_median_row_vs_t1000": 0.0014123081822605688,
+      "denoise_t_sample": 500,
+      "density": 0.7131952375521506,
+      "global_pearson": 0.45972525747401854,
+      "median_inverse_depth": 665.7720031738281,
+      "median_row_pearson": 0.5003298817225659,
+      "observed_mass_fraction": 0.10137403998999536,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": 0.0023396906846849252,
+      "delta_global_vs_t1000": 0.0010019207678210185,
+      "delta_median_row_vs_original": 0.001226779582055304,
+      "delta_median_row_vs_t1000": 0.0008171850087496102,
+      "denoise_t_sample": 750,
+      "density": 0.7138290282282983,
+      "global_pearson": 0.46112342996651867,
+      "median_inverse_depth": 666.9450378417969,
+      "median_row_pearson": 0.4997347585490549,
+      "observed_mass_fraction": 0.10122945251450975,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": 0.0013379168903717154,
+      "delta_global_vs_t1000": 1.4697350780856766e-07,
+      "delta_median_row_vs_original": 0.00039361265077586527,
+      "delta_median_row_vs_t1000": -1.598192252982855e-05,
+      "denoise_t_sample": 999,
+      "density": 0.7146102330565229,
+      "global_pearson": 0.46012165617220546,
+      "median_inverse_depth": 668.0587463378906,
+      "median_row_pearson": 0.4989015916177755,
+      "observed_mass_fraction": 0.1010819289125819,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    {
+      "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+      "delta_global_vs_original": 0.0013377699168639068,
+      "delta_global_vs_t1000": 0.0,
+      "delta_median_row_vs_original": 0.0004095945733056938,
+      "delta_median_row_vs_t1000": 0.0,
+      "denoise_t_sample": 1000,
+      "density": 0.7146078194746879,
+      "global_pearson": 0.46012150919869765,
+      "median_inverse_depth": 668.0545654296875,
+      "median_row_pearson": 0.4989175735403053,
+      "observed_mass_fraction": 0.10108200412026123,
+      "seed": 10,
+      "shape": [
+        7466,
+        5050
+      ]
+    }
+  ],
+  "standalone_t1000": {
+    "checkpoint": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/7_scHiCDiff/6_caseStudy/2_hiresChr1-6567/model_logs/full/recon_masked_ramani_3000_hires_chr1_full_ramani.seed10_2026-07-17T17-41-55/checkpoints/epoch=002999.ckpt",
+    "delta_global_vs_original": 0.0013377699168639068,
+    "delta_global_vs_t1000": 0.0,
+    "delta_median_row_vs_original": 0.0004095945733056938,
+    "delta_median_row_vs_t1000": 0.0,
+    "denoise_t_sample": 1000,
+    "density": 0.7146078194746879,
+    "global_pearson": 0.46012150919869765,
+    "median_inverse_depth": 668.0545654296875,
+    "median_row_pearson": 0.4989175735403053,
+    "observed_mass_fraction": 0.10108200412026123,
+    "seed": 10,
+    "shape": [
+      7466,
+      5050
+    ]
+  }
+}

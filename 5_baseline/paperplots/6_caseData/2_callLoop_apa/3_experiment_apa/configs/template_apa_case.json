@@ -1,0 +1,27 @@
+{
+  "case_name": "my_apa_case",
+  "java_bin": "/usr/bin/java",
+  "java_options": ["-Djava.awt.headless=true", "-Xmx8g"],
+  "juicer_jar": "/absolute/path/to/juicer_tools.2.20.00.jar",
+  "reference_hic": "../../data/hic_references/my_case/reference_476cells.hic",
+  "chrom": "chr1",
+  "resolution": 20000,
+  "norm": "NONE",
+  "window_bins": 10,
+  "cmap": "afmhot_r",
+  "top_n_values": [50, 100],
+  "output_root": "../results/my_case",
+  "methods": [
+    {
+      "name": "MyMethod",
+      "slug": "mymethod",
+      "sample_name": "earlyNeurons_476cells",
+      "loop_result_dir": "../../1_experiment_loop_compare/results/output_mymethod",
+      "plot_titles": {
+        "all": "MyMethod_All_Loops",
+        "top50": "MyMethod_Top50_Loops",
+        "top100": "MyMethod_Top100_Loops"
+      }
+    }
+  ]
+}

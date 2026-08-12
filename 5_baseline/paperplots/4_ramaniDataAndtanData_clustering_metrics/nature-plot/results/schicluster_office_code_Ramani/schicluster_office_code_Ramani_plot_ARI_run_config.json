@@ -1,0 +1,71 @@
+{
+  "workflow_name": "schicluster_office_code_Ramani_plot_ARI",
+  "official_ari_path": "results/schicluster_office_code_Ramani/schicluster_office_code_Ramani_ARI_long.csv",
+  "labels_path": "test/config/ramani_cells.tsv",
+  "output_path": "results/schicluster_office_code_Ramani/schicluster_office_code_Ramani_plot_ARI_long.csv",
+  "method_config": [
+    {
+      "condition_id": "raw",
+      "display_name": "Raw",
+      "source_embedding_dim": 64,
+      "main_ndim": 50,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "scHiCluster",
+      "display_name": "scHiCluster",
+      "source_embedding_dim": 64,
+      "main_ndim": 5,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "HiCImpute",
+      "display_name": "HiCImpute",
+      "source_embedding_dim": 64,
+      "main_ndim": 2,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "higashi_nbr0",
+      "display_name": "Higashi-nbr0",
+      "source_embedding_dim": 128,
+      "main_ndim": 10,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "higashi_nbr5",
+      "display_name": "Higashi-nbr5",
+      "source_embedding_dim": 128,
+      "main_ndim": 10,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "scVI-3D",
+      "display_name": "scVI-3D",
+      "source_embedding_dim": 64,
+      "main_ndim": 10,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "Tensor-FLAMINGO",
+      "display_name": "Tensor-FLAMINGO",
+      "source_embedding_dim": 64,
+      "main_ndim": 20,
+      "source_kind": "two_stage_svd_no_log1p"
+    },
+    {
+      "condition_id": "scHiC-Diff",
+      "display_name": "scHiC-Diff",
+      "source_embedding_dim": 64,
+      "main_ndim": 20,
+      "source_kind": "two_stage_svd_no_log1p"
+    }
+  ],
+  "n_clusters": 4,
+  "n_init": 200,
+  "random_state": null,
+  "python": "3.8.16",
+  "numpy": "1.24.4",
+  "pandas": "2.0.3",
+  "scikit_learn": "1.3.2"
+}

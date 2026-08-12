@@ -1,0 +1,14 @@
+{
+  "dataset_id": "K562_T2_7k",
+  "source_raw_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/0_gtData/0_downsampled_HiCImputeData/K562_T2_7k",
+  "n_cells": 100,
+  "n_features": 1830,
+  "n_beads": 61,
+  "schic_layout": "features_by_cells",
+  "input_format": "float64 little-endian binary, Fortran order",
+  "feature_order_input": "R upper.tri column-major (sorted by column then row)",
+  "feature_order_evaluation": "numpy row-major np.triu_indices(n, k=1)",
+  "feature_order_npy": "permutation where numpy_row_major[:, order] == R col-major",
+  "bulk": "sum of observed cells per feature in R col-major order",
+  "expected": null
+}

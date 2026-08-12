@@ -1,0 +1,13 @@
+{
+  "dataset_id": "beads_500_W_0.9_level_1_T1",
+  "sim_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/2_FLAMINGOData/100cells/sim/1_lower_tri_feature/npz/beads_500_W_0.9_level_1_T1.npz",
+  "gt_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/2_FLAMINGOData/100cells/gt/1_lower_tri_feature/npz/beads_500_W_0.9_level_1_T1.npz",
+  "n_cells": 100,
+  "n_features": 124750,
+  "n_beads": 500,
+  "input_format": "float64 little-endian binary",
+  "schic_layout": "features_by_cells",
+  "source_sim_layout": "cells_by_features",
+  "feature_order": "FLAMINGO lower triangle, matching R upper.tri contact-pair order",
+  "bulk": "sum of observed simulated cells per feature"
+}

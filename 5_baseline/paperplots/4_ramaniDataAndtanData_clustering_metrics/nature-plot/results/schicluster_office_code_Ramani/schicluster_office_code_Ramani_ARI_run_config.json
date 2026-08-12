@@ -1,0 +1,34 @@
+{
+  "workflow_name": "schicluster_office_code",
+  "scope": "Ramani only",
+  "official_example": "../../../../First_Review/00_compare_methods/6_scHicluster/example/example.py",
+  "official_expression": "ARI(label, KMeans(n_clusters=nc, n_init=200).fit(embedding[:, :ndim]).labels_)",
+  "embedding_root": "results/schicluster_office_code_Ramani",
+  "labels_path": "test/config/ramani_cells.tsv",
+  "manifest_path": "RamaniData_clustering_input_paths.csv",
+  "output_dir": "results/schicluster_office_code_Ramani",
+  "source_embedding_dims": [
+    64,
+    128
+  ],
+  "evaluated_prefix_components": [
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "n_cells": 626,
+  "n_clusters": 4,
+  "n_init": 200,
+  "random_state": null,
+  "additional_dimensionality_reduction": false,
+  "log1p": false,
+  "pca": false,
+  "umap": false,
+  "z_score": false,
+  "python": "3.8.16",
+  "numpy": "1.24.4",
+  "pandas": "2.0.3",
+  "scikit_learn": "1.3.2"
+}

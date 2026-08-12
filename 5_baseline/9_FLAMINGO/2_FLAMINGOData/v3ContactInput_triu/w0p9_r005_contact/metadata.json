@@ -1,0 +1,17 @@
+{
+  "dataset": "w0p9_r005_contact",
+  "dataset_id": "w0p9_r005_contact",
+  "h5ad": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/5-Tensor-FLAMINGO_Simulation_Data/2_ProcessedData/3_fixed_flamingoGen_datasets/5_paramsweep_datasets/v3_hybrid_W0p9_500cells_level0_scdiff2.h5ad",
+  "n_beads": 500,
+  "n_cells": 1500,
+  "n_features": 124750,
+  "observed_layer": "counts",
+  "gt_layer": "gt",
+  "transform": "raw contact scale; missing entries are zero in observed layer",
+  "prepared_at_epoch": 1783663695.3901587,
+  "prepare_seconds": 402.4230842590332,
+  "observed_contact_nnz": 937907,
+  "truth_contact_nnz": 187125000,
+  "input_subdir": "contact_matrices",
+  "feature_order": "numpy row-major triu"
+}

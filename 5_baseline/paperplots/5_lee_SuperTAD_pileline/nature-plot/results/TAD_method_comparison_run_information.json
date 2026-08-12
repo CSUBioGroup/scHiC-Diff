@@ -1,0 +1,60 @@
+{
+  "bootstrap_mode": "unpaired",
+  "command": [
+    "python",
+    "step03_plot_TAD_method_comparison.py"
+  ],
+  "dpi": 600,
+  "method_order_scope": "figure_only",
+  "methods": [
+    "Raw",
+    "scHiCluster",
+    "HiCImpute",
+    "Higashi-nbr0",
+    "Higashi-nbr5",
+    "scVI-3D",
+    "T-FLAMINGO",
+    "scHiC-Diff"
+  ],
+  "normalization": "q99",
+  "panel_a_coordinate_annotation": {
+    "rule_label_gap_mm": 1.5,
+    "rule_length_fraction": 0.6,
+    "rule_max_length_fraction": 0.6666666666666666,
+    "text_y_mm": 4.6
+  },
+  "panel_a_genomic_range": "chr4:55.09\u201355.17 Mb",
+  "panel_a_method_display_names": {
+    "HiCImpute": "HiCImpute",
+    "Higashi-nbr0": "Higashi-nbr0",
+    "Higashi-nbr5": "Higashi-nbr5",
+    "Raw": "Raw",
+    "T-FLAMINGO": "T-FLAMINGO",
+    "scHiC-Diff": "scHiC-Diff",
+    "scHiCluster": "scHiCluster",
+    "scVI-3D": "scVI-3D"
+  },
+  "panel_ab_gap_mm": 5.0,
+  "paths": {
+    "figure_root": "figures/TAD_method_comparison",
+    "pcc_root": "results/PCC_trials_by_method",
+    "representative_root": "intermediate_data/representative_matrices",
+    "result_root": "results",
+    "supertad_domain_root": "SuperTAD/domains",
+    "target_root": "../input_leeData/target"
+  },
+  "standalone_panel_tags": false,
+  "tad_coordinate_system": "SuperTAD 1-based inclusive -> 0-based inclusive",
+  "tad_hierarchy": "deepest non-singleton",
+  "tad_window_mapping": "translate without endpoint clamping",
+  "trial_input_methods": {
+    "HiCImpute": "HiCImpute_fig1_current",
+    "Higashi-nbr0": "Higashi_nbr0",
+    "Higashi-nbr5": "Higashi_nbr5",
+    "Raw": "Raw",
+    "T-FLAMINGO": "FLAMINGO_fixed_contact",
+    "scHiC-Diff": "scHiC-Diff",
+    "scHiCluster": "scHiCluster",
+    "scVI-3D": "scVI-3D_candidate_per_cell"
+  }
+}

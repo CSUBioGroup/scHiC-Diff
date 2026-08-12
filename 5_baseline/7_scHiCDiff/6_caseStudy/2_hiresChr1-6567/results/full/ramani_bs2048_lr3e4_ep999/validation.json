@@ -1,0 +1,49 @@
+{
+  "expected_shape": [
+    7466,
+    5050
+  ],
+  "files": {
+    "denoise_recon": {
+      "max_stored": 3.2152185440063477,
+      "min_stored": 5.122274160385132e-09,
+      "nnz": 30054885,
+      "path": "/home/limin2/2_projects/7_scHiC-Diff/6_caseStudy/2_hiresChr1-6567/results/full/ramani_bs2048_lr3e4_ep999/denoise_recon.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_recon_inv": {
+      "max_stored": 23.908735275268555,
+      "min_stored": 5.122274160385132e-09,
+      "nnz": 30054885,
+      "path": "/home/limin2/2_projects/7_scHiC-Diff/6_caseStudy/2_hiresChr1-6567/results/full/ramani_bs2048_lr3e4_ep999/denoise_recon_inv.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "denoise_target": {
+      "max_stored": 4.0546793937683105,
+      "min_stored": 0.20986902713775635,
+      "nnz": 625517,
+      "path": "/home/limin2/2_projects/7_scHiC-Diff/6_caseStudy/2_hiresChr1-6567/results/full/ramani_bs2048_lr3e4_ep999/denoise_target.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    },
+    "raw_x": {
+      "max_stored": 9.0,
+      "min_stored": 1.0,
+      "nnz": 625517,
+      "path": "/home/limin2/2_projects/7_scHiC-Diff/6_caseStudy/2_hiresChr1-6567/results/full/ramani_bs2048_lr3e4_ep999/raw_x.npz",
+      "shape": [
+        7466,
+        5050
+      ]
+    }
+  },
+  "status": "passed"
+}

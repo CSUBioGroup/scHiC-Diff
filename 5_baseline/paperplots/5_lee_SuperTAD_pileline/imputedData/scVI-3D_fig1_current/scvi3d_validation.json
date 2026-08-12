@@ -1,0 +1,12 @@
+{
+  "bad_files": [],
+  "cell_counts": {
+    "Astro": 449,
+    "Endo": 202,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "imputed_dir": "/home/limin2/2_projects/1_scVI-3D/5_lee_SuperTAD_pileline/imputed/scVI-3D",
+  "n_bins": 49,
+  "ok": true
+}

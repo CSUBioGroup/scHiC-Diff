@@ -1,0 +1,10 @@
+{
+  "dataset_id": "K562_T2_7k",
+  "n_cells": 100,
+  "n_beads": 61,
+  "nnz": 318572,
+  "min_positive": 1.0,
+  "max": 44.00000220326283,
+  "mean_positive": 5.100460898138295,
+  "source": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/1_HiCImputeData/output_distance/K562_T2_7k/completed_tensor.npy"
+}

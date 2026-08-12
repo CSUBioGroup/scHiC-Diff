@@ -1,0 +1,13 @@
+{
+  "allow_partial": false,
+  "cell_order_path": "/home/limin2/2_projects/1_scVI-3D/5_lee_SuperTAD_pileline/input_lee/scvi3d_input/chr4/cell_order.tsv",
+  "cell_order_rows": 2098,
+  "collected_npz": "/home/limin2/2_projects/1_scVI-3D/5_lee_SuperTAD_pileline/output/scvi3d_chrom_npz/chr4.npz",
+  "input_rows": 2098,
+  "n_bins": 49,
+  "n_features": 1176,
+  "output_dir": "/home/limin2/2_projects/1_scVI-3D/5_lee_SuperTAD_pileline/imputed/scVI-3D",
+  "output_nnz": 4934496,
+  "skipped_existing_cells": 0,
+  "written_cells": 2098
+}

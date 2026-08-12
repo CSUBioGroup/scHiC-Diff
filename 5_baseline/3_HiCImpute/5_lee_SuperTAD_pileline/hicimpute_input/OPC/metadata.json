@@ -1,0 +1,17 @@
+{
+  "dataset_id": "OPC",
+  "source_bedpe_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/3_HiCImpute/5_lee_SuperTAD_pileline/input_lee/per_cell_bedpe",
+  "n_cells": 203,
+  "n_features": 1176,
+  "n_beads": 49,
+  "chromosome": "chr4",
+  "resolution": 10000,
+  "region_start": 54890000,
+  "schic_layout": "features_by_cells",
+  "input_format": "float64 little-endian binary, Fortran order",
+  "feature_order_input": "R upper.tri column-major (sorted by column then row)",
+  "feature_order_evaluation": "numpy row-major np.triu_indices(n, k=1)",
+  "feature_order_npy": "permutation where numpy_row_major[:, order] == R col-major",
+  "bulk": "sum of observed cells per feature in R col-major order",
+  "expected": null
+}

@@ -1,0 +1,21 @@
+{
+  "cell_list": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/2-Ramani-GSE84920-ML1-ML3/upper_npz/1000000bp/ML1_ML3_cell_list.txt",
+  "chromosomes": [
+    "chr20"
+  ],
+  "final_cell_count": 626,
+  "legacy_removed_cells": [
+    "HAP1_189",
+    "GM12878_29",
+    "K562_60",
+    "HeLa_9"
+  ],
+  "legacy_removed_zero_based_indices": [
+    16,
+    414,
+    556,
+    577
+  ],
+  "out_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/input/raw_626_chrom_npz",
+  "source_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/2-Ramani-GSE84920-ML1-ML3/upper_npz/1000000bp/ML1_ML3"
+}

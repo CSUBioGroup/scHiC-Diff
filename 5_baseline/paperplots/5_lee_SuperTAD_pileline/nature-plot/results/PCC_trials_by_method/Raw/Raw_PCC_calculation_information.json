@@ -1,0 +1,23 @@
+{
+  "base_seed": 42,
+  "cell_types": [
+    "Astro",
+    "Endo",
+    "ODC",
+    "OPC"
+  ],
+  "expected_counts": {
+    "Astro": 449,
+    "Endo": 205,
+    "ODC": 1244,
+    "OPC": 203
+  },
+  "input_key": "Raw",
+  "method": "Raw",
+  "n_sample": 30,
+  "n_trials": 100,
+  "pcc_trials": "results/PCC_trials_by_method/Raw/Raw_PCC_trials.csv",
+  "representative_matrix_root": "intermediate_data/representative_matrices/Raw",
+  "source_dir": "../imputedData/Raw",
+  "target_root": "../input_leeData/target"
+}

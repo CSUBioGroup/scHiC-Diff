@@ -1,0 +1,16 @@
+{
+  "dataset": "chr2",
+  "chrom": "chr2",
+  "source_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/2-Ramani-GSE84920-ML1-ML3/upper_npz/1000000bp/ML1_ML3/chr2.npz",
+  "aligned_npz": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/input/raw_626_chrom_npz/chr2.npz",
+  "input_dir": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/9_FLAMINGO/3_ramaniData/input/chr2",
+  "n_cells": 626,
+  "n_features": 29646,
+  "n_bins": 244,
+  "input_subdir": "contact_matrices",
+  "transform": "raw contact scale; upper triangle expanded to symmetric matrix",
+  "cell_list": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/1_Dataset/2-Ramani-GSE84920-ML1-ML3/upper_npz/1000000bp/ML1_ML3_cell_list.txt",
+  "prepared_at_epoch": 1783135555.2121506,
+  "prepare_seconds": 6.561548233032227,
+  "observed_contact_nnz": 232023
+}

@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-07-16T16:46:52.817710+00:00",
+  "methods": [
+    {
+      "storage_name": "Raw",
+      "display_name": "Raw"
+    },
+    {
+      "storage_name": "scHiCDiff",
+      "display_name": "scHiC-Diff"
+    },
+    {
+      "storage_name": "Higashi_nbr0",
+      "display_name": "Higashi nbr0"
+    },
+    {
+      "storage_name": "Higashi_nbr5",
+      "display_name": "Higashi nbr5"
+    },
+    {
+      "storage_name": "FLAMINGO",
+      "display_name": "FLAMINGO"
+    },
+    {
+      "storage_name": "scVI-3D",
+      "display_name": "scVI-3D"
+    },
+    {
+      "storage_name": "scHiCluster",
+      "display_name": "scHiCluster"
+    }
+  ],
+  "stages": [
+    {
+      "storage_name": "E70",
+      "display_name": "E7.0"
+    },
+    {
+      "storage_name": "E75",
+      "display_name": "E7.5"
+    },
+    {
+      "storage_name": "E80",
+      "display_name": "E8.0"
+    },
+    {
+      "storage_name": "E85",
+      "display_name": "E8.5"
+    },
+    {
+      "storage_name": "E95",
+      "display_name": "E9.5"
+    },
+    {
+      "storage_name": "EX05",
+      "display_name": "E10.5"
+    },
+    {
+      "storage_name": "EX15",
+      "display_name": "E11.5"
+    }
+  ],
+  "input_paths": {
+    "Raw.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Raw/seurat/umap_coordinates.tsv",
+    "Raw.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Raw/metrics/red_blue_silhouette_per_cell.tsv",
+    "Raw.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Raw/metrics/red_blue_silhouette_by_stage.tsv",
+    "scHiCDiff.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCDiff/seurat/umap_coordinates.tsv",
+    "scHiCDiff.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCDiff/metrics/red_blue_silhouette_per_cell.tsv",
+    "scHiCDiff.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCDiff/metrics/red_blue_silhouette_by_stage.tsv",
+    "Higashi_nbr0.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr0/seurat/umap_coordinates.tsv",
+    "Higashi_nbr0.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr0/metrics/red_blue_silhouette_per_cell.tsv",
+    "Higashi_nbr0.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr0/metrics/red_blue_silhouette_by_stage.tsv",
+    "Higashi_nbr5.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/seurat/umap_coordinates.tsv",
+    "Higashi_nbr5.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/metrics/red_blue_silhouette_per_cell.tsv",
+    "Higashi_nbr5.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/Higashi_nbr5/metrics/red_blue_silhouette_by_stage.tsv",
+    "FLAMINGO.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/FLAMINGO/seurat/umap_coordinates.tsv",
+    "FLAMINGO.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/FLAMINGO/metrics/red_blue_silhouette_per_cell.tsv",
+    "FLAMINGO.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/FLAMINGO/metrics/red_blue_silhouette_by_stage.tsv",
+    "scVI-3D.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scVI-3D/seurat/umap_coordinates.tsv",
+    "scVI-3D.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scVI-3D/metrics/red_blue_silhouette_per_cell.tsv",
+    "scVI-3D.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scVI-3D/metrics/red_blue_silhouette_by_stage.tsv",
+    "scHiCluster.umap": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCluster/seurat/umap_coordinates.tsv",
+    "scHiCluster.silhouette_per_cell": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCluster/metrics/red_blue_silhouette_per_cell.tsv",
+    "scHiCluster.silhouette_by_stage": "/public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/5_baseline/paperplots/6_caseData/1_cluster1mb/outputs/scHiCluster/metrics/red_blue_silhouette_by_stage.tsv"
+  },
+  "point_rows": 37590,
+  "summary_rows": 49,
+  "figure_width_mm": 174.0,
+  "figure_height_mm": 176.5,
+  "highlight_method": "scHiC-Diff",
+  "stage_n_definition": "Red plus Blue cells plotted (n_used)",
+  "silhouette_space": "final SVD dimensions 1-15",
+  "silhouette_metric": "euclidean",
+  "silhouette_recomputed": false,
+  "software_versions": {
+    "python": "3.11.0",
+    "numpy": "1.26.3",
+    "pandas": "2.2.0",
+    "matplotlib": "3.10.5"
+  }
+}

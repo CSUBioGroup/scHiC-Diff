@@ -1,0 +1,207 @@
+{
+  "chromosomes": [
+    {
+      "chrom": "chr1",
+      "nnz": 144196514,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr1.npz",
+      "shape": [
+        7469,
+        19306
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr1_nbr5/temp/chr1_hires_higashi_chr1_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr2",
+      "nnz": 125748084,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr2.npz",
+      "shape": [
+        7469,
+        16836
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr2_nbr5/temp/chr2_hires_higashi_chr2_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr3",
+      "nnz": 97403229,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr3.npz",
+      "shape": [
+        7469,
+        13041
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr3_nbr5/temp/chr3_hires_higashi_chr3_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr4",
+      "nnz": 92638007,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr4.npz",
+      "shape": [
+        7469,
+        12403
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr4_nbr5/temp/chr4_hires_higashi_chr4_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr5",
+      "nnz": 86849532,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr5.npz",
+      "shape": [
+        7469,
+        11628
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr5_nbr5/temp/chr5_hires_higashi_chr5_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr6",
+      "nnz": 84586425,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr6.npz",
+      "shape": [
+        7469,
+        11325
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr6_nbr5/temp/chr6_hires_higashi_chr6_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr7",
+      "nnz": 80149839,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr7.npz",
+      "shape": [
+        7469,
+        10731
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr7_nbr5/temp/chr7_hires_higashi_chr7_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr8",
+      "nnz": 63598535,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr8.npz",
+      "shape": [
+        7469,
+        8515
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr8_nbr5/temp/chr8_hires_higashi_chr8_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr9",
+      "nnz": 58818375,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr9.npz",
+      "shape": [
+        7469,
+        7875
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr9_nbr5/temp/chr9_hires_higashi_chr9_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr10",
+      "nnz": 64576460,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr10.npz",
+      "shape": [
+        7469,
+        8646
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr10_nbr5/temp/chr10_hires_higashi_chr10_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr11",
+      "nnz": 56958594,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr11.npz",
+      "shape": [
+        7469,
+        7626
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr11_nbr5/temp/chr11_hires_higashi_chr11_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr12",
+      "nnz": 55128689,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr12.npz",
+      "shape": [
+        7469,
+        7381
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr12_nbr5/temp/chr12_hires_higashi_chr12_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr13",
+      "nnz": 55128689,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr13.npz",
+      "shape": [
+        7469,
+        7381
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr13_nbr5/temp/chr13_hires_higashi_chr13_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr14",
+      "nnz": 58818375,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr14.npz",
+      "shape": [
+        7469,
+        7875
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr14_nbr5/temp/chr14_hires_higashi_chr14_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr15",
+      "nnz": 41564985,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr15.npz",
+      "shape": [
+        7469,
+        5565
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr15_nbr5/temp/chr15_hires_higashi_chr15_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr16",
+      "nnz": 36971550,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr16.npz",
+      "shape": [
+        7469,
+        4950
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr16_nbr5/temp/chr16_hires_higashi_chr16_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr17",
+      "nnz": 34058640,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr17.npz",
+      "shape": [
+        7469,
+        4560
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr17_nbr5/temp/chr17_hires_higashi_chr17_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr18",
+      "nnz": 31265234,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr18.npz",
+      "shape": [
+        7469,
+        4186
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr18_nbr5/temp/chr18_hires_higashi_chr18_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chr19",
+      "nnz": 14586957,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chr19.npz",
+      "shape": [
+        7469,
+        1953
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chr19_nbr5/temp/chr19_hires_higashi_chr19_nbr5_u1000_nbr_5_impute.hdf5"
+    },
+    {
+      "chrom": "chrX",
+      "nnz": 111123782,
+      "output": "/home/limin2/2_projects/6_Higashi/6_caseStudy/output/Higashi_nbr5_u1000/chrom_npz/chrX.npz",
+      "shape": [
+        7469,
+        14878
+      ],
+      "source_hdf5": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/chrX_nbr5/temp/chrX_hires_higashi_chrX_nbr5_u1000_nbr_5_impute.hdf5"
+    }
+  ],
+  "manifest": "/home/limin2/2_projects/6_Higashi/6_caseStudy/input/hires_higashi_u1000_tasks.tsv",
+  "method": "Higashi_nbr5_u1000",
+  "neighbor_num": 5
+}
