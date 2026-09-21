@@ -29,9 +29,9 @@ from pytorch_lightning.utilities import rank_zero_info
 from torch.nn.utils import clip_grad_norm_
 from torch.utils.data import DataLoader, Dataset, IterableDataset
 
-from scdiff.collate import CollateDictionary
-from scdiff.patches import pl_trainer_add_argparse_args, pl_trainer_from_argparse_args
-from scdiff.utils.misc import instantiate_from_config
+from schicdiff.collate import CollateDictionary
+from schicdiff.patches import pl_trainer_add_argparse_args, pl_trainer_from_argparse_args
+from schicdiff.utils.misc import instantiate_from_config
 from pytorch_lightning.loggers import CSVLogger, WandbLogger
 
 KEYS_TO_IGNORE = ['input_gene_list', 'target_gene_list', 'target_gene_idx', 'cond_names',

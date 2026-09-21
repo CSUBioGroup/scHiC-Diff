@@ -5,7 +5,7 @@ data:
     num_workers: 20 #
     wrap: false
     train:
-      target: scdiff.data.denoising.DenoisingTrain
+      target: schicdiff.data.denoising.DenoisingTrain
       params:
         dataset: ???  # Jurkat | PMBC1K | 293T
         fname: ???
@@ -16,7 +16,7 @@ data:
           train: 0.8
           valid: 0.2
     validation:
-      target: scdiff.data.denoising.DenoisingValidation
+      target: schicdiff.data.denoising.DenoisingValidation
       params:
         dataset: ???
         fname: ???
@@ -27,7 +27,7 @@ data:
           train: 0.8
           valid: 0.2
     test:
-      target: scdiff.data.denoising.DenoisingTest
+      target: schicdiff.data.denoising.DenoisingTest
       params:
         dataset: ???
         fname: ???
@@ -41,7 +41,7 @@ data:
 model:
   base_learning_rate: 2.0e-04 # 原始是 1.0e-08 x scale   现在不scale  Ramani:2e-4
   # weight_decay: 1e-4
-  target: scdiff.model.ScDiff
+  target: schicdiff.model.ScDiff
   params:
     mask_strategy: none_zero
     save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径
@@ -49,7 +49,7 @@ model:
     return_raw: true
     # use_scheduler: True
     # scheduler_config:
-    #   target: scdiff.utils.lr_scheduler.CosineLambdaSchedule
+    #   target: schicdiff.utils.lr_scheduler.CosineLambdaSchedule
     #   params:
     #     max_steps: 1000
     #     min_factor: 0.005  # eta_min / base_learning_rate = 1e-6 / 2e-4
@@ -79,7 +79,7 @@ model:
     # Classification
     classify_flag: false
     classifier_config:
-      target: scdiff.modules.classifier.DiffusionClassifier
+      target: schicdiff.modules.classifier.DiffusionClassifier
       params:
         query_mode: seen
         n_samples_list:
@@ -92,7 +92,7 @@ model:
 
     # ------------------------------- DiffusionModel的参数 ------------------------------------------
     model_config:
-      target: scdiff.model.DiffusionModel
+      target: schicdiff.model.DiffusionModel
       params:
         no_time_embed: false
         save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径

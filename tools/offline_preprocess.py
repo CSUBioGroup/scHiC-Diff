@@ -36,7 +36,7 @@ from sklearn.preprocessing import LabelEncoder
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from scdiff.utils.data import mask_data_offline
+from schicdiff.utils.data import mask_data_offline
 
 
 class OfflinePreprocessor:

@@ -92,6 +92,24 @@ Prepare one H5AD file in which:
 
 The same H5AD file is assigned to the training, validation, and test dataset entries. scHiC-Diff creates the configured masks and splits internally.
 
+### Fast Example (Local GPU / Slurm-Free)
+
+For fast local execution on an available GPU (without requiring a Slurm scheduler), use `examples/run_k562_bs128_local.py`:
+
+```bash
+# 1. Train all 12 datasets sequentially and automatically evaluate PCC/MAE/SCC upon completion
+python examples/run_k562_bs128_local.py --evaluate
+
+# 2. Train a specific condition (e.g. K562_T1_1k) on GPU 1
+python examples/run_k562_bs128_local.py --dataset K562_T1_1k --gpu 1
+
+# 3. Force retraining (overwrite existing npz results)
+python examples/run_k562_bs128_local.py --dataset K562_T1_1k --force
+
+# 4. Run 2 tasks concurrently when GPU memory permits
+python examples/run_k562_bs128_local.py --parallel 2
+```
+
 ### Single-Dataset Slurm Example
 
 Save the following as `run_scdiff_example.sbatch`. Replace the account, GPU partition, environment, project directory, input H5AD, and dataset label for your system.

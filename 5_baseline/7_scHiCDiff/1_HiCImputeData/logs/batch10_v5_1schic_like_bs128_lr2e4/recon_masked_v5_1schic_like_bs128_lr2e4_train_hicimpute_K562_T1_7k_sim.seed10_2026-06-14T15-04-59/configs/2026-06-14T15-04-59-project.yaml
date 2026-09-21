@@ -5,7 +5,7 @@ data:
     num_workers: 20
     wrap: false
     train:
-      target: scdiff.data.denoising.DenoisingTrain
+      target: schicdiff.data.denoising.DenoisingTrain
       params:
         dataset: K562
         fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T1_7k_sim.h5ad
@@ -16,7 +16,7 @@ data:
           train: 0.8
           valid: 0.2
     validation:
-      target: scdiff.data.denoising.DenoisingValidation
+      target: schicdiff.data.denoising.DenoisingValidation
       params:
         dataset: K562
         fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T1_7k_sim.h5ad
@@ -27,7 +27,7 @@ data:
           train: 0.8
           valid: 0.2
     test:
-      target: scdiff.data.denoising.DenoisingTest
+      target: schicdiff.data.denoising.DenoisingTest
       params:
         dataset: K562
         fname: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/data/SimuData/K562_T1_7k_sim.h5ad
@@ -39,7 +39,7 @@ data:
           valid: 0.2
 model:
   base_learning_rate: 0.0002
-  target: scdiff.model.ScDiff
+  target: schicdiff.model.ScDiff
   params:
     mask_strategy: none_zero
     save_path: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/results/1_New_Simu_Data/10_hpc_v5run_1schic_like_bs128_lr2e4_train_results/K562_T1_7k_sim
@@ -63,7 +63,7 @@ model:
     denoise_t_sample: 1000
     classify_flag: false
     classifier_config:
-      target: scdiff.modules.classifier.DiffusionClassifier
+      target: schicdiff.modules.classifier.DiffusionClassifier
       params:
         query_mode: seen
         n_samples_list:
@@ -74,7 +74,7 @@ model:
         loss: l2
         time_step_sampler: IterativeUniform
     model_config:
-      target: scdiff.model.DiffusionModel
+      target: schicdiff.model.DiffusionModel
       params:
         no_time_embed: false
         save_path: /public/home/hpc254701055/2_projects/10_schicdiff/1_scHiC/3_DiffusionModel/scHiC-Diff-master/results/1_New_Simu_Data/10_hpc_v5run_1schic_like_bs128_lr2e4_train_results/K562_T1_7k_sim

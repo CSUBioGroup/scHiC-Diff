@@ -1,0 +1,9 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Runtime logs and training outputs
+logs/
+results/

@@ -74,3 +74,6 @@
 
 # Preserve otherwise empty directory structure.
 !.gitkeep
+
+# Benchmark ground truth and reference data
+!0_gtData/**

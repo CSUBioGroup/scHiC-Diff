@@ -1,0 +1,32 @@
+% FLAMINGO (V3 hybrid) parameter-sweep simulated datasets.
+% Source: 5_paramsweep_datasets/ (7 training h5ad files).
+% All datasets share: V3 hybrid simulation (Path A': multiscale displacement
+%   + log-normal multiplicative noise + Poisson-thinning downsample);
+%   1,500 cells (3 types T1/T2/T3 x 500 per type); 500 beads ->
+%   124,750 upper-triangular features; contact exponent alpha = 0.25;
+%   perturbation_scale = 0.1; IF transform = log1p; min_distance = 2e-4;
+%   noise level_0 (sigma = 0.0, no technical noise); seed = 42.
+% Two axes are swept:
+%   (i)  W in {0.5,0.6,0.7,0.8,0.9} -- cell-type similarity (higher = more
+%        similar types), at fixed retention r = 0.005;
+%   (ii) r in {0.005,0.01,0.05} -- retention / observed fraction, at fixed W=0.7.
+% "Observed fraction" is the empirical non-zero ratio of the sparse input X
+%   (target = r); "Mean IF depth" is the per-cell sum of X averaged over cells.
+\begin{table}[t]
+\centering
+\caption{Configuration summary of the FLAMINGO (V3 hybrid) parameter-sweep simulated datasets. All seven datasets share 1,500 cells (3 types $\times$ 500), 500 beads ($124{,}750$ features), $\alpha=0.25$, perturbation scale $0.1$, noise level\textsubscript{0} ($\sigma=0$), log1p IF transform, and seed 42. \emph{W} (cell-type similarity) is swept at retention $r=0.005$; \emph{r} (observed fraction) is swept at $W=0.7$.}
+\label{tab:flamingo_paramsweep}
+    \begin{tabular}{lccccc}
+    \toprule
+    Dataset & Sweep axis & $W$ & Retention $r$ & Observed fraction & Mean IF depth \\
+    \midrule
+    D1 & $W$       & 0.5 & 0.005 & 0.0050 & 3050.279 \\
+    D2 & $W$       & 0.6 & 0.005 & 0.0050 & 3029.794 \\
+    D3 & $W,\,r$   & 0.7 & 0.005 & 0.0050 & 3016.060 \\
+    D4 & $r$       & 0.7 & 0.010 & 0.0100 & 6034.674 \\
+    D5 & $r$       & 0.7 & 0.050 & 0.0501 & 30153.489 \\
+    D6 & $W$       & 0.8 & 0.005 & 0.0050 & 3017.931 \\
+    D7 & $W$       & 0.9 & 0.005 & 0.0050 & 3001.892 \\
+    \bottomrule
+    \end{tabular}
+\end{table}

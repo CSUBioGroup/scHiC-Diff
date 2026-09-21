@@ -1,6 +1,6 @@
 import torch
 
-from scdiff.model import DiffusionModel
+from schicdiff.model import DiffusionModel
 
 
 def v2_random_masking(x, cell_mask_ratio=0.75):

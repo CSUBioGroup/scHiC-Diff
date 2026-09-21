@@ -5,7 +5,7 @@ data:
     num_workers: 4
     wrap: false
     train:
-      target: scdiff.data.denoising.DenoisingTrain
+      target: schicdiff.data.denoising.DenoisingTrain
       params:
         dataset: ???  # Jurkat | PMBC1K | 293T
         fname: ???
@@ -18,7 +18,7 @@ data:
           valid: 0.2
           test: 0
     validation:
-      target: scdiff.data.denoising.DenoisingValidation
+      target: schicdiff.data.denoising.DenoisingValidation
       params:
         dataset: ???
         fname: ???
@@ -31,7 +31,7 @@ data:
           valid: 0.2
           test: 0
     test:
-      target: scdiff.data.denoising.DenoisingTest
+      target: schicdiff.data.denoising.DenoisingTest
       params:
         dataset: ???  # Jurkat | PMBC1K | 293T
         fname: ???
@@ -47,7 +47,7 @@ data:
 
 model:
   base_learning_rate: 2.0e-04   # Ramani: 2e-4 (v5_fast 不scale)
-  target: scdiff.model.ScDiff
+  target: schicdiff.model.ScDiff
   params:
     inpaint: true   # 默认是True，修复了bug之后就必须要true
     save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径
@@ -87,7 +87,7 @@ model:
     # Classification
     classify_flag: false
     classifier_config:
-      target: scdiff.modules.classifier.DiffusionClassifier
+      target: schicdiff.modules.classifier.DiffusionClassifier
       params:
         query_mode: seen
         n_samples_list:
@@ -100,7 +100,7 @@ model:
 
     # ------------------------------- DiffusionModel的参数 ------------------------------------------
     model_config:
-      target: scdiff.model.DiffusionModel
+      target: schicdiff.model.DiffusionModel
       params:
         no_time_embed: false
         save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results   # Imputed结果保存路径

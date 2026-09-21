@@ -89,6 +89,24 @@ python -c "import torch; print(torch.__version__); print(torch.cuda.is_available
 
 示例将同一个 H5AD 文件配置为训练、验证和测试数据。scHiC-Diff 会根据配置在内部生成 mask 和数据划分。
 
+### 快速上手示例（本地 GPU / 免 Slurm）
+
+在配备 GPU 的单机或交互式节点上，可直接使用 `examples/run_k562_bs128_local.py` 运行训练和插补（免 Slurm 调度器）：
+
+```bash
+# 1. 顺序训练全部 12 个数据集并在结束后自动计算 PCC/MAE/SCC 指标
+python examples/run_k562_bs128_local.py --evaluate
+
+# 2. 单独训练某个特定条件（如 K562_T1_1k）并指定 GPU 1
+python examples/run_k562_bs128_local.py --dataset K562_T1_1k --gpu 1
+
+# 3. 强制重新训练（覆盖已有 npz 结果）
+python examples/run_k562_bs128_local.py --dataset K562_T1_1k --force
+
+# 4. 显存充裕时并发 2 个任务
+python examples/run_k562_bs128_local.py --parallel 2
+```
+
 ### 单数据集 Slurm 示例
 
 将以下内容保存为 `run_scdiff_example.sbatch`。请根据运行环境修改账户、GPU 分区、Python 环境、项目目录、输入 H5AD 和数据集名称。

@@ -5140,7 +5140,7 @@ recon_flag: true
 recon_sample: false
 classify_flag: false
 classifier_config:
-  target: scdiff.modules.classifier.DiffusionClassifier
+  target: schicdiff.modules.classifier.DiffusionClassifier
   params:
     query_mode: seen
     n_samples_list:

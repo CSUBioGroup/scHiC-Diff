@@ -5,7 +5,7 @@ data:
     num_workers: 20
     wrap: false
     train:
-      target: scdiff.data.denoising.DenoisingTrain
+      target: schicdiff.data.denoising.DenoisingTrain
       params:
         dataset: ???
         fname: ???
@@ -17,7 +17,7 @@ data:
           valid: 0.2
           test: 0
     validation:
-      target: scdiff.data.denoising.DenoisingValidation
+      target: schicdiff.data.denoising.DenoisingValidation
       params:
         dataset: ???
         fname: ???
@@ -29,7 +29,7 @@ data:
           valid: 0.2
           test: 0
     test:
-      target: scdiff.data.denoising.DenoisingTest
+      target: schicdiff.data.denoising.DenoisingTest
       params:
         dataset: ???
         fname: ???
@@ -43,7 +43,7 @@ data:
 
 model:
   base_learning_rate: 8.0e-05
-  target: scdiff.model.ScDiff
+  target: schicdiff.model.ScDiff
   params:
     inpaint: true
     save_path: /home/duxuyan/Projects/DiffusionModel/scHiC-Diff-master/results
@@ -73,7 +73,7 @@ model:
     denoise_t_sample: 1000
     classify_flag: false
     classifier_config:
-      target: scdiff.modules.classifier.DiffusionClassifier
+      target: schicdiff.modules.classifier.DiffusionClassifier
       params:
         query_mode: seen
         n_samples_list:
